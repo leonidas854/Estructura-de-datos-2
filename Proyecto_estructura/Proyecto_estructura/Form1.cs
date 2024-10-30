@@ -19,6 +19,7 @@ namespace Proyecto_estructura
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //hola
             prueba objetosconexion  = new prueba();
             objetosconexion.Establecido();
         }
