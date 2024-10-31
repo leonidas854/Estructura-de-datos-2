@@ -1,0 +1,5 @@
+servidor = "localhost"
+database= "db_Optica"
+usuario = "postgres"
+password = su contrase;a
+puerto =5432
