@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura de datos\\Proyecto_estructura\\",
+  "WorkspaceRootPath": "D:\\Estructura-de-datos-2\\Proyecto_estructura\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|d:\\estructura-de-datos-2\\proyecto_estructura\\proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura de datos\\Proyecto_estructura\\proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> 790bc19579a88135639005007f0d0c4de384239e
-      "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|D:\\Estructura-de-datos-2\\Proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|c:\\users\\asus zephyrus m16\\documents\\estructura de datos\\proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|D:\\Estructura-de-datos-2\\Proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|d:\\estructura-de-datos-2\\proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-=======
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura de datos\\Proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
->>>>>>> 790bc19579a88135639005007f0d0c4de384239e
-      "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|d:\\estructura-de-datos-2\\proyecto_estructura\\proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "prueba.cs",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\prueba.cs",
               "RelativeDocumentMoniker": "Proyecto_estructura\\prueba.cs",
@@ -53,51 +45,26 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura de datos\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
               "RelativeDocumentMoniker": "Proyecto_estructura\\Form1.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura de datos\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
-              "RelativeToolTip": "Proyecto_estructura\\Form1.cs",
-<<<<<<< HEAD
+              "ToolTip": "D:\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs*",
+              "RelativeToolTip": "Proyecto_estructura\\Form1.cs*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-=======
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAASAAAAAAAAAA==",
->>>>>>> 790bc19579a88135639005007f0d0c4de384239e
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T16:05:59.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
               "RelativeDocumentMoniker": "Proyecto_estructura\\Form1.cs",
-              "ToolTip": "D:\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_estructura\\Form1.cs [Dise\u00F1o]",
-=======
-              "DocumentIndex": 0,
-              "Title": "prueba.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura de datos\\Proyecto_estructura\\Proyecto_estructura\\prueba.cs",
-              "RelativeDocumentMoniker": "Proyecto_estructura\\prueba.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura de datos\\Proyecto_estructura\\Proyecto_estructura\\prueba.cs",
-              "RelativeToolTip": "Proyecto_estructura\\prueba.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
->>>>>>> 790bc19579a88135639005007f0d0c4de384239e
+              "ToolTip": "D:\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Proyecto_estructura\\Form1.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:28:36.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura de datos\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
-              "RelativeDocumentMoniker": "Proyecto_estructura\\Form1.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura de datos\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs [Design]",
-              "RelativeToolTip": "Proyecto_estructura\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
-              "WhenOpened": "2024-10-29T14:59:21.927Z"
+              "WhenOpened": "2024-10-29T14:59:21.927Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

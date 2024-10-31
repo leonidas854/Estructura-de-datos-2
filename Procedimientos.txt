@@ -1,0 +1,53 @@
+En este archivo se vera que se realizara que formularios para cada uno y sus detalles
+
+Formulario de login 
+en este formulario se tendrá como principal que permisos con el ususario y contrase;a
+tendrá en el programa de inventarios de tal manera redirigirá tantos a los empleados como 
+administradores, se actualiza 
+
+formulario de usuario
+En este formulario se tendrá los datos del usuario los cuales podrá realizar cambios si es que los
+desea, también tendrá un botón para realizar el cambio de contrase;a
+
+formulario cambio de contrase;a 
+En este formulario podrá realizar el cambio de contrase;a con la verificaion correspondiente de esta
+manera podrá realizar cambios si es que desea
+
+Formulario del Dashboard
+En este mostrara tantos los distintos botones que se tendrá en el formulario 
+en estos botones para dirigir a los formularios que son para la gestión de productos, gestión existencias,etc.
+La cantidad de existencia como proveedores las entradas, salidas y datos de interés para poder
+visualizar de manera directa
+
+Formulario de Gestion categorías
+Aca se podrá a;adir nuevas categorías
+
+Formulario de Productos
+se podrá a;adir productos
+
+Formulario de Proveedores
+Se podrá a;adir nuevos proveedores como modificar
+
+Formulario de entradas 
+mostrara todas las entradas del almacen
+
+formulario de salidas
+mostrara las salidas
+
+formulario de reportes 
+con esto se hará los reportes
+
+formulario Gestion de usuario
+se podrá ver todos los usuarios registrados
+
+formulario de roles
+aca serán los roles que se podrán crear con sus respectivos permisos
+
+
+
+
+
+
+
+
+
