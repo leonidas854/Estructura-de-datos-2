@@ -16,7 +16,7 @@ namespace Proyecto_estructura
         static String usuario= "postgres";
         static String password="124875369";
         static String puerto = "5432";
-
+        //prueba
         String cadena = "server=" + servidor +";"+ "port=" + puerto+";"+ "user id=" + usuario +";" + " password=" + password+";"+ "database="+bd + ";" ;
 
         public NpgsqlConnection Establecido()
