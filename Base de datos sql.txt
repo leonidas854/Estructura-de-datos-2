@@ -1,0 +1,87 @@
+Productos
+
+ID_Producto: SERIAL PRIMARY KEY
+Nombre: VARCHAR(255) NOT NULL
+Descripcion: TEXT
+Cantidad_Total: INT NOT NULL CHECK (Cantidad_Total >= 0)
+Precio_Costo: DECIMAL(10, 2) NOT NULL CHECK (Precio_Costo >= 0)
+ID_Proveedor: INT REFERENCES Proveedores(ID_Proveedor)
+Fecha_Registro: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+Categorías
+
+ID_Categoria: SERIAL PRIMARY KEY
+Nombre_Categoria: VARCHAR(255) UNIQUE NOT NULL
+Descripcion: TEXT
+
+Producto_Categoria
+
+ID_Producto: INT REFERENCES Productos(ID_Producto)
+ID_Categoria: INT REFERENCES Categorias(ID_Categoria)
+PRIMARY KEY (ID_Producto, ID_Categoria)
+
+Locales
+
+ID_Local: SERIAL PRIMARY KEY
+Nombre_Local: VARCHAR(255) NOT NULL
+Direccion: VARCHAR(255)
+Telefono: VARCHAR(20)
+Responsable: VARCHAR(255)
+
+Inventario_Local
+
+ID_Inventario: SERIAL PRIMARY KEY
+ID_Producto: INT REFERENCES Productos(ID_Producto)
+ID_Local: INT REFERENCES Locales(ID_Local)
+Cantidad: INT NOT NULL CHECK (Cantidad >= 0)
+Fecha_Ultima_Actualizacion: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+Proveedores
+
+ID_Proveedor: SERIAL PRIMARY KEY
+Nombre: VARCHAR(255) NOT NULL
+Contacto: VARCHAR(255)
+Telefono: VARCHAR(20)
+Email: VARCHAR(255)
+Direccion: VARCHAR(255)
+Condiciones_Entrega: TEXT
+
+Movimientos_Inventario
+
+ID_Movimiento: SERIAL PRIMARY KEY
+ID_Producto: INT REFERENCES Productos(ID_Producto)
+ID_Local: INT REFERENCES Locales(ID_Local)
+Tipo_Movimiento: VARCHAR(50) CHECK (Tipo_Movimiento IN ('entrada', 'salida'))
+Cantidad: INT NOT NULL CHECK (Cantidad > 0)
+Fecha: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+ID_Usuario: INT REFERENCES Usuarios(ID_Usuario)
+Comentarios: TEXT
+
+Usuarios
+
+ID_Usuario: SERIAL PRIMARY KEY
+Nombre_Usuario: VARCHAR(255) UNIQUE NOT NULL
+Contraseña: VARCHAR(255) NOT NULL
+Correo: VARCHAR(255) UNIQUE
+ID_Rol: INT REFERENCES Roles(ID_Rol)
+Fecha_Creacion: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+Foto: BYTEA
+
+Roles
+
+ID_Rol: SERIAL PRIMARY KEY
+Nombre_Rol: VARCHAR(255) UNIQUE NOT NULL
+Descripcion: TEXT
+
+Controladores
+
+ID_Controlador: SERIAL PRIMARY KEY
+Nombre_Controlador: VARCHAR(255) UNIQUE NOT NULL
+Descripcion: TEXT
+
+Permisos_Rol
+
+ID_Rol: INT REFERENCES Roles(ID_Rol)
+ID_Controlador: INT REFERENCES Controladores(ID_Controlador)
+Permiso: VARCHAR(50) CHECK (Permiso IN ('Lectura', 'Escritura', 'Completo'))
+PRIMARY KEY (ID_Rol, ID_Controlador)
