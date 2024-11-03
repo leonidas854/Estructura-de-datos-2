@@ -1,5 +1,0 @@
-B-tree
-Listas
-Pilas
-Colas
-https://youtu.be/dqBLvR7lC8k?si=Elabb4IVh6vLyaFm

@@ -1,0 +1,142 @@
+https://youtu.be/dqBLvR7lC8k?si=Elabb4IVh6vLyaFm
+
+TuProyecto/
+│
+├── UI/                     # Capa de Presentación
+│   ├── Formularios/        # Formularios de Windows Forms
+│   │   ├── MainForm.cs
+│   │   ├── LoginForm.cs
+│   │   ├── GestionUsuariosForm.cs
+│   │   ├── GestionInventarioForm.cs  # Formulario para la gestión de inventario usando estructuras
+│   │   └── ...
+│   ├── Controles/          # Controles personalizados si los necesitas
+│   └── Helpers/            # Clases auxiliares para la UI (validaciones, etc.)
+│
+├── BusinessLogic/          # Capa de Lógica de Negocio
+│   ├── Servicios/          # Clases que manejan la lógica de negocio y estructuras de datos
+│   │   ├── UsuarioService.cs
+│   │   ├── ProductoService.cs
+│   │   ├── InventarioService.cs   # Gestión de inventario y uso de estructuras como B-tree
+│   │   └── ...
+│   ├── Modelos/            # Modelos de datos (entidades)
+│   │   ├── Usuario.cs
+│   │   ├── Producto.cs
+│   │   └── ...
+│   ├── EstructurasDatos/   # Estructuras de datos personalizadas
+│   │   ├── BTree.cs
+│   │   ├── Pila.cs
+│   │   ├── Cola.cs
+│   │   ├── Lista.cs
+│   │   └── ...
+│   └── Algoritmos/         # Algoritmos relacionados con las estructuras de datos
+│
+├── DataAccess/             # Capa de Acceso a Datos
+│   ├── Repositorios/       # Clases que interactúan directamente con la base de datos
+│   │   ├── UsuarioRepositorio.cs
+│   │   ├── ProductoRepositorio.cs
+│   │   ├── MovimientoRepositorio.cs  # Registra movimientos de inventario
+│   │   └── ...
+│   └── DbHelper.cs         # Clase de ayuda para la conexión y operaciones de base de datos
+│
+├── Resources/              # Recursos como imágenes, íconos, etc.
+│
+└── Config/                 # Archivos de configuración (app.config)
+
+1. UI (Capa de Presentación)
+Formularios/: Contiene los formularios que permiten a los usuarios interactuar con las funcionalidades, como gestionar usuarios e inventarios.
+GestionInventarioForm.cs: Formulario que incluye la visualización y gestión de productos y movimientos de inventario. Puede utilizar estructuras de datos para mostrar los datos cargados en la memoria.
+Controles/ y Helpers/: Incluyen controles personalizados y clases de validación para mejorar la UI.
+2. BusinessLogic (Capa de Lógica de Negocio)
+Servicios/: Clases que manejan la lógica de negocio y gestionan las estructuras de datos. Por ejemplo:
+InventarioService.cs: Usa estructuras como B-tree para gestionar productos en memoria, facilitando búsquedas y ordenamientos eficientes.
+Modelos/: Representan los datos que se manipulan en la aplicación, como Producto y Usuario.
+EstructurasDatos/: Implementaciones de las estructuras de datos que usarás en tu proyecto:
+BTree.cs: Implementación del B-tree para almacenar y gestionar productos en memoria.
+Pila.cs: Para manejar el historial de acciones o transacciones.
+Cola.cs: Para manejar solicitudes o procesos en orden FIFO.
+Lista.cs: Para gestionar listas de productos, usuarios, etc.
+Algoritmos/: Contiene algoritmos relacionados con el uso y la manipulación de estas estructuras de datos (por ejemplo, algoritmos de inserción y búsqueda en un B-tree).
+3. DataAccess (Capa de Acceso a Datos)
+Repositorios/: Clases que manejan las operaciones de base de datos. Solo se usan SELECT e INSERT INTO para obtener y registrar datos.
+MovimientoRepositorio.cs: Clase para registrar y consultar los movimientos de inventario (entradas y salidas de productos).
+DbHelper.cs: Clase auxiliar que gestiona la conexión a la base de datos y operaciones comunes, como la ejecución de comandos SELECT y INSERT INTO.
+Integración de Estructuras de Datos y Base de Datos
+Carga de Datos en Memoria: Los datos se recuperan con SELECT desde la base de datos y se cargan en las estructuras de datos en memoria al iniciar la aplicación o al acceder a una funcionalidad específica.
+Uso de B-tree para Productos: Cuando se cargan productos desde la base de datos, se insertan en un B-tree para facilitar las búsquedas y la organización.
+Pilas y Colas para Procesos:
+Pilas: Usadas para manejar el historial de acciones en la aplicación, como las últimas operaciones realizadas.
+Colas: Utilizadas para gestionar procesos en orden de llegada, como solicitudes de inventario o procesos de transferencia.
+Listas para Visualización y Manipulación: Las listas se pueden usar para almacenar temporalmente datos que se mostrarán en la UI, como listas de productos, usuarios, o transacciones.
+Ejemplo de Flujo de Datos en Tu Proyecto
+Cargar productos al iniciar:
+
+Usa SELECT para obtener todos los productos de la base de datos.
+Inserta los productos en un B-tree para una búsqueda rápida en la UI.
+Registrar una acción de inventario:
+
+Cuando el usuario realiza una acción (por ejemplo, entrada de producto), se registra en la pila de acciones.
+Se guarda la acción en la base de datos con INSERT INTO.
+Procesar una solicitud:
+
+Se agrega la solicitud a una cola en memoria.
+Cuando la solicitud se procesa, se registra en la base de datos.
+Consideraciones Finales
+Sincronización de Datos: Dado que solo puedes usar INSERT INTO y SELECT, asegúrate de diseñar la lógica de tu aplicación para mantener los datos sincronizados entre la base de datos y las estructuras en memoria.
+Optimización de Consultas: Usa SELECT de manera eficiente para cargar solo los datos necesarios y minimizar la carga en la base de datos.
+Esta estructura y flujo de datos asegurarán que tu proyecto tenga un buen diseño y que puedas aprovechar las estructuras de datos en memoria para mejorar el rendimiento y la funcionalidad de tu aplicación.
+
+
+
+Desglose Detallado de la Estructura de Carpetas
+1. UI (Capa de Presentación)
+
+Formularios/: Esta carpeta contiene los formularios de Windows Forms que representan la interfaz visual con la que interactúa el usuario.
+MainForm.cs: El formulario principal que actúa como la ventana de inicio y panel de control de la aplicación. Puede mostrar resúmenes de inventarios, estadísticas y accesos a otras funcionalidades.
+LoginForm.cs: Un formulario dedicado al inicio de sesión de los usuarios. Incluye campos para ingresar el nombre de usuario y la contraseña y puede validar los datos a través de la capa de lógica de negocio.
+GestionUsuariosForm.cs: Formulario para gestionar usuarios, que permite al administrador crear, editar y asignar roles a los usuarios.
+GestionInventarioForm.cs: Formulario que permite la gestión de inventarios, visualización de productos, y operaciones de entrada y salida de inventario. Utiliza estructuras de datos como listas y B-tree para mostrar productos de manera eficiente.
+
+Controles/: Carpeta opcional que incluye controles personalizados. Por ejemplo, un control de tabla mejorada que permite mostrar datos de forma más intuitiva y con funcionalidades avanzadas.
+
+Helpers/: Contiene clases auxiliares para funciones comunes en la UI, como validación de entradas de usuario, formateo de datos para mostrar en la pantalla, o funciones de ayuda para manipular componentes de la UI.
+
+
+2. BusinessLogic (Capa de Lógica de Negocio)
+Servicios/: Clases que manejan la lógica de negocio de la aplicación. Estas clases procesan las solicitudes de la UI, aplican reglas de negocio, y delegan las operaciones de base de datos a la capa de acceso a datos.
+UsuarioService.cs: Clase que gestiona operaciones relacionadas con los usuarios, como validación de credenciales y asignación de roles. Este servicio puede usar estructuras de datos como listas para cargar y manejar usuarios en memoria.
+ProductoService.cs: Clase que gestiona la lógica de productos, como la adición de nuevos productos y la búsqueda de productos en un B-tree para optimizar las operaciones de búsqueda.
+InventarioService.cs: Clase que maneja operaciones de inventario, como registrar entradas y salidas de productos y actualizar la información en la memoria y la base de datos.
+Modelos/: Contiene clases que representan las entidades de negocio con las que trabajará la aplicación.
+Usuario.cs: Clase que define las propiedades y métodos relacionados con un usuario (por ejemplo, ID, Nombre, Rol, etc.).
+Producto.cs: Clase que representa los productos en el inventario con propiedades como ID, Nombre, Descripción, Cantidad, y Precio.
+
+EstructurasDatos/: Carpeta que contiene la implementación de las estructuras de datos que se usarán en la aplicación.
+BTree.cs: Implementación del B-tree que se utiliza para almacenar y gestionar productos en memoria, optimizando las operaciones de búsqueda y ordenación.
+Pila.cs: Implementación de una pila (LIFO) para manejar el historial de operaciones, permitiendo revertir o rastrear las últimas acciones realizadas.
+Cola.cs: Implementación de una cola (FIFO) para gestionar procesos en orden de llegada, como solicitudes de inventario o de clientes.
+Lista.cs: Implementación de listas que se usan para manejar y visualizar secuencias de datos de manera flexible.
+
+Algoritmos/: Contiene algoritmos específicos relacionados con el uso y manejo de las estructuras de datos. Por ejemplo, algoritmos de inserción, búsqueda y eliminación en un B-tree o manejo de prioridades en colas.
+
+
+3. DataAccess (Capa de Acceso a Datos)
+
+Repositorios/: Carpeta que contiene clases que manejan la comunicación con la base de datos. Estas clases encapsulan las operaciones SELECT e INSERT INTO, permitiendo que la capa de lógica de negocio trabaje con datos sin tener que preocuparse por la lógica de acceso a la base de datos.
+
+UsuarioRepositorio.cs: Clase que contiene métodos para operaciones con la tabla de Usuarios, como buscar un usuario por nombre de usuario y contraseña (SELECT) o agregar un nuevo usuario (INSERT INTO).
+ProductoRepositorio.cs: Clase que gestiona las operaciones de acceso a datos relacionadas con productos, como cargar productos del inventario o insertar nuevos productos.
+MovimientoRepositorio.cs: Clase para registrar y consultar los movimientos de inventario. Se encarga de operaciones como insertar un nuevo movimiento de entrada o salida y obtener un historial de movimientos.
+
+DbHelper.cs: Clase auxiliar que centraliza la conexión con la base de datos y proporciona métodos para ejecutar comandos de SQL y manejar las conexiones. Puede incluir métodos para realizar SELECT e INSERT INTO de manera más fácil y reutilizable.
+
+
+4. Resources (Recursos)
+Carpeta que almacena archivos de recursos, como imágenes de perfil de los usuarios, íconos de la aplicación y otros elementos gráficos que se usan en la UI. Esto ayuda a mantener el proyecto organizado y permite un acceso centralizado a los recursos visuales.
+
+
+5. Config (Archivos de Configuración)
+app.config: Archivo de configuración de la aplicación que puede contener la cadena de conexión a la base de datos, parámetros de configuración global, y otras variables importantes para el funcionamiento de la aplicación. Este archivo permite que ciertos aspectos de la aplicación se configuren sin necesidad de modificar el código.
+Cómo Integrar las Estructuras de Datos con la Base de Datos
+Carga de datos desde la base de datos a las estructuras: Las clases de repositorios ejecutan SELECT para cargar los datos desde la base de datos y pasan los resultados a las clases de servicio, donde se insertan en estructuras de datos en memoria (por ejemplo, productos en un B-tree).
+Actualización y sincronización de datos: Cuando se realiza una operación en la UI, la capa de lógica de negocio utiliza las estructuras de datos en memoria para actualizar los datos y luego llama a las clases de repositorios para guardar los cambios en la base de datos con INSERT INTO.
+Manejo de procesos: Las pilas y colas se utilizan en la capa de lógica de negocio para gestionar procesos y el historial de acciones, mientras que la base de datos almacena registros de los movimientos relevantes para garantizar persistencia.

@@ -69,12 +69,28 @@ Comentarios: Observaciones adicionales sobre el movimiento, como motivo o descri
 
 Usuarios
 
-Propósito: Registrar los usuarios que manejan el sistema, especificando roles para controlar accesos.
-Campos:
 ID_Usuario (PK): Identificador único para cada usuario.
 Nombre_Usuario: Nombre de usuario para iniciar sesión.
-Correo
 Contraseña: Contraseña encriptada para el usuario.
-Rol: Define si el usuario es “administrador” o “empleado” (solo visualización).
-Fecha_Creacion: Fecha de creación del usuario.
-Foto BYTEA;
+Correo
+ID_Rol (FK): Relación con la tabla Roles para asignar el rol al usuario.
+Fecha_Creacion: Fecha en que se creó el usuario.
+Foto Byte
+
+Roles
+
+ID_Rol (PK): Identificador único para cada rol.
+Nombre_Rol: Nombre del rol (por ejemplo, "Administrador", "Empleado", "Supervisor").
+Descripción: Descripción del rol.
+
+Controladores
+
+ID_Controlador (PK): Identificador único para cada controlador o sección de la aplicación.
+Nombre_Controlador: Nombre del controlador (por ejemplo, "Gestión de Productos", "Reportes", "Usuarios").
+Descripción: Descripción de la funcionalidad del controlador.
+
+Permisos_Rol
+
+ID_Rol (FK): Relación con la tabla Roles.
+ID_Controlador (FK): Relación con la tabla Controladores.
+Permiso: Valor booleano o de texto (por ejemplo, "Lectura", "Escritura", "Completo") que especifica el nivel de acceso.
