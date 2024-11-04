@@ -61,17 +61,6 @@
     <Compile Include="Logica del Negocio\Modelos\Proveedores.cs" />
     <Compile Include="Logica del Negocio\Modelos\Roles.cs" />
     <Compile Include="Logica del Negocio\Modelos\Usuario.cs" />
-    <Compile Include="Nodo_Categorias.cs" />
-    <Compile Include="Nodo_controladores.cs" />
-    <Compile Include="Nodo_inventario_local.cs" />
-    <Compile Include="Nodo_locales.cs" />
-    <Compile Include="Nodo_mov_inventario.cs" />
-    <Compile Include="Nodo_permisos_rol.cs" />
-    <Compile Include="Nodo_Prod-cat.cs" />
-    <Compile Include="Nodo_Productos.cs" />
-    <Compile Include="Nodo_proveedores.cs" />
-    <Compile Include="Nodo_rol.cs" />
-    <Compile Include="Nodo_usuario.cs" />
     <Compile Include="UI\Formularios\Frm User.cs">
       <SubType>Form</SubType>
     </Compile>
