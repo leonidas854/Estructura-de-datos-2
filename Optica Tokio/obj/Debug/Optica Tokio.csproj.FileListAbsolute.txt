@@ -11,3 +11,7 @@ D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmL
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.Frm_User.resources
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.FrmLogin.resources
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmMain_Menu.resources
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.dll
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\WinFormAnimation.dll
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.xml
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
