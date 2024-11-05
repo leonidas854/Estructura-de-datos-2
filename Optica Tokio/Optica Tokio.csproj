@@ -137,6 +137,9 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\report-icon.png" />
+    <None Include="Resources\iocn users.png" />
+    <None Include="Resources\iocn reportes.png" />
     <None Include="Resources\loadinggg.jpg" />
     <None Include="Resources\loading.jpg" />
     <None Include="Resources\icon ojo.png" />
@@ -144,6 +147,12 @@
     <None Include="Resources\icon cerrar.png" />
     <None Include="Resources\puerta tokio.jpg" />
     <None Include="Resources\icon password.png" />
+    <None Include="Resources\icon dashboard.png" />
+    <None Include="Resources\icon productos.png" />
+    <None Include="Resources\icon existencias.png" />
+    <None Include="Resources\icon settings.png" />
+    <None Include="Resources\icon barras.png" />
+    <None Include="Resources\icon about.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>

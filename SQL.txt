@@ -1,0 +1,30 @@
+Create table Roles(
+Id_rol varchar(30) Primary key,
+Nombre_rol varchar(255) unique noT null,
+Descripcion Text
+);
+
+Create table Controladores(
+Id_controlador varchar(30) primary key,
+nombre_controlador varchar(255) unique not null,
+descripcion text
+);
+
+Create table Permisos_Rol(
+ID_Rol varchar(30) references Roles(Id_rol),
+ID_Controller varchar(30) references Controladores(Id_controlador),
+Permiso varchar(50) CHECK (Permiso in('Lectura','Escritura','Completo')),
+primary key(ID_Rol,ID_Controller)
+);
+
+Create table Usuarios(
+Id_usuario varchar(30) primary key,
+Nombre_user varchar(255) not null,
+Apell_paterno varchar(255) not null,
+Apell_materno varchar(255) not null,
+Contrase varchar(255) not null,
+Correo varchar(255) unique,
+id_rol varchar(30) references Roles(Id_rol),
+Fecha_creacion Timestamp default current_timestamp,
+foto bytea
+);
