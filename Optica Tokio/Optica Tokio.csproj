@@ -153,6 +153,11 @@
     <None Include="Resources\icon settings.png" />
     <None Include="Resources\icon barras.png" />
     <None Include="Resources\icon about.png" />
+    <None Include="Resources\icon flecha.png" />
+    <None Include="Resources\icon exit.png" />
+    <None Include="Resources\5034372.png" />
+    <None Include="Resources\icon minmin.png" />
+    <None Include="Resources\icon mini.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>
