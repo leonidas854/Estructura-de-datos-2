@@ -136,14 +136,14 @@
   <data name="icon productos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon productos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon barras" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon barras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,6 +160,21 @@
   <data name="icon ojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon ojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="5034372" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5034372.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon minmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon minmin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon about" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon flecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon flecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icon cerrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon cerrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,7 +184,7 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon about" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icon mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
