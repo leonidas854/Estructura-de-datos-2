@@ -38,6 +38,9 @@ namespace Optica_Tokio.UI.Formularios
             {
                 Tmclose.Stop();
                 this.Close();
+                FrmMain_Menu frmMain_Menu = new FrmMain_Menu();
+                frmMain_Menu.Show();
+                this.Hide();
             }
 
         }
