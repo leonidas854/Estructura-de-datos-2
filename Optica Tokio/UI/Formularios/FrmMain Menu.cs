@@ -16,5 +16,48 @@ namespace Optica_Tokio.UI.Formularios
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblmenu_Click(object sender, EventArgs e)
+        {
+
+        }
+        bool siderbarexpand=false;
+        private void siderbartimer_Tick(object sender, EventArgs e)
+        {
+            if (siderbarexpand)
+            {
+                sidebar.Width -= 10;
+                if (sidebar.Width <= sidebar.MinimumSize.Width)
+                {
+                    sidebar.Width = sidebar.MinimumSize.Width;
+                    siderbartimer.Stop();
+                }
+            }
+            else
+            {
+                sidebar.Width += 10;
+                if (sidebar.Width >= sidebar.MaximumSize.Width) {
+                    sidebar.Width = sidebar.MaximumSize.Width;
+                    siderbartimer.Stop();
+                }
+            }
+        }
+
+       
+        private void btnMneu_Click(object sender, EventArgs e)
+        {
+            siderbarexpand = !siderbarexpand;
+            siderbartimer.Start();
+        }
     }
 }

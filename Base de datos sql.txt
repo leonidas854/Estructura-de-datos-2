@@ -57,7 +57,7 @@ Fecha: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ID_Usuario: INT REFERENCES Usuarios(ID_Usuario)
 Comentarios: TEXT
 
-Usuarios
+Usuarios //creada
 
 ID_Usuario: SERIAL PRIMARY KEY
 Nombre_Usuario: VARCHAR(255) UNIQUE NOT NULL
@@ -67,19 +67,19 @@ ID_Rol: INT REFERENCES Roles(ID_Rol)
 Fecha_Creacion: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 Foto: BYTEA
 
-Roles
+Roles //CREADA
 
 ID_Rol: SERIAL PRIMARY KEY
 Nombre_Rol: VARCHAR(255) UNIQUE NOT NULL
 Descripcion: TEXT
 
-Controladores
+Controladores //creada
 
-ID_Controlador: SERIAL PRIMARY KEY
+ID_Controlador: SERIAL PRIMARY KEy
 Nombre_Controlador: VARCHAR(255) UNIQUE NOT NULL
 Descripcion: TEXT
 
-Permisos_Rol
+Permisos_Rol //creada
 
 ID_Rol: INT REFERENCES Roles(ID_Rol)
 ID_Controlador: INT REFERENCES Controladores(ID_Controlador)
