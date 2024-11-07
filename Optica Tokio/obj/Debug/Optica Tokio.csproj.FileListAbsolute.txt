@@ -49,3 +49,20 @@ C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debu
 C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
 C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
 C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe.config
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.pdb
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.dll
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\bin\Debug\WinFormAnimation.dll
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.xml
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.AssemblyReference.cache
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.Properties.Resources.resources
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmLoading_Screen.resources
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.Frm_User.resources
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.FrmLogin.resources
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmMain_Menu.resources
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.GenerateResource.cache
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.CoreCompileInputs.cache
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
+C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
