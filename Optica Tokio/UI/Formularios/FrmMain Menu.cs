@@ -332,6 +332,7 @@ namespace Optica_Tokio.UI.Formularios
 
         }
 
+<<<<<<< HEAD
         private void btnreport_Click(object sender, EventArgs e)
         {
             ActivateColor(sender);
@@ -348,14 +349,20 @@ namespace Optica_Tokio.UI.Formularios
         }
 
         private void panel14_MouseDown_1(object sender, MouseEventArgs e)
+=======
+        private void sidebar_1_MouseDown(object sender, MouseEventArgs e)
+>>>>>>> 6a8d82f91c46fdb4ec0f916995e3a3b7eb1b8346
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+<<<<<<< HEAD
 
         private void Pmenu_Paint(object sender, PaintEventArgs e)
         {
 
         }
+=======
+>>>>>>> 6a8d82f91c46fdb4ec0f916995e3a3b7eb1b8346
     }
 }

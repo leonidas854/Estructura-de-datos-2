@@ -15,3 +15,37 @@ D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.dll
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\WinFormAnimation.dll
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.xml
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\bin\Debug\Optica Tokio.exe.config
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\bin\Debug\Optica Tokio.exe
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\bin\Debug\Optica Tokio.pdb
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\bin\Debug\CircularProgressBar.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\bin\Debug\WinFormAnimation.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\bin\Debug\CircularProgressBar.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica Tokio.csproj.AssemblyReference.cache
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica_Tokio.Properties.Resources.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmLoading_Screen.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.Frm_User.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica_Tokio.FrmLogin.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmMain_Menu.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica Tokio.csproj.GenerateResource.cache
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica Tokio.csproj.CoreCompileInputs.cache
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica Tokio.exe
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura de datos\Optica Tokio\obj\Debug\Optica Tokio.pdb
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe.config
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.pdb
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\WinFormAnimation.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.AssemblyReference.cache
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.Properties.Resources.resources
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmLoading_Screen.resources
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.Frm_User.resources
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.FrmLogin.resources
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmMain_Menu.resources
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.GenerateResource.cache
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.CoreCompileInputs.cache
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
