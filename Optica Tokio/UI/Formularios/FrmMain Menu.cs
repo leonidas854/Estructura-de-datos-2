@@ -5,17 +5,25 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Optica_Tokio.UI.Controles;
 
 namespace Optica_Tokio.UI.Formularios
 {
     public partial class FrmMain_Menu : Form
     {
+        private Button currentBoton;
+        private Random random;
+        private int tempIndex;
+
         public FrmMain_Menu()
         {
             InitializeComponent();
+            random = new Random();
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -26,6 +34,88 @@ namespace Optica_Tokio.UI.Formularios
         {
 
         }
+        private Color SelectThemeColor()
+        {
+            int index = random.Next(ThemeColor.colores.Count);
+            while (tempIndex == index)
+            {
+                index = random.Next(ThemeColor.colores.Count);
+            }
+            tempIndex = index;
+            string color =ThemeColor.colores[index];
+            return ColorTranslator.FromHtml(color);
+        }
+        private void ActivateColor(object btnsender)
+        {
+            if (btnsender != null)
+            {
+                if (currentBoton != (Button)btnsender)
+                {
+                    DisableControls(); 
+                    Color color = SelectThemeColor();
+                    currentBoton = (Button)btnsender;
+                    currentBoton.BackColor = color;
+                    currentBoton.ForeColor = Color.White;
+                    currentBoton.Font = new System.Drawing.Font("Elephant", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                    panTop.BackColor = color;
+
+                    ApplyColorToAssociatedControls(currentBoton.Parent, color);
+                }
+            }
+        }
+
+        private void DisableControls()
+        {
+            DisableControlsRecursively(sidebar_1.Controls);
+        }
+
+        private void DisableControlsRecursively(Control.ControlCollection controls)
+        {
+            foreach (Control control in controls)
+            {
+                if (control is Button)
+                {
+                    control.BackColor = Color.FromArgb(205, 92, 92);
+                    control.ForeColor = Color.White;
+                    control.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                }
+                else if (control is PictureBox pictureBox)
+                {
+                    pictureBox.BackColor = Color.FromArgb(205, 92, 92); 
+                }
+                else if (control is Panel panel)
+                {
+                    panel.BackColor = Color.FromArgb(205, 92, 92); 
+                    DisableControlsRecursively(panel.Controls); 
+                }
+                else if (control is GroupBox || control is FlowLayoutPanel)
+                {
+                    DisableControlsRecursively(control.Controls);
+                }
+            }
+        }
+        private void ApplyColorToAssociatedControls(Control parent, Color color)
+        {
+            foreach (Control control in parent.Controls)
+            {
+                if (control is PictureBox pictureBox)
+                {
+                    pictureBox.BackColor = color;
+                }
+                else if (control is Panel)
+                {
+                    control.BackColor = color;
+                    ApplyColorToAssociatedControls(control, color); // Llama recursivamente para aplicar el color a los sub-paneles dentro
+                }
+                else if (control is Button)
+                {
+                    control.BackColor = color;
+                    control.ForeColor = Color.White;
+                    control.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                }
+            }
+        }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -99,11 +189,12 @@ namespace Optica_Tokio.UI.Formularios
 
         private void btndashborad_Click(object sender, EventArgs e)
         {
-
+            ActivateColor(sender);
         }
 
         private void btnproduc_Click(object sender, EventArgs e)
         {
+            ActivateColor(sender);
             homecollapsed = !homecollapsed;
             HomeTimer.Start();
         }
@@ -137,6 +228,7 @@ namespace Optica_Tokio.UI.Formularios
 
         private void btnexiste_Click(object sender, EventArgs e)
         {
+            ActivateColor(sender);
             existencias = !existencias;
             Existencias_timer.Start();
         }
@@ -167,6 +259,7 @@ namespace Optica_Tokio.UI.Formularios
 
         private void btnusers_Click(object sender, EventArgs e)
         {
+            ActivateColor(sender);
             usuarios = !usuarios;
             Usuarios_timer.Start();
         }
@@ -235,6 +328,32 @@ namespace Optica_Tokio.UI.Formularios
         }
 
         private void FrmMain_Menu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnreport_Click(object sender, EventArgs e)
+        {
+            ActivateColor(sender);
+        }
+
+        private void btnsettings_Click(object sender, EventArgs e)
+        {
+            ActivateColor(sender);
+        }
+
+        private void btnabout_Click(object sender, EventArgs e)
+        {
+            ActivateColor(sender);
+        }
+
+        private void panel14_MouseDown_1(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void Pmenu_Paint(object sender, PaintEventArgs e)
         {
 
         }

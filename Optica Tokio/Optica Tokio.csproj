@@ -67,6 +67,7 @@
     <Compile Include="Logica del Negocio\Modelos\Proveedores.cs" />
     <Compile Include="Logica del Negocio\Modelos\Roles.cs" />
     <Compile Include="Logica del Negocio\Modelos\Usuario.cs" />
+    <Compile Include="UI\Controles\ThemeColor.cs" />
     <Compile Include="UI\Formularios\Frm User.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,10 +134,10 @@
     <Folder Include="Data Access\Repositorios\" />
     <Folder Include="Logica del Negocio\Algoritmos\" />
     <Folder Include="Logica del Negocio\Servicios\" />
-    <Folder Include="UI\Controles\" />
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\linea roja.png" />
     <None Include="Resources\report-icon.png" />
     <None Include="Resources\iocn users.png" />
     <None Include="Resources\iocn reportes.png" />
