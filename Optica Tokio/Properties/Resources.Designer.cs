@@ -103,6 +103,26 @@ namespace Optica_Tokio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_close {
+            get {
+                object obj = ResourceManager.GetObject("icon close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_close2 {
+            get {
+                object obj = ResourceManager.GetObject("icon close2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_dashboard {
             get {
                 object obj = ResourceManager.GetObject("icon dashboard", resourceCulture);
@@ -236,6 +256,16 @@ namespace Optica_Tokio.Properties {
         internal static System.Drawing.Bitmap iocn_users {
             get {
                 object obj = ResourceManager.GetObject("iocn users", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap linea_roja {
+            get {
+                object obj = ResourceManager.GetObject("linea roja", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
