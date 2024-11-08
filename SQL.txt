@@ -1,3 +1,44 @@
+CREATE TABLE movimientos_inventario(id_movimiento varchar(30) PRIMARY KEY,
+id_producto varchar(30),
+id_local varchar(30),
+tipo_movimiento varchar(50) check (tipo_movimiento in ('entrada','salida')),
+cantidad_mov int not null,
+fecha_mov TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+id_usuario varchar(30),
+FOREIGN KEY (id_producto) references productos(id_producto),
+FOREIGN KEY (id_local) references locales(id_local),
+FOREIGN KEY (id_usuario) references usuarios(id_usuario)
+);
+
+CREATE TABLE inventario_local(id_inventario varchar(30) PRIMARY KEY,
+id_producto varchar(30),
+id_local varchar(30),
+cantidad int not null,
+fecha_ultima_actu TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+FOREIGN KEY (id_producto) references productos(id_producto),
+FOREIGN KEY (id_local) references locales(id_local));
+
+CREATE TABLE producto_categoria(id_producto varchar(30) REFERENCES productos(id_producto),
+id_categoria varchar(30) REFERENCES categorias(id_categoria),
+primary key(id_categoria,id_producto));
+
+CREATE TABLE categorias(id_categoria varchar(30) PRIMARY KEY,
+nom_cat varchar(255) unique not null,
+descr_cat text);
+
+CREATE TABLE locales(id_local varchar(30) PRIMARY KEY,
+nom_local varchar(255) not null,
+direccion_local varchar(255),
+telefono_local varchar(20),
+resp_local varchar(255));
+
+Create Table Productos(id_producto VARCHAR(30) PRIMARY KEY,nombre_prod Varchar(100) not null ,descripcion_prod TEXT,
+cantidad_total int not null, precio_costo DECIMAL not null, id_proveedor varchar(30),
+fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,FOREIGN KEY(id_proveedor) references proveedores(id_proveedor));
+
+CREATE TABLE proveedores(id_proveedor varchar(30) PRIMARY KEY,nombre_prov varchar(255) not null,
+contacto_prov varchar(255),telefono_prov varchar(20),email_prov varchar(255),direccion_prov varchar(255),condiciones_entrega TEXT);
+
 Create table Roles(
 Id_rol varchar(30) Primary key,
 Nombre_rol varchar(255) unique noT null,

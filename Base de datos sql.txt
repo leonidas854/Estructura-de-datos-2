@@ -1,4 +1,4 @@
-Productos
+Productos//creada
 
 ID_Producto: SERIAL PRIMARY KEY
 Nombre: VARCHAR(255) NOT NULL
@@ -8,19 +8,19 @@ Precio_Costo: DECIMAL(10, 2) NOT NULL CHECK (Precio_Costo >= 0)
 ID_Proveedor: INT REFERENCES Proveedores(ID_Proveedor)
 Fecha_Registro: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
-Categorías
+Categorías///CREADA
 
 ID_Categoria: SERIAL PRIMARY KEY
 Nombre_Categoria: VARCHAR(255) UNIQUE NOT NULL
 Descripcion: TEXT
 
-Producto_Categoria
+Producto_Categoria///CREADA
 
 ID_Producto: INT REFERENCES Productos(ID_Producto)
 ID_Categoria: INT REFERENCES Categorias(ID_Categoria)
 PRIMARY KEY (ID_Producto, ID_Categoria)
 
-Locales
+Locales//CREADA
 
 ID_Local: SERIAL PRIMARY KEY
 Nombre_Local: VARCHAR(255) NOT NULL
@@ -28,7 +28,7 @@ Direccion: VARCHAR(255)
 Telefono: VARCHAR(20)
 Responsable: VARCHAR(255)
 
-Inventario_Local
+Inventario_Local//CREADA
 
 ID_Inventario: SERIAL PRIMARY KEY
 ID_Producto: INT REFERENCES Productos(ID_Producto)
@@ -36,7 +36,7 @@ ID_Local: INT REFERENCES Locales(ID_Local)
 Cantidad: INT NOT NULL CHECK (Cantidad >= 0)
 Fecha_Ultima_Actualizacion: TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
-Proveedores
+Proveedores///creada
 
 ID_Proveedor: SERIAL PRIMARY KEY
 Nombre: VARCHAR(255) NOT NULL
@@ -46,7 +46,7 @@ Email: VARCHAR(255)
 Direccion: VARCHAR(255)
 Condiciones_Entrega: TEXT
 
-Movimientos_Inventario
+Movimientos_Inventario///CREADA
 
 ID_Movimiento: SERIAL PRIMARY KEY
 ID_Producto: INT REFERENCES Productos(ID_Producto)
