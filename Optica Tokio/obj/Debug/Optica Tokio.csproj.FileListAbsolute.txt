@@ -66,3 +66,14 @@ C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.CoreC
 C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
 C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
 C:\GABOID\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ProductosForm.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.CategoriasForms.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.DashboardForm.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.EntradasForms.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ProovedoresForm.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ReportesForm.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.RolesForms.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.SalidasForms.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AbaoutForm.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ConfigForm.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.GestionInventarioForm.resources

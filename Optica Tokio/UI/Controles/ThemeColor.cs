@@ -10,6 +10,8 @@ namespace Optica_Tokio.UI.Controles
 {
    public static class ThemeColor
     {
+        public static Color primaryColor {  get; set; }
+        public static Color secondaryColor { get; set; }
         public static List<string> colores = new List<string>
         {
             "#3F51B5",

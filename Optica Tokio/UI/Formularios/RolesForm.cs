@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Optica_Tokio.UI.Formularios
 {
-    public partial class RolesForm : Form
+    public partial class RolesForms : Form
     {
-        public RolesForm()
+        public RolesForms()
         {
             InitializeComponent();
         }

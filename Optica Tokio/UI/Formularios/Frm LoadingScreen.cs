@@ -44,7 +44,7 @@ namespace Optica_Tokio.UI.Formularios
             }
 
         }
-
+        
         private void FrmLoading_Screen_Load(object sender, EventArgs e)
         {
             this.Opacity = 0.0;

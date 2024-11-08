@@ -152,12 +152,6 @@
     <Compile Include="UI\Formularios\GestionInventarioForm.Designer.cs">
       <DependentUpon>GestionInventarioForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Formularios\GestionUsuariosForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\Formularios\GestionUsuariosForm.Designer.cs">
-      <DependentUpon>GestionUsuariosForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="UI\Formularios\ProductosForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,6 +192,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UI\Formularios\AbaoutForm.resx">
+      <DependentUpon>AbaoutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\CategoriasForms.resx">
+      <DependentUpon>CategoriasForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\ConfigForm.resx">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\EntradasForms.resx">
+      <DependentUpon>EntradasForms.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\Frm LoadingScreen.resx">
       <DependentUpon>Frm LoadingScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -209,6 +218,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\FrmMain Menu.resx">
       <DependentUpon>FrmMain Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\GestionInventarioForm.resx">
+      <DependentUpon>GestionInventarioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\ProductosForm.resx">
+      <DependentUpon>ProductosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\ProovedoresForm.resx">
+      <DependentUpon>ProovedoresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\ReportesForm.resx">
+      <DependentUpon>ReportesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\RolesForm.resx">
+      <DependentUpon>RolesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\SalidasForms.resx">
+      <DependentUpon>SalidasForms.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Config\packages.config" />
     <None Include="Properties\Settings.settings">
@@ -252,6 +279,8 @@
     <None Include="Resources\5034372.png" />
     <None Include="Resources\icon minmin.png" />
     <None Include="Resources\icon mini.png" />
+    <None Include="Resources\icon close.png" />
+    <None Include="Resources\icon close2.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>
