@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Estructura-de-datos-2\\Optica Tokio\\",
+  "WorkspaceRootPath": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\andrew\\desktop\\estructura de datos 2\\estructura-de-datos-2\\optica tokio\\ui\\formularios\\salidasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\salidasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\andrew\\desktop\\estructura de datos 2\\estructura-de-datos-2\\optica tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,25 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalidasForms.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\SalidasForms.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "UI\\Formularios\\SalidasForms.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T18:43:39.382Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FrmMain Menu.cs",
-              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
-              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
               "RelativeToolTip": "UI\\Formularios\\FrmMain Menu.cs",
-              "ViewState": "AQIAAAECAAAAAAAAAAAiwLMBAAAMAAAA",
+              "ViewState": "AQIAALEBAAAAAAAAAIA+wMIBAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T23:03:32.934Z",
               "EditorCaption": ""
@@ -49,20 +61,21 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AbaoutForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
-              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "UI\\Formularios\\AbaoutForm.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "UI\\Formularios\\AbaoutForm.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:44:10.418Z"
+              "WhenOpened": "2024-11-07T23:44:10.418Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmMain Menu.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
-              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Formularios\\FrmMain Menu.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T06:11:13.345Z",
