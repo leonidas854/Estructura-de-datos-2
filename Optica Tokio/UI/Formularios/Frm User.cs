@@ -16,5 +16,25 @@ namespace Optica_Tokio.UI.Formularios
         {
             InitializeComponent();
         }
+
+        private void Frm_User_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBCorreo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
