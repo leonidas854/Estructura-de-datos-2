@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(122, 142);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(153, 100);
+            this.listBox1.TabIndex = 0;
             // 
             // ReportesForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(932, 611);
+            this.ClientSize = new System.Drawing.Size(1243, 752);
+            this.Controls.Add(this.listBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ReportesForm";
             this.Text = "Reportes";
             this.ResumeLayout(false);
@@ -42,5 +54,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

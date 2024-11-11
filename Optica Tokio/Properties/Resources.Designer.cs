@@ -73,6 +73,16 @@ namespace Optica_Tokio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Checked {
+            get {
+                object obj = ResourceManager.GetObject("Checked", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_about {
             get {
                 object obj = ResourceManager.GetObject("icon about", resourceCulture);
@@ -306,6 +316,16 @@ namespace Optica_Tokio.Properties {
         internal static System.Drawing.Bitmap report_icon {
             get {
                 object obj = ResourceManager.GetObject("report-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Unchecked {
+            get {
+                object obj = ResourceManager.GetObject("Unchecked", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

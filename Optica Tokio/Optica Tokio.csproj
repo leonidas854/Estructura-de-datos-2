@@ -126,6 +126,12 @@
     <Compile Include="UI\Formularios\Frm User.Designer.cs">
       <DependentUpon>Frm User.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Formularios\FrmAsignarRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Formularios\FrmAsignarRoles.Designer.cs">
+      <DependentUpon>FrmAsignarRoles.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Formularios\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +151,12 @@
     </Compile>
     <Compile Include="UI\Formularios\FrmMain Menu.Designer.cs">
       <DependentUpon>FrmMain Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Formularios\FrmPermisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Formularios\FrmPermisos.Designer.cs">
+      <DependentUpon>FrmPermisos.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Formularios\GestionInventarioForm.cs">
       <SubType>Form</SubType>
@@ -213,11 +225,17 @@
     <EmbeddedResource Include="UI\Formularios\Frm User.resx">
       <DependentUpon>Frm User.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\FrmAsignarRoles.resx">
+      <DependentUpon>FrmAsignarRoles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\FrmMain Menu.resx">
       <DependentUpon>FrmMain Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\FrmPermisos.resx">
+      <DependentUpon>FrmPermisos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\GestionInventarioForm.resx">
       <DependentUpon>GestionInventarioForm.cs</DependentUpon>
@@ -257,6 +275,7 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Unchecked.png" />
     <None Include="Resources\linea roja.png" />
     <None Include="Resources\report-icon.png" />
     <None Include="Resources\iocn users.png" />
@@ -281,6 +300,7 @@
     <None Include="Resources\icon mini.png" />
     <None Include="Resources\icon close.png" />
     <None Include="Resources\icon close2.png" />
+    <None Include="Resources\Checked.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>

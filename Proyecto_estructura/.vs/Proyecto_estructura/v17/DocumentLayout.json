@@ -1,29 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GABOID\\Estructura-de-datos-2\\Proyecto_estructura\\",
+  "WorkspaceRootPath": "C:\\GABOID\\Nueva carpeta\\Estructura-de-datos-2\\Proyecto_estructura\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|c:\\gaboid\\estructura-de-datos-2\\proyecto_estructura\\proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|c:\\gaboid\\nueva carpeta\\estructura-de-datos-2\\proyecto_estructura\\proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|C:\\GABOID\\Estructura-de-datos-2\\Proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|C:\\GABOID\\Nueva carpeta\\Estructura-de-datos-2\\Proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|C:\\GABOID\\Estructura-de-datos-2\\Proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-=======
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|D:\\Estructura-de-datos-2\\Proyecto_estructura\\proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|d:\\estructura-de-datos-2\\proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|D:\\Estructura-de-datos-2\\Proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
->>>>>>> ce67188478a83934772f56639c88a1c65c0055a6
+      "AbsoluteMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|C:\\GABOID\\Nueva carpeta\\Estructura-de-datos-2\\Proyecto_estructura\\proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C93CACA9-59BA-4779-B930-139501837578}|Proyecto_estructura\\Proyecto_estructura.csproj|solutionrelative:proyecto_estructura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -34,73 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
           "SelectedChildIndex": 1,
-=======
-          "SelectedChildIndex": 2,
->>>>>>> ce67188478a83934772f56639c88a1c65c0055a6
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\GABOID\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
+              "DocumentMoniker": "C:\\GABOID\\Nueva carpeta\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
               "RelativeDocumentMoniker": "Proyecto_estructura\\Form1.cs",
-              "ToolTip": "C:\\GABOID\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
+              "ToolTip": "C:\\GABOID\\Nueva carpeta\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
               "RelativeToolTip": "Proyecto_estructura\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
-              "WhenOpened": "2024-11-03T05:36:25.743Z"
+              "WhenOpened": "2024-11-09T15:17:31.661Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "prueba.cs",
-              "DocumentMoniker": "C:\\GABOID\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\prueba.cs",
+              "DocumentMoniker": "C:\\GABOID\\Nueva carpeta\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\prueba.cs",
               "RelativeDocumentMoniker": "Proyecto_estructura\\prueba.cs",
-              "ToolTip": "C:\\GABOID\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\prueba.cs",
+              "ToolTip": "C:\\GABOID\\Nueva carpeta\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\prueba.cs",
               "RelativeToolTip": "Proyecto_estructura\\prueba.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:36:25.79Z",
-=======
-              "WhenOpened": "2024-10-29T16:05:59.884Z",
->>>>>>> ce67188478a83934772f56639c88a1c65c0055a6
+              "WhenOpened": "2024-11-09T15:17:31.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-=======
-              "DocumentIndex": 0,
-              "Title": "prueba.cs",
-              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\prueba.cs",
-              "RelativeDocumentMoniker": "Proyecto_estructura\\prueba.cs",
-              "ToolTip": "D:\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\prueba.cs",
-              "RelativeToolTip": "Proyecto_estructura\\prueba.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T15:28:36.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
->>>>>>> ce67188478a83934772f56639c88a1c65c0055a6
               "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\GABOID\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
+              "DocumentMoniker": "C:\\GABOID\\Nueva carpeta\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs",
               "RelativeDocumentMoniker": "Proyecto_estructura\\Form1.cs",
-<<<<<<< HEAD
               "ToolTip": "C:\\GABOID\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Proyecto_estructura\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T05:36:25.824Z"
-=======
-              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Proyecto_estructura\\Proyecto_estructura\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T14:59:21.927Z"
->>>>>>> ce67188478a83934772f56639c88a1c65c0055a6
+              "WhenOpened": "2024-11-09T15:17:32.115Z"
             }
           ]
         }
