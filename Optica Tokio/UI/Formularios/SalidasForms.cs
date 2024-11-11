@@ -37,8 +37,7 @@ namespace Optica_Tokio.UI.Formularios
 
         private void btnNuevaFactura_Click(object sender, EventArgs e)
         {
-            grbFacturacion.Visible= false;
-            grbNuevaFactura.Visible= true;
+            
         }
     }
 }
