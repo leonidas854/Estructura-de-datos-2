@@ -96,6 +96,12 @@
     <Compile Include="UI\Formularios\AbaoutForm.Designer.cs">
       <DependentUpon>AbaoutForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Formularios\AgregarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Formularios\AgregarUsuario.Designer.cs">
+      <DependentUpon>AgregarUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Formularios\CategoriasForms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -207,6 +213,9 @@
     <EmbeddedResource Include="UI\Formularios\AbaoutForm.resx">
       <DependentUpon>AbaoutForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\AgregarUsuario.resx">
+      <DependentUpon>AgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\CategoriasForms.resx">
       <DependentUpon>CategoriasForms.cs</DependentUpon>
     </EmbeddedResource>
@@ -275,6 +284,10 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\vector-users-icon-design-2468331650.jpg" />
+    <None Include="Resources\png-clipart-lock-computer-icons-padlock-technic-security-2157185273.png" />
+    <None Include="Resources\mail-email-icon-template-black-color-editable-mail-email-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg" />
+    <None Include="Resources\user-icon-in-trendy-outline-style-isolated-on-white-background-user-silhouette-symbol-for-your-website-design-logo-app-ui-illustration-eps10-free-vector.jpg" />
     <None Include="Resources\Unchecked.png" />
     <None Include="Resources\linea roja.png" />
     <None Include="Resources\report-icon.png" />
@@ -301,6 +314,7 @@
     <None Include="Resources\icon close.png" />
     <None Include="Resources\icon close2.png" />
     <None Include="Resources\Checked.png" />
+    <None Include="Resources\39734-3307008701.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>

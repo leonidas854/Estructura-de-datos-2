@@ -135,3 +135,6 @@ C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio
 C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
 C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmAsignarRoles.resources
 C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmPermisos.resources
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AgregarUsuario.resources
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmAsignarRoles.resources
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmPermisos.resources

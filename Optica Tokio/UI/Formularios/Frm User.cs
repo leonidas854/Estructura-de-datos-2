@@ -36,5 +36,12 @@ namespace Optica_Tokio.UI.Formularios
         {
 
         }
+
+        private void btnNewUsuario_Click(object sender, EventArgs e)
+        {
+            AgregarUsuario AgregarUsuarioForm = new AgregarUsuario();
+            AgregarUsuarioForm.StartPosition = FormStartPosition.CenterScreen;
+            AgregarUsuarioForm.Show();
+        }
     }
 }

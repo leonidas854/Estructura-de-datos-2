@@ -63,6 +63,16 @@ namespace Optica_Tokio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _39734_3307008701 {
+            get {
+                object obj = ResourceManager.GetObject("39734-3307008701", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _5034372 {
             get {
                 object obj = ResourceManager.GetObject("5034372", resourceCulture);
@@ -303,6 +313,27 @@ namespace Optica_Tokio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mail_email_icon_template_black_color_editable_mail_email_icon_symbol_flat_illustration_for_graphic_and_web_design_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("mail-email-icon-template-black-color-editable-mail-email-icon-symbol-flat-illustr" +
+                        "ation-for-graphic-and-web-design-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_lock_computer_icons_padlock_technic_security_2157185273 {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-lock-computer-icons-padlock-technic-security-2157185273", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap puerta_tokio {
             get {
                 object obj = ResourceManager.GetObject("puerta tokio", resourceCulture);
@@ -336,6 +367,27 @@ namespace Optica_Tokio.Properties {
         internal static System.Drawing.Bitmap user {
             get {
                 object obj = ResourceManager.GetObject("user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_icon_in_trendy_outline_style_isolated_on_white_background_user_silhouette_symbol_for_your_website_design_logo_app_ui_illustration_eps10_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("user-icon-in-trendy-outline-style-isolated-on-white-background-user-silhouette-sy" +
+                        "mbol-for-your-website-design-logo-app-ui-illustration-eps10-free-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vector_users_icon_design_2468331650 {
+            get {
+                object obj = ResourceManager.GetObject("vector-users-icon-design-2468331650", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
