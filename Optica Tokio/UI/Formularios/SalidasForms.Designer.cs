@@ -47,13 +47,18 @@
             // 
             // grbFacturacion
             // 
+            this.grbFacturacion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.grbFacturacion.Controls.Add(this.dgvFacturacion);
             this.grbFacturacion.Controls.Add(this.cmbOpListaSalidas);
             this.grbFacturacion.Controls.Add(this.txtBuscarPorNumero);
             this.grbFacturacion.Controls.Add(this.btnNuevaFactura);
-            this.grbFacturacion.Location = new System.Drawing.Point(30, 34);
+            this.grbFacturacion.Location = new System.Drawing.Point(22, 28);
+            this.grbFacturacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grbFacturacion.Name = "grbFacturacion";
-            this.grbFacturacion.Size = new System.Drawing.Size(1180, 431);
+            this.grbFacturacion.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grbFacturacion.Size = new System.Drawing.Size(899, 367);
             this.grbFacturacion.TabIndex = 0;
             this.grbFacturacion.TabStop = false;
             this.grbFacturacion.Text = "Facturacion";
@@ -72,11 +77,12 @@
             this.Column6,
             this.Editar,
             this.Eliminar});
-            this.dgvFacturacion.Location = new System.Drawing.Point(0, 214);
+            this.dgvFacturacion.Location = new System.Drawing.Point(4, 187);
+            this.dgvFacturacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvFacturacion.Name = "dgvFacturacion";
             this.dgvFacturacion.RowHeadersWidth = 51;
             this.dgvFacturacion.RowTemplate.Height = 24;
-            this.dgvFacturacion.Size = new System.Drawing.Size(1180, 150);
+            this.dgvFacturacion.Size = new System.Drawing.Size(891, 130);
             this.dgvFacturacion.TabIndex = 4;
             // 
             // Column1
@@ -139,17 +145,19 @@
             // 
             this.cmbOpListaSalidas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbOpListaSalidas.FormattingEnabled = true;
-            this.cmbOpListaSalidas.Location = new System.Drawing.Point(736, 112);
+            this.cmbOpListaSalidas.Location = new System.Drawing.Point(566, 91);
+            this.cmbOpListaSalidas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbOpListaSalidas.Name = "cmbOpListaSalidas";
-            this.cmbOpListaSalidas.Size = new System.Drawing.Size(366, 24);
+            this.cmbOpListaSalidas.Size = new System.Drawing.Size(276, 21);
             this.cmbOpListaSalidas.TabIndex = 3;
             // 
             // txtBuscarPorNumero
             // 
             this.txtBuscarPorNumero.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.txtBuscarPorNumero.Location = new System.Drawing.Point(75, 112);
+            this.txtBuscarPorNumero.Location = new System.Drawing.Point(56, 91);
+            this.txtBuscarPorNumero.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtBuscarPorNumero.Name = "txtBuscarPorNumero";
-            this.txtBuscarPorNumero.Size = new System.Drawing.Size(316, 22);
+            this.txtBuscarPorNumero.Size = new System.Drawing.Size(238, 20);
             this.txtBuscarPorNumero.TabIndex = 2;
             this.txtBuscarPorNumero.Text = "Buscar por número de factura";
             this.txtBuscarPorNumero.Enter += new System.EventHandler(this.textBox1_Enter);
@@ -157,9 +165,10 @@
             // 
             // btnNuevaFactura
             // 
-            this.btnNuevaFactura.Location = new System.Drawing.Point(30, 36);
+            this.btnNuevaFactura.Location = new System.Drawing.Point(22, 29);
+            this.btnNuevaFactura.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNuevaFactura.Name = "btnNuevaFactura";
-            this.btnNuevaFactura.Size = new System.Drawing.Size(166, 41);
+            this.btnNuevaFactura.Size = new System.Drawing.Size(124, 33);
             this.btnNuevaFactura.TabIndex = 1;
             this.btnNuevaFactura.Text = "NUEVA FACTURA";
             this.btnNuevaFactura.UseVisualStyleBackColor = true;
@@ -167,12 +176,11 @@
             // 
             // SalidasForms
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1243, 752);
+            this.ClientSize = new System.Drawing.Size(932, 611);
             this.Controls.Add(this.grbFacturacion);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SalidasForms";
             this.Text = "Salidas";
             this.grbFacturacion.ResumeLayout(false);

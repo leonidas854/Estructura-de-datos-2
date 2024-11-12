@@ -10,14 +10,14 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
     [Serializable]
     public class Lista<T> :IEnumerable<T>
     {
-        private Nodo<T> cabeza;
+        private Nodo cabeza;
         private int tam;
 
         [Serializable]
-        private class Nodo<T>
+        private class Nodo
         {
             public T Item { get; set; }
-            public Nodo<T> Enlace { get; set; }
+            public Nodo Enlace { get; set; }
         }
 
         public Lista()
@@ -41,11 +41,11 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
             cabeza = Insertar(cabeza, item);
         }
 
-        private Nodo<T> Insertar(Nodo<T> x, T item)
+        private Nodo Insertar(Nodo x, T item)
         {
             if (x == null)
             {
-                x = new Nodo<T>
+                x = new Nodo
                 {
                     Item = item,
                     Enlace = null
@@ -65,7 +65,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
                 throw new ArgumentOutOfRangeException("Posición fuera de rango");
             }
 
-            Nodo<T> actual = cabeza;
+            Nodo actual = cabeza;
             for (int i = 0; i < pos; i++)
             {
                 actual = actual.Enlace;
@@ -75,7 +75,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
 
         public bool Pertenece(T itemBuscado)
         {
-            Nodo<T> actual = cabeza;
+            Nodo actual = cabeza;
             while (actual != null)
             {
                 if (EqualityComparer<T>.Default.Equals(actual.Item, itemBuscado))
@@ -92,27 +92,27 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
             cabeza = MergeSort(cabeza);
         }
 
-        private Nodo<T> MergeSort(Nodo<T> inicio)
+        private Nodo MergeSort(Nodo inicio)
         {
             if (inicio == null || inicio.Enlace == null)
             {
                 return inicio;
             }
 
-            Nodo<T> mitad1 = GetMitad(inicio);
-            Nodo<T> mitad2 = mitad1.Enlace;
+            Nodo mitad1 = GetMitad(inicio);
+            Nodo mitad2 = mitad1.Enlace;
             mitad1.Enlace = null;
 
-            Nodo<T> mitad1Ordenado = MergeSort(inicio);
-            Nodo<T> mitad2Ordenado = MergeSort(mitad2);
+            Nodo mitad1Ordenado = MergeSort(inicio);
+            Nodo mitad2Ordenado = MergeSort(mitad2);
 
             return Merge(mitad1Ordenado, mitad2Ordenado);
         }
 
-        private Nodo<T> Merge(Nodo<T> lista1, Nodo<T> lista2)
+        private Nodo Merge(Nodo lista1, Nodo lista2)
         {
-            Nodo<T> resultado = new Nodo<T>();
-            Nodo<T> actual = resultado;
+            Nodo resultado = new Nodo();
+            Nodo actual = resultado;
 
             while (lista1 != null && lista2 != null)
             {
@@ -134,10 +134,10 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
             return resultado.Enlace;
         }
 
-        private Nodo<T> GetMitad(Nodo<T> inicio)
+        private Nodo GetMitad(Nodo inicio)
         {
-            Nodo<T> siguiente = inicio.Enlace;
-            Nodo<T> indice = inicio;
+            Nodo siguiente = inicio.Enlace;
+            Nodo indice = inicio;
 
             while (siguiente != null && siguiente.Enlace != null)
             {
@@ -160,10 +160,10 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
 
         private class ListaIterador : IEnumerator<T>
         {
-            private Nodo<T> actual;
-            private Nodo<T> inicio;
+            private Nodo actual;
+            private Nodo inicio;
 
-            public ListaIterador(Nodo<T> cabeza)
+            public ListaIterador(Nodo cabeza)
             {
                 inicio = cabeza;
                 actual = null;
@@ -191,7 +191,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
         {
             StringBuilder sb = new StringBuilder();
             sb.Append("[");
-            Nodo<T> actual = cabeza;
+            Nodo actual = cabeza;
             while (actual != null)
             {
                 sb.Append(actual.Item.ToString());
