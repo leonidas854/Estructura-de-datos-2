@@ -141,3 +141,35 @@ C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Toki
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AgregarUsuario.resources
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmAsignarRoles.resources
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmPermisos.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe.config
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.pdb
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.dll
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\bin\Debug\WinFormAnimation.dll
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.xml
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.AssemblyReference.cache
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.Properties.Resources.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AbaoutForm.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AgregarUsuario.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.CategoriasForms.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ConfigForm.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.DashboardForm.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.EntradasForms.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmLoading_Screen.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.Frm_User.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmAsignarRoles.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.FrmLogin.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmMain_Menu.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmPermisos.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.GestionInventarioForm.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ProductosForm.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ProovedoresForm.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ReportesForm.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.RolesForms.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.SalidasForms.resources
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.GenerateResource.cache
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.CoreCompileInputs.cache
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
+C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources

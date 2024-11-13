@@ -97,5 +97,15 @@ namespace Optica_Tokio.UI.Formularios
         {
             this.Close();
         }
+
+        private void AgregarUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

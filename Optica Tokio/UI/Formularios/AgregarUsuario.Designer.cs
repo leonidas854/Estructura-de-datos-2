@@ -216,6 +216,7 @@
             this.txtNombre.Size = new System.Drawing.Size(227, 27);
             this.txtNombre.TabIndex = 0;
             this.txtNombre.Text = "Nombre";
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             this.txtNombre.Enter += new System.EventHandler(this.txtNombre_Enter);
             this.txtNombre.Leave += new System.EventHandler(this.txtNombre_Leave);
             // 
@@ -228,6 +229,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AgregarUsuario";
             this.Text = "AgregarUsuario";
+            this.Load += new System.EventHandler(this.AgregarUsuario_Load);
             this.grpAñadirUsuario.ResumeLayout(false);
             this.grpAñadirUsuario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

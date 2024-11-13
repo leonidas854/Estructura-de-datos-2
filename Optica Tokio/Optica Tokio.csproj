@@ -170,6 +170,12 @@
     <Compile Include="UI\Formularios\GestionInventarioForm.Designer.cs">
       <DependentUpon>GestionInventarioForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Formularios\InformedelReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Formularios\InformedelReport.Designer.cs">
+      <DependentUpon>InformedelReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Formularios\ProductosForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -248,6 +254,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\GestionInventarioForm.resx">
       <DependentUpon>GestionInventarioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\InformedelReport.resx">
+      <DependentUpon>InformedelReport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\ProductosForm.resx">
       <DependentUpon>ProductosForm.cs</DependentUpon>
