@@ -173,3 +173,4 @@ C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Opti
 C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
 C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
 C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources
