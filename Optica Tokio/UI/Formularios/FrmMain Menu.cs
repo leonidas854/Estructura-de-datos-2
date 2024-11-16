@@ -37,7 +37,7 @@ namespace Optica_Tokio.UI.Formularios
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            
         }
         protected override void WndProc(ref Message message)
         {
@@ -552,6 +552,24 @@ namespace Optica_Tokio.UI.Formularios
             panTop.BackColor = Color.FromArgb(165,42,42);
             currentBoton = null;
             btncloseForm.Visible = false;
+        }
+
+        private void productos_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Fecha_hora_Tick(object sender, EventArgs e)
+        {
+            lblhora.Text = DateTime.Now.ToLongTimeString();
+            lblfecha.Text = DateTime.Now.ToShortDateString();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            FrmLogin frmLogin = new FrmLogin();
+            frmLogin.Show();
+            this.Hide();
         }
     }
 }

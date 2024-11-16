@@ -293,6 +293,7 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\salir.png" />
     <None Include="Resources\vector-users-icon-design-2468331650.jpg" />
     <None Include="Resources\png-clipart-lock-computer-icons-padlock-technic-security-2157185273.png" />
     <None Include="Resources\mail-email-icon-template-black-color-editable-mail-email-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg" />
