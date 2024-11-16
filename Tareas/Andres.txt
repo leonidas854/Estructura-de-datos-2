@@ -1,0 +1,60 @@
+Métodos en MovimientoService (Para Salidas)
+
+RegistrarSalida(int idProducto, int cantidad, int idUsuario, int idLocal): Registra la salida de un producto del inventario.
+ObtenerMovimientosPorProducto(int idProducto): Devuelve los movimientos relacionados con un producto específico.
+ListarSalidas(DateTime fechaInicio, DateTime fechaFin): Obtiene todas las salidas registradas en un rango de fechas.
+
+Métodos en RolService
+
+ListarRoles(): Devuelve la lista de roles existentes.
+CrearRol(string nombreRol, string descripcion): Crea un nuevo rol en el sistema.
+EditarRol(int idRol, string nuevoNombre, string nuevaDescripcion): Modifica los datos de un rol existente.
+EliminarRol(int idRol): Elimina un rol específico por su ID.
+AsignarPermisos(int idRol, List<string> permisos): Asigna permisos específicos a un rol.
+
+Formulario de Salidas
+Responsabilidades:
+
+Registrar salidas de productos del inventario.
+Mostrar un historial de salidas de productos con filtros por fecha o producto.
+Validar que la cantidad retirada no exceda la cantidad disponible en el inventario.
+Acciones:
+
+Al registrar una salida, llamar a MovimientoService.RegistrarSalida(idProducto, cantidad, idUsuario, idLocal).
+Para mostrar el historial de salidas, llamar a MovimientoService.ListarSalidas(fechaInicio, fechaFin).
+Validar con el servicio de inventario que la cantidad sea válida antes de registrar la salida.
+
+Formulario de Roles
+Responsabilidades:
+
+Crear, editar y eliminar roles en el sistema.
+Asignar permisos específicos a cada rol.
+Acciones:
+
+Usar RolService.ListarRoles() para mostrar los roles existentes.
+Al agregar un nuevo rol, usar RolService.CrearRol(nombreRol, descripcion).
+En el botón "Editar Rol", llamar a RolService.EditarRol(idRol, nuevoNombre, nuevaDescripcion).
+Al eliminar un rol, usar RolService.EliminarRol(idRol).
+Permitir asignar permisos mediante un formulario que use RolService.AsignarPermisos(idRol, permisos).
+
+Formulario de Salidas
+Estructuras de Datos:
+
+Árbol Rojo-Negro: Para gestionar productos y validar cantidades disponibles.
+Pila: Para mantener un historial de las últimas salidas registradas, permitiendo revertirlas si es necesario.
+Métodos:
+
+Registrar salida (MovimientoService.RegistrarSalida): Verificar stock en el árbol rojo-negro antes de registrar la salida.
+Mostrar historial de salidas (MovimientoService.ListarSalidas): Recuperar registros desde el árbol y organizarlos en listas.
+Validar cantidades: Comparar la cantidad solicitada con la disponible en el nodo del árbol rojo-negro.
+Formulario de Roles
+Estructuras de Datos:
+
+Árbol Rojo-Negro: Para almacenar roles y buscar por nombre o ID.
+Lista: Para mostrar roles temporalmente en la UI.
+Métodos:
+
+Listar roles (RolService.ListarRoles): Cargar datos desde el árbol rojo-negro.
+Crear rol (RolService.CrearRol): Insertar un nuevo rol en el árbol.
+Editar rol (RolService.EditarRol): Actualizar el nodo correspondiente en el árbol.
+Eliminar rol (RolService.EliminarRol): Remover un rol del árbol rojo-negro.

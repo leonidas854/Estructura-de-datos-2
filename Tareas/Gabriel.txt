@@ -1,0 +1,67 @@
+Métodos en UsuarioService
+
+ListarUsuarios(): Devuelve la lista de usuarios registrados.
+CrearUsuario(Usuario usuario): Agrega un nuevo usuario con su rol correspondiente.
+EditarUsuario(Usuario usuario): Modifica los datos de un usuario existente.
+EliminarUsuario(int idUsuario): Elimina un usuario por su ID.
+AsignarRol(int idUsuario, string rol): Asigna o modifica el rol de un usuario.
+ValidarUsuario(string username, string contraseña): Valida las credenciales para inicio de sesión.
+
+Métodos en ReporteService
+
+GenerarReporteMovimientos(DateTime fechaInicio, DateTime fechaFin): Genera un reporte de movimientos de inventario en un rango de fechas.
+GenerarReporteProductosBajaExistencia(): Genera un reporte de productos con baja existencia.
+GenerarReporteGeneralInventario(): Genera un resumen general del inventario.
+
+
+Formulario de Usuarios
+Responsabilidades:
+
+Mostrar una lista de usuarios existentes en una tabla o grid.
+Permitir agregar un nuevo usuario mediante un formulario que incluya campos como nombre de usuario, contraseña y rol.
+Habilitar la edición de datos de usuarios seleccionados.
+Eliminar usuarios seleccionados de la lista.
+Asignar roles a los usuarios al momento de crearlos o editarlos.
+Acciones:
+
+Al abrir el formulario, llamar a UsuarioService.ListarUsuarios() para cargar la lista inicial.
+En el botón "Agregar Usuario", llamar a UsuarioService.CrearUsuario(usuario).
+En el botón "Editar Usuario", llamar a UsuarioService.EditarUsuario(usuario).
+En el botón "Eliminar Usuario", llamar a UsuarioService.EliminarUsuario(idUsuario).
+En el campo de selección de roles, llamar a RolService.ListarRoles() para cargar las opciones disponibles.
+
+Formulario de Reportes
+Responsabilidades:
+
+Generar y mostrar reportes según criterios seleccionados por el usuario (por ejemplo, fechas, categorías, etc.).
+Exportar reportes en formato PDF o Excel.
+Acciones:
+
+Al seleccionar "Reporte de Movimientos", usar ReporteService.GenerarReporteMovimientos(fechaInicio, fechaFin).
+Al seleccionar "Reporte de Productos en Baja Existencia", usar ReporteService.GenerarReporteProductosBajaExistencia().
+Mostrar los datos generados en un área visual, como una tabla o gráfico.
+Implementar un botón de exportación que permita guardar los reportes generados.
+
+Formulario de Usuarios
+Estructuras de Datos:
+
+Árbol Rojo-Negro: Para almacenar y buscar usuarios rápidamente por su identificador o nombre.
+Lista: Para manejar listas temporales de usuarios al generar vistas o filtrarlos por roles.
+Métodos:
+
+Mostrar lista de usuarios (UsuarioService.ListarUsuarios()): El árbol rojo-negro facilita búsquedas rápidas.
+Crear usuario (UsuarioService.CrearUsuario(usuario)): Inserción en el árbol rojo-negro.
+Editar usuario (UsuarioService.EditarUsuario(usuario)): Actualizar nodo en el árbol rojo-negro.
+Eliminar usuario (UsuarioService.EliminarUsuario(idUsuario)): Eliminación eficiente en el árbol.
+Asignar roles (RolService.ListarRoles() para cargar roles, actualizar en el árbol).
+Formulario de Reportes
+Estructuras de Datos:
+
+Cola: Para manejar solicitudes de reportes en orden de llegada.
+Lista: Para organizar los datos generados en los reportes.
+Árbol Rojo-Negro: Para consultar eficientemente productos y movimientos necesarios para los reportes.
+Métodos:
+
+Generar reportes por fechas (ReporteService.GenerarReporteMovimientos): Consultar el árbol de movimientos y organizar con listas.
+Reporte de baja existencia (ReporteService.GenerarReporteProductosBajaExistencia): Usar el árbol rojo-negro para identificar productos con stock bajo.
+Exportar reportes: Convertir la lista generada en formatos PDF o Excel.

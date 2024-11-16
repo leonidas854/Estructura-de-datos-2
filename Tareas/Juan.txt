@@ -1,0 +1,88 @@
+Métodos en DashboardService
+
+ObtenerEstadisticasInventario(): Devuelve estadísticas generales del inventario (productos totales, cantidad vendida, etc.).
+ObtenerResumenMovimientos(DateTime fechaInicio, DateTime fechaFin): Devuelve un resumen de movimientos (entradas y salidas) en un rango de fechas.
+
+Métodos en ProductoService
+
+ListarProductos(): Devuelve la lista de productos en el inventario.
+CrearProducto(Producto producto): Agrega un nuevo producto al inventario.
+EditarProducto(Producto producto): Modifica los datos de un producto existente.
+EliminarProducto(int idProducto): Elimina un producto por su ID.
+BuscarProductoPorCategoria(int idCategoria): Busca productos asociados a una categoría específica.
+
+Métodos en CategoriaService
+
+ListarCategorias(): Devuelve la lista de categorías registradas.
+CrearCategoria(Categoria categoria): Registra una nueva categoría de productos.
+EditarCategoria(Categoria categoria): Modifica los datos de una categoría existente.
+EliminarCategoria(int idCategoria): Elimina una categoría por su ID.
+
+Formulario de Dashboard
+Responsabilidades:
+
+Mostrar estadísticas generales del inventario, como cantidad total de productos, movimientos recientes, etc.
+Permitir al usuario visualizar datos clave mediante gráficos o indicadores.
+Acciones:
+
+Usar DashboardService.ObtenerEstadisticasInventario() para cargar datos iniciales.
+Mostrar estadísticas como productos totales, cantidad vendida, y productos en baja existencia.
+
+Formulario de Productos
+Responsabilidades:
+
+Mostrar la lista de productos existentes.
+Permitir agregar, editar y eliminar productos.
+Buscar productos por categoría o nombre.
+Acciones:
+
+Usar ProductoService.ListarProductos() para mostrar los productos disponibles.
+Al agregar un producto, usar ProductoService.CrearProducto(producto).
+Para editar, llamar a ProductoService.EditarProducto(producto).
+Para eliminar, usar ProductoService.EliminarProducto(idProducto).
+Implementar un campo de búsqueda que use ProductoService.BuscarProductoPorCategoria(idCategoria).
+
+Formulario de Categorías
+Responsabilidades:
+
+Mostrar y gestionar las categorías disponibles.
+Permitir agregar, editar y eliminar categorías.
+Acciones:
+
+Usar CategoriaService.ListarCategorias() para cargar las categorías iniciales.
+Al agregar una categoría, usar CategoriaService.CrearCategoria(categoria).
+Para editar una categoría, llamar a CategoriaService.EditarCategoria(categoria).
+Para eliminar, usar CategoriaService.EliminarCategoria(idCategoria).
+
+Formulario de Dashboard
+Estructuras de Datos:
+
+Árbol Rojo-Negro: Para acceder rápidamente a estadísticas clave (productos totales, bajas existencias, etc.).
+Lista: Para organizar datos temporales en la vista de la UI.
+Métodos:
+
+Estadísticas del inventario (DashboardService.ObtenerEstadisticasInventario): Consultar el árbol para calcular totales y tendencias.
+Resumen de movimientos (DashboardService.ObtenerResumenMovimientos): Consultar el árbol de movimientos y organizar en listas.
+Formulario de Productos
+Estructuras de Datos:
+
+Árbol Rojo-Negro: Para gestionar productos, buscar, agregar, editar y eliminar.
+Lista: Para filtrar y mostrar resultados en la interfaz.
+Métodos:
+
+Listar productos (ProductoService.ListarProductos): Extraer datos del árbol rojo-negro.
+Crear producto (ProductoService.CrearProducto): Insertar un nuevo nodo en el árbol.
+Editar producto (ProductoService.EditarProducto): Actualizar datos en el árbol.
+Eliminar producto (ProductoService.EliminarProducto): Remover el nodo del árbol.
+Buscar por categoría (ProductoService.BuscarProductoPorCategoria): Usar el árbol para filtrar por categorías.
+Formulario de Categorías
+Estructuras de Datos:
+
+Árbol Rojo-Negro: Para gestionar categorías.
+Lista: Para mostrar categorías temporalmente.
+Métodos:
+
+Listar categorías (CategoriaService.ListarCategorias): Consultar el árbol.
+Crear categoría (CategoriaService.CrearCategoria): Insertar en el árbol.
+Editar categoría (CategoriaService.EditarCategoria): Actualizar datos en el árbol.
+Eliminar categoría (CategoriaService.EliminarCategoria): Remover un nodo del árbol rojo-negro.

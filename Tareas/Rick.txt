@@ -1,0 +1,70 @@
+Métodos en ProveedorService
+
+ListarProveedores(): Devuelve la lista de proveedores registrados.
+CrearProveedor(Proveedor proveedor): Registra un nuevo proveedor.
+EditarProveedor(Proveedor proveedor): Modifica los datos de un proveedor existente.
+EliminarProveedor(int idProveedor): Elimina un proveedor específico por su ID.
+
+Métodos en MovimientoService (Para Entradas)
+
+RegistrarEntrada(int idProducto, int cantidad, int idUsuario, int idProveedor): Registra la entrada de un producto al inventario.
+ObtenerMovimientosPorProveedor(int idProveedor): Devuelve todos los movimientos relacionados con un proveedor específico.
+ListarEntradas(DateTime fechaInicio, DateTime fechaFin): Obtiene todas las entradas registradas en un rango de fechas.
+
+
+Formulario de Proveedores
+Responsabilidades:
+
+Mostrar la lista de proveedores registrados.
+Permitir agregar, editar y eliminar proveedores.
+Consultar información detallada de un proveedor específico.
+Acciones:
+
+Llamar a ProveedorService.ListarProveedores() para cargar la lista inicial.
+Usar ProveedorService.CrearProveedor(proveedor) al agregar un proveedor.
+Usar ProveedorService.EditarProveedor(proveedor) al editar.
+Usar ProveedorService.EliminarProveedor(idProveedor) al eliminar.
+
+Formulario de Entradas
+Responsabilidades:
+
+Registrar entradas de productos al inventario.
+Mostrar un historial de entradas realizadas.
+Validar la relación con proveedores al registrar una entrada.
+Acciones:
+
+Al registrar una entrada, usar MovimientoService.RegistrarEntrada(idProducto, cantidad, idUsuario, idProveedor).
+Usar MovimientoService.ListarEntradas(fechaInicio, fechaFin) para cargar el historial.
+Validar que el proveedor sea válido antes de registrar la entrada.
+
+Formulario About
+Responsabilidades:
+
+Mostrar información general sobre la aplicación o sistema.
+Detallar las funcionalidades principales y los desarrolladores.
+Acciones:
+
+Este formulario es más estático, por lo que no requiere integración directa con servicios.
+
+Formulario de Proveedores
+Estructuras de Datos:
+
+Árbol Rojo-Negro: Para gestionar proveedores por ID o nombre.
+Lista: Para mostrar la lista de proveedores en la interfaz.
+Métodos:
+
+Listar proveedores (ProveedorService.ListarProveedores): Consultar el árbol rojo-negro y pasar los datos a una lista.
+Crear proveedor (ProveedorService.CrearProveedor): Insertar en el árbol rojo-negro.
+Editar proveedor (ProveedorService.EditarProveedor): Actualizar el nodo en el árbol.
+Eliminar proveedor (ProveedorService.EliminarProveedor): Eliminar del árbol rojo-negro.
+Formulario de Entradas
+Estructuras de Datos:
+
+Árbol Rojo-Negro: Para gestionar productos.
+Cola: Para procesar las solicitudes de entrada en orden de llegada.
+Métodos:
+
+Registrar entrada (MovimientoService.RegistrarEntrada): Verificar la relación con el proveedor y registrar la entrada.
+Mostrar historial (MovimientoService.ListarEntradas): Consultar el árbol y presentar los resultados en una lista.
+Formulario About
+Este formulario es principalmente estático y no requiere integración directa con estructuras de datos.
