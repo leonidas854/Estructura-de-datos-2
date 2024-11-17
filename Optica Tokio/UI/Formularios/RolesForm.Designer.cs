@@ -45,10 +45,10 @@
             this.btnRolNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRolNuevo.Font = new System.Drawing.Font("Elephant", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRolNuevo.ForeColor = System.Drawing.Color.Black;
-            this.btnRolNuevo.Location = new System.Drawing.Point(34, 37);
-            this.btnRolNuevo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRolNuevo.Location = new System.Drawing.Point(45, 46);
+            this.btnRolNuevo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRolNuevo.Name = "btnRolNuevo";
-            this.btnRolNuevo.Size = new System.Drawing.Size(128, 59);
+            this.btnRolNuevo.Size = new System.Drawing.Size(171, 73);
             this.btnRolNuevo.TabIndex = 0;
             this.btnRolNuevo.Text = "Rol Nuevo";
             this.btnRolNuevo.UseVisualStyleBackColor = true;
@@ -79,8 +79,8 @@
             this.Eliminar});
             this.dgvRoles.EnableHeadersVisualStyles = false;
             this.dgvRoles.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvRoles.Location = new System.Drawing.Point(34, 144);
-            this.dgvRoles.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvRoles.Location = new System.Drawing.Point(45, 177);
+            this.dgvRoles.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvRoles.Name = "dgvRoles";
             this.dgvRoles.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -98,7 +98,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             this.dgvRoles.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvRoles.RowTemplate.Height = 24;
-            this.dgvRoles.Size = new System.Drawing.Size(828, 204);
+            this.dgvRoles.Size = new System.Drawing.Size(1104, 251);
             this.dgvRoles.TabIndex = 1;
             this.dgvRoles.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvRoles_CellClick_1);
             this.dgvRoles.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvRoles_CellPainting);
@@ -121,13 +121,14 @@
             // 
             // RolesForms
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(932, 611);
+            this.ClientSize = new System.Drawing.Size(1243, 752);
             this.Controls.Add(this.btnRolNuevo);
             this.Controls.Add(this.dgvRoles);
             this.ForeColor = System.Drawing.Color.Black;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "RolesForms";
             this.Text = "Roles";
             this.Load += new System.EventHandler(this.RolesForms_Load);
