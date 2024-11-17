@@ -174,3 +174,35 @@ C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Opti
 C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
 C:\GABOID\Nueva carpeta\SDKAFJ\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe.config
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.pdb
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.dll
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\bin\Debug\WinFormAnimation.dll
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\bin\Debug\CircularProgressBar.xml
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.AssemblyReference.cache
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.Properties.Resources.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AbaoutForm.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AgregarUsuario.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.CategoriasForms.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ConfigForm.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.DashboardForm.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.EntradasForms.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmLoading_Screen.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.Frm_User.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmAsignarRoles.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.FrmLogin.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmMain_Menu.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmPermisos.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.GestionInventarioForm.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ProductosForm.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ProovedoresForm.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ReportesForm.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.RolesForms.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.SalidasForms.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.GenerateResource.cache
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.CoreCompileInputs.cache
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
