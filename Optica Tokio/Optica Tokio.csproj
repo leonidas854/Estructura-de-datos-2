@@ -293,6 +293,12 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\png-clipart-bundle-icon-search-blue-search-button-thumbnail.png" />
+    <None Include="Resources\images1.png" />
+    <None Include="Resources\png-transparent-computer-icons-user-profile-symbol-register-button-miscellaneous-blue-logo-thumbnail.png" />
+    <None Include="Resources\png-transparent-computer-icons-search-box-button-search-blue-text-trademark.png" />
+    <None Include="Resources\png-clipart-computer-icons-document-add-button-number-add-button.png" />
+    <None Include="Resources\png-transparent-logo-trademark-brand-delete-button-miscellaneous-text-trademark-thumbnail.png" />
     <None Include="Resources\salir.png" />
     <None Include="Resources\vector-users-icon-design-2468331650.jpg" />
     <None Include="Resources\png-clipart-lock-computer-icons-padlock-technic-security-2157185273.png" />
@@ -325,6 +331,23 @@
     <None Include="Resources\icon close2.png" />
     <None Include="Resources\Checked.png" />
     <None Include="Resources\39734-3307008701.png" />
+    <None Include="Resources\Captura de pantalla 2024-11-10 234455.png" />
+    <None Include="Resources\6325975.png" />
+    <None Include="Resources\6301508.png" />
+    <None Include="Resources\1000_F_44959417_bJihnEY09azeWVcomASl0GAIoONZRLXs.jpg" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 014423.png" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 020251.png" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 021445.png" />
+    <None Include="Resources\descarga %281%29.png" />
+    <None Include="Resources\descarga.jpg" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 022656.png" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 022643.png" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 022752.png" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 022909.png" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 023017.png" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 023204.png" />
+    <None Include="Resources\Captura de pantalla 2024-11-17 031820.png" />
+    <None Include="Resources\6303950.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>
