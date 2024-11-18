@@ -123,6 +123,16 @@ namespace Optica_Tokio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Caja {
+            get {
+                object obj = ResourceManager.GetObject("Caja", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2024_11_10_234455 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2024-11-10 234455", resourceCulture);
@@ -630,6 +640,16 @@ namespace Optica_Tokio.Properties {
         internal static System.Drawing.Bitmap vector_users_icon_design_2468331650 {
             get {
                 object obj = ResourceManager.GetObject("vector-users-icon-design-2468331650", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Venta {
+            get {
+                object obj = ResourceManager.GetObject("Venta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

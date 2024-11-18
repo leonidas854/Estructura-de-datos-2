@@ -65,7 +65,7 @@
             this.btnEliminar});
             this.dgvCategoria.EnableHeadersVisualStyles = false;
             this.dgvCategoria.GridColor = System.Drawing.Color.Sienna;
-            this.dgvCategoria.Location = new System.Drawing.Point(39, 143);
+            this.dgvCategoria.Location = new System.Drawing.Point(101, 143);
             this.dgvCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvCategoria.Name = "dgvCategoria";
             this.dgvCategoria.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -85,7 +85,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
             this.dgvCategoria.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvCategoria.RowTemplate.Height = 24;
-            this.dgvCategoria.Size = new System.Drawing.Size(658, 427);
+            this.dgvCategoria.Size = new System.Drawing.Size(913, 427);
             this.dgvCategoria.TabIndex = 0;
             this.dgvCategoria.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Click_Eliminar);
             // 
@@ -104,10 +104,14 @@
             // 
             // txtCategoria
             // 
-            this.txtCategoria.Location = new System.Drawing.Point(274, 54);
+            this.txtCategoria.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtCategoria.Location = new System.Drawing.Point(264, 82);
             this.txtCategoria.Name = "txtCategoria";
             this.txtCategoria.Size = new System.Drawing.Size(611, 34);
             this.txtCategoria.TabIndex = 2;
+            this.txtCategoria.Text = "BUSCAR POR NOMBRE";
+            this.txtCategoria.Enter += new System.EventHandler(this.txtCategoria_Enter);
+            this.txtCategoria.Leave += new System.EventHandler(this.txtCategoria_Leave);
             // 
             // btnNuevaCategoria
             // 

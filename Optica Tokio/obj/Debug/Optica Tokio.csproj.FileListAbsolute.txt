@@ -206,3 +206,4 @@ C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmCategoriasNuevas.resources
