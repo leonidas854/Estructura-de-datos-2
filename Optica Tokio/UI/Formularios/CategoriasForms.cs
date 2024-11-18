@@ -16,5 +16,17 @@ namespace Optica_Tokio.UI.Formularios
         {
             InitializeComponent();
         }
+
+        private void btnNuevaCategoria_Click(object sender, EventArgs e)
+        {
+            int n = dgvCategoria.Rows.Add();
+            dgvCategoria.Rows[n].Cells[0].Value = txtCategoria.Text;
+            txtCategoria.Text = "";
+        }
+
+        private void Click_Eliminar(object sender, DataGridViewCellEventArgs e)
+        {
+            dgvCategoria.Rows.Clear();
+        }
     }
 }
