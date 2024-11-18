@@ -63,7 +63,7 @@
     <Compile Include="Data Access\Repositorios\ProovedoresReposi.cs" />
     <Compile Include="Data Access\Repositorios\RolesReposi.cs" />
     <Compile Include="Data Access\Repositorios\UsuarioReposi.cs" />
-    <Compile Include="Logica del Negocio\Estructura de datos\BTree.cs" />
+    <Compile Include="Logica del Negocio\Estructura de datos\ArbolRN.cs" />
     <Compile Include="Logica del Negocio\Estructura de datos\Cola.cs" />
     <Compile Include="Logica del Negocio\Estructura de datos\Lista.cs" />
     <Compile Include="Logica del Negocio\Estructura de datos\Pila.cs" />
