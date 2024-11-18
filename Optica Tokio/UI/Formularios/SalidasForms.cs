@@ -39,5 +39,10 @@ namespace Optica_Tokio.UI.Formularios
         {
             
         }
+
+        private void btnNuevaFactura_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
