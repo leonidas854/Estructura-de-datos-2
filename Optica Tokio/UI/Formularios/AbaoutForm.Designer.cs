@@ -70,7 +70,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(451, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(365, 46);
+            this.label1.Size = new System.Drawing.Size(350, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Acerca de Optica Tokio";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -87,6 +87,7 @@
             this.label2.Text = "                 Óptica Tokio es un sistema de gestión de inventario diseñado par" +
     "a\r\noptimizar el control de productos ópticos y mejorar la eficiencia operativa d" +
     "e la empresa.";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // label3
             // 
@@ -211,6 +212,7 @@
             this.btnCerrar.Size = new System.Drawing.Size(131, 43);
             this.btnCerrar.TabIndex = 17;
             this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // pictureBox1
             // 
@@ -244,7 +246,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AbaoutForm";
             this.Text = "Abaout";
             this.Load += new System.EventHandler(this.AbaoutForm_Load);

@@ -11,7 +11,6 @@ namespace Optica_Tokio.Data_Access.Repositorios
     {
         private Proveedores primerProveedor;
 
-        // Método para insertar un nuevo proveedor
         public void Insertar(Proveedores nuevoProveedor)
         {
             if (primerProveedor == null)
@@ -29,7 +28,6 @@ namespace Optica_Tokio.Data_Access.Repositorios
             }
         }
 
-        // Método para buscar un proveedor por ID
         public Proveedores Buscar(string idProveedor)
         {
             Proveedores actual = primerProveedor;
@@ -43,8 +41,6 @@ namespace Optica_Tokio.Data_Access.Repositorios
             }
             return null;
         }
-
-        // Método para eliminar un proveedor por ID
         public void Eliminar(string idProveedor)
         {
             if (primerProveedor == null) return;
@@ -66,8 +62,6 @@ namespace Optica_Tokio.Data_Access.Repositorios
                 actual = actual.Enlace_proveedores;
             }
         }
-
-        // Método para listar todos los proveedores
         public Proveedores[] ListarTodos()
         {
             Proveedores actual = primerProveedor;
