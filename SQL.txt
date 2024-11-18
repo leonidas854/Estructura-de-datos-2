@@ -1,71 +1,99 @@
-CREATE TABLE movimientos_inventario(id_movimiento varchar(30) PRIMARY KEY,
-id_producto varchar(30),
-id_local varchar(30),
-tipo_movimiento varchar(50) check (tipo_movimiento in ('entrada','salida')),
-cantidad_mov int not null,
-fecha_mov TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-id_usuario varchar(30),
-FOREIGN KEY (id_producto) references productos(id_producto),
-FOREIGN KEY (id_local) references locales(id_local),
-FOREIGN KEY (id_usuario) references usuarios(id_usuario)
+BEGIN;
+
+CREATE TABLE movimientos_inventario(
+    id_movimiento VARCHAR(30) PRIMARY KEY,
+    id_producto VARCHAR(30),
+    id_local VARCHAR(30),
+    tipo_movimiento VARCHAR(50) CHECK (tipo_movimiento IN ('entrada', 'salida')),
+    cantidad INT NOT NULL,
+    fecha_movimiento TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    id_usuario VARCHAR(30),
+    FOREIGN KEY (id_producto) REFERENCES productos(id_producto),
+    FOREIGN KEY (id_local) REFERENCES locales(id_local),
+    FOREIGN KEY (id_usuario) REFERENCES usuarios(id_usuario)
 );
 
-CREATE TABLE inventario_local(id_inventario varchar(30) PRIMARY KEY,
-id_producto varchar(30),
-id_local varchar(30),
-cantidad int not null,
-fecha_ultima_actu TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-FOREIGN KEY (id_producto) references productos(id_producto),
-FOREIGN KEY (id_local) references locales(id_local));
-
-CREATE TABLE producto_categoria(id_producto varchar(30) REFERENCES productos(id_producto),
-id_categoria varchar(30) REFERENCES categorias(id_categoria),
-primary key(id_categoria,id_producto));
-
-CREATE TABLE categorias(id_categoria varchar(30) PRIMARY KEY,
-nom_cat varchar(255) unique not null,
-descr_cat text);
-
-CREATE TABLE locales(id_local varchar(30) PRIMARY KEY,
-nom_local varchar(255) not null,
-direccion_local varchar(255),
-telefono_local varchar(20),
-resp_local varchar(255));
-
-Create Table Productos(id_producto VARCHAR(30) PRIMARY KEY,nombre_prod Varchar(100) not null ,descripcion_prod TEXT,
-cantidad_total int not null, precio_costo DECIMAL not null, id_proveedor varchar(30),
-fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,FOREIGN KEY(id_proveedor) references proveedores(id_proveedor));
-
-CREATE TABLE proveedores(id_proveedor varchar(30) PRIMARY KEY,nombre_prov varchar(255) not null,
-contacto_prov varchar(255),telefono_prov varchar(20),email_prov varchar(255),direccion_prov varchar(255),condiciones_entrega TEXT);
-
-Create table Roles(
-Id_rol varchar(30) Primary key,
-Nombre_rol varchar(255) unique noT null,
-Descripcion Text
+CREATE TABLE inventario_local(
+    id_inventario VARCHAR(30) PRIMARY KEY,
+    id_producto VARCHAR(30),
+    id_local VARCHAR(30),
+    cantidad INT NOT NULL,
+    fecha_ultima_actualizacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_producto) REFERENCES productos(id_producto),
+    FOREIGN KEY (id_local) REFERENCES locales(id_local)
 );
 
-Create table Controladores(
-Id_controlador varchar(30) primary key,
-nombre_controlador varchar(255) unique not null,
-descripcion text
+CREATE TABLE producto_categoria(
+    id_producto VARCHAR(30) REFERENCES productos(id_producto),
+    id_categoria VARCHAR(30) REFERENCES categorias(id_categoria),
+    PRIMARY KEY (id_categoria, id_producto)
 );
 
-Create table Permisos_Rol(
-ID_Rol varchar(30) references Roles(Id_rol),
-ID_Controller varchar(30) references Controladores(Id_controlador),
-Permiso varchar(50) CHECK (Permiso in('Lectura','Escritura','Completo')),
-primary key(ID_Rol,ID_Controller)
+CREATE TABLE categorias(
+    id_categoria VARCHAR(30) PRIMARY KEY,
+    nombre_categoria VARCHAR(255) UNIQUE NOT NULL,
+    descripcion_categoria TEXT
 );
 
-Create table Usuarios(
-Id_usuario varchar(30) primary key,
-Nombre_user varchar(255) not null,
-Apell_paterno varchar(255) not null,
-Apell_materno varchar(255) not null,
-Contrase varchar(255) not null,
-Correo varchar(255) unique,
-id_rol varchar(30) references Roles(Id_rol),
-Fecha_creacion Timestamp default current_timestamp,
-foto bytea
+CREATE TABLE locales(
+    id_local VARCHAR(30) PRIMARY KEY,
+    nombre_local VARCHAR(255) NOT NULL,
+    direccion_local VARCHAR(255),
+    telefono_local VARCHAR(20),
+    responsable_local VARCHAR(255)
 );
+
+CREATE TABLE productos(
+    id_producto VARCHAR(30) PRIMARY KEY,
+    nombre_producto VARCHAR(100) NOT NULL,
+    descripcion_producto TEXT,
+    cantidad_total INT NOT NULL,
+    precio_costo DECIMAL NOT NULL,
+    id_proveedor VARCHAR(30),
+    fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_proveedor) REFERENCES proveedores(id_proveedor)
+);
+
+CREATE TABLE proveedores(
+    id_proveedor VARCHAR(30) PRIMARY KEY,
+    nombre_proveedor VARCHAR(255) NOT NULL,
+    contacto_proveedor VARCHAR(255),
+    telefono_proveedor VARCHAR(20),
+    email_proveedor VARCHAR(255),
+    direccion_proveedor VARCHAR(255),
+    condiciones_entrega TEXT
+);
+
+CREATE TABLE roles(
+    id_rol VARCHAR(30) PRIMARY KEY,
+    nombre_rol VARCHAR(255) UNIQUE NOT NULL,
+    descripcion_rol TEXT
+);
+
+CREATE TABLE controladores(
+    id_controlador VARCHAR(30) PRIMARY KEY,
+    nombre_controlador VARCHAR(255) UNIQUE NOT NULL,
+    descripcion_controlador TEXT
+);
+
+CREATE TABLE permisos_rol(
+    id_rol VARCHAR(30) REFERENCES roles(id_rol),
+    id_controlador VARCHAR(30) REFERENCES controladores(id_controlador),
+    permiso VARCHAR(50) CHECK (permiso IN ('Lectura', 'Escritura', 'Completo')),
+    PRIMARY KEY (id_rol, id_controlador)
+);
+
+CREATE TABLE usuarios(
+    id_usuario VARCHAR(30) PRIMARY KEY,
+    nombre_usuario VARCHAR(255) NOT NULL,
+    apellido_paterno VARCHAR(255) NOT NULL,
+    apellido_materno VARCHAR(255) NOT NULL,
+    contrasena VARCHAR(255) NOT NULL,
+    correo_usuario VARCHAR(255) UNIQUE,
+    id_rol VARCHAR(30) REFERENCES roles(id_rol),
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    foto BYTEA
+);
+
+END;
+
