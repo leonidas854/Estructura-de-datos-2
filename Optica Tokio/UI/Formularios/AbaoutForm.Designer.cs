@@ -71,11 +71,7 @@
             this.label1.Location = new System.Drawing.Point(338, 34);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-<<<<<<< HEAD
-            this.label1.Size = new System.Drawing.Size(287, 37);
-=======
-            this.label1.Size = new System.Drawing.Size(350, 45);
->>>>>>> e65701a9e5a35c3a58623019295553820bdcf202
+
             this.label1.TabIndex = 0;
             this.label1.Text = "Acerca de Optica Tokio";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -215,24 +211,7 @@
             this.pictureBox2.TabIndex = 19;
             this.pictureBox2.TabStop = false;
             // 
-<<<<<<< HEAD
-=======
-            // btnCerrar
-            // 
-            this.btnCerrar.BackColor = System.Drawing.Color.Orange;
-            this.btnCerrar.BackgroundImage = global::Optica_Tokio.Properties.Resources.Captura_de_pantalla_2024_11_17_020251;
-            this.btnCerrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCerrar.Location = new System.Drawing.Point(543, 697);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(131, 43);
-            this.btnCerrar.TabIndex = 17;
-            this.btnCerrar.UseVisualStyleBackColor = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
-            // 
->>>>>>> e65701a9e5a35c3a58623019295553820bdcf202
+
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::Optica_Tokio.Properties.Resources.Captura_de_pantalla_2024_11_17_021445;
@@ -266,10 +245,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-<<<<<<< HEAD
-=======
-            this.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> e65701a9e5a35c3a58623019295553820bdcf202
+
             this.Name = "AbaoutForm";
             this.Text = "Abaout";
             this.Load += new System.EventHandler(this.AbaoutForm_Load);

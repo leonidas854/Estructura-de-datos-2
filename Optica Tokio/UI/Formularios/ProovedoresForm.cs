@@ -30,7 +30,7 @@ namespace Optica_Tokio.UI.Formularios
         }
         private void ProovedoresForm_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Formulario de Proveedores cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           // MessageBox.Show("Formulario de Proveedores cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void btnAgregarPROVEEDOR_Click(object sender, EventArgs e){}
         private void btnEditarPROVEEDOR_Click(object sender, EventArgs e){}
