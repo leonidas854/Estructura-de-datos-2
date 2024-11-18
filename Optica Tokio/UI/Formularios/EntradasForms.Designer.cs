@@ -32,6 +32,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cmbProveedor = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.cmbProducto = new System.Windows.Forms.ComboBox();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
@@ -47,8 +49,6 @@
             this.Proveedor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label5 = new System.Windows.Forms.Label();
-            this.cmbProveedor = new System.Windows.Forms.ComboBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
@@ -104,6 +104,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Registrar Entrada";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // cmbProveedor
+            // 
+            this.cmbProveedor.FormattingEnabled = true;
+            this.cmbProveedor.Location = new System.Drawing.Point(189, 183);
+            this.cmbProveedor.Name = "cmbProveedor";
+            this.cmbProveedor.Size = new System.Drawing.Size(200, 36);
+            this.cmbProveedor.TabIndex = 13;
+            this.cmbProveedor.SelectedIndexChanged += new System.EventHandler(this.cmbProveedor_SelectedIndexChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(24, 186);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(107, 28);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Proveedor:";
             // 
             // txtDescripcion
             // 
@@ -241,22 +259,9 @@
             this.Descripcion.Name = "Descripcion";
             this.Descripcion.Width = 125;
             // 
-            // label5
+            // toolTip1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(24, 186);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 28);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Proveedor:";
-            // 
-            // cmbProveedor
-            // 
-            this.cmbProveedor.FormattingEnabled = true;
-            this.cmbProveedor.Location = new System.Drawing.Point(189, 183);
-            this.cmbProveedor.Name = "cmbProveedor";
-            this.cmbProveedor.Size = new System.Drawing.Size(200, 36);
-            this.cmbProveedor.TabIndex = 13;
+            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
             // btnCancelar
             // 
@@ -347,7 +352,7 @@
             this.Controls.Add(this.btnEditar);
             this.Controls.Add(this.btnRegistrarPROVEEDOR);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EntradasForms";
             this.Text = "Entradas";
             this.Load += new System.EventHandler(this.EntradasForms_Load);

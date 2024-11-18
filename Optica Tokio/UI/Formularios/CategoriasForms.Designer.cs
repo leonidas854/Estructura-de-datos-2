@@ -65,7 +65,11 @@
             this.btnEliminar});
             this.dgvCategoria.EnableHeadersVisualStyles = false;
             this.dgvCategoria.GridColor = System.Drawing.Color.Sienna;
+<<<<<<< HEAD
             this.dgvCategoria.Location = new System.Drawing.Point(39, 99);
+=======
+            this.dgvCategoria.Location = new System.Drawing.Point(101, 143);
+>>>>>>> e65701a9e5a35c3a58623019295553820bdcf202
             this.dgvCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvCategoria.Name = "dgvCategoria";
             this.dgvCategoria.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -85,10 +89,47 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
             this.dgvCategoria.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvCategoria.RowTemplate.Height = 24;
-            this.dgvCategoria.Size = new System.Drawing.Size(658, 427);
+            this.dgvCategoria.Size = new System.Drawing.Size(913, 427);
             this.dgvCategoria.TabIndex = 0;
             this.dgvCategoria.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Click_Eliminar);
             // 
+<<<<<<< HEAD
+=======
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.LightSalmon;
+            this.groupBox1.Controls.Add(this.txtCategoria);
+            this.groupBox1.Controls.Add(this.btnNuevaCategoria);
+            this.groupBox1.Controls.Add(this.dgvCategoria);
+            this.groupBox1.Location = new System.Drawing.Point(27, 13);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(1148, 599);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Lista Categorias";
+            // 
+            // txtCategoria
+            // 
+            this.txtCategoria.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtCategoria.Location = new System.Drawing.Point(264, 82);
+            this.txtCategoria.Name = "txtCategoria";
+            this.txtCategoria.Size = new System.Drawing.Size(611, 34);
+            this.txtCategoria.TabIndex = 2;
+            this.txtCategoria.Text = "BUSCAR POR NOMBRE";
+            this.txtCategoria.Enter += new System.EventHandler(this.txtCategoria_Enter);
+            this.txtCategoria.Leave += new System.EventHandler(this.txtCategoria_Leave);
+            // 
+            // btnNuevaCategoria
+            // 
+            this.btnNuevaCategoria.Location = new System.Drawing.Point(39, 50);
+            this.btnNuevaCategoria.Name = "btnNuevaCategoria";
+            this.btnNuevaCategoria.Size = new System.Drawing.Size(206, 41);
+            this.btnNuevaCategoria.TabIndex = 1;
+            this.btnNuevaCategoria.Text = "Nueva Categoria";
+            this.btnNuevaCategoria.UseVisualStyleBackColor = true;
+            this.btnNuevaCategoria.Click += new System.EventHandler(this.btnNuevaCategoria_Click);
+            // 
+>>>>>>> e65701a9e5a35c3a58623019295553820bdcf202
             // Column1
             // 
             this.Column1.FillWeight = 120F;

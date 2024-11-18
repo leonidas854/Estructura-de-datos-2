@@ -138,6 +138,12 @@
     <Compile Include="UI\Formularios\FrmAsignarRoles.Designer.cs">
       <DependentUpon>FrmAsignarRoles.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Formularios\FrmCategoriasNuevas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Formularios\FrmCategoriasNuevas.Designer.cs">
+      <DependentUpon>FrmCategoriasNuevas.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Formularios\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +249,9 @@
     <EmbeddedResource Include="UI\Formularios\FrmAsignarRoles.resx">
       <DependentUpon>FrmAsignarRoles.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\FrmCategoriasNuevas.resx">
+      <DependentUpon>FrmCategoriasNuevas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -293,6 +302,7 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Venta.png" />
     <None Include="Resources\png-clipart-bundle-icon-search-blue-search-button-thumbnail.png" />
     <None Include="Resources\images1.png" />
     <None Include="Resources\png-transparent-computer-icons-user-profile-symbol-register-button-miscellaneous-blue-logo-thumbnail.png" />
@@ -348,6 +358,7 @@
     <None Include="Resources\Captura de pantalla 2024-11-17 023204.png" />
     <None Include="Resources\Captura de pantalla 2024-11-17 031820.png" />
     <None Include="Resources\6303950.png" />
+    <None Include="Resources\Caja.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>
