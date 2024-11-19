@@ -204,5 +204,6 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
             sb.Append("]");
             return sb.ToString();
         }
+
     }
 }
