@@ -29,7 +29,14 @@ namespace Optica_Tokio.UI.Formularios
             dataGridViewProveedores.Columns.Add("Email", "Email");
             dataGridViewProveedores.Columns.Add("Dirección", "Dirección");
         }
+<<<<<<< HEAD
         private void ProovedoresForm_Load(object sender, EventArgs e){}
+=======
+        private void ProovedoresForm_Load(object sender, EventArgs e)
+        {
+           // MessageBox.Show("Formulario de Proveedores cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+>>>>>>> a7000576f32cd713e8753412bc299e173b09b2ba
         private void btnAgregarPROVEEDOR_Click(object sender, EventArgs e){}
         private void btnEditarPROVEEDOR_Click(object sender, EventArgs e){}
         private void btnElimarPROVEEDOR_Click(object sender, EventArgs e){}

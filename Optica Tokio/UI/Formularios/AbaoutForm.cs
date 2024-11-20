@@ -19,7 +19,7 @@ namespace Optica_Tokio.UI.Formularios
         }
         private void AbaoutForm_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Bienvenido a la información sobre Óptica Tokio.", "Acerca de", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MessageBox.Show("Bienvenido a la información sobre Óptica Tokio.", "Acerca de", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void label2_Click(object sender, EventArgs e)
         {

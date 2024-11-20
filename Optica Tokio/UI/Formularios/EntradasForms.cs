@@ -31,8 +31,8 @@ namespace Optica_Tokio.UI.Formularios
         {
             cmbProducto.Items.AddRange(new string[] { "Lentes", "Armazones", "Accesorios" });
             cmbProveedor.Items.AddRange(new string[] { "Proveedor A", "Proveedor B", "Proveedor C" });
-            dtpFecha.Value = DateTime.Now;
-            MessageBox.Show("Formulario cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           // dtpFecha.Value = DateTime.Now;
+           // MessageBox.Show("Formulario cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -71,7 +71,7 @@ namespace Optica_Tokio.UI.Formularios
         private void dtpFecha_ValueChanged(object sender, EventArgs e)
         {
             DateTime fechaSeleccionada = dtpFecha.Value;
-            MessageBox.Show($"Fecha seleccionada: {fechaSeleccionada.ToShortDateString()}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MessageBox.Show($"Fecha seleccionada: {fechaSeleccionada.ToShortDateString()}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void txtDescripcion_TextChanged(object sender, EventArgs e)

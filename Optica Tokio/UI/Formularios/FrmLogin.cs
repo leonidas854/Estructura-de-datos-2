@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using Optica_Tokio.UI.Formularios;
+using Optica_Tokio.Logica_del_Negocio.Servicios;
+using Optica_Tokio.Logica_del_Negocio.Modelos;
+using Optica_Tokio.Static;
+
 
 namespace Optica_Tokio
 {
@@ -39,7 +43,7 @@ namespace Optica_Tokio
 
         private void txtuser_Leave(object sender, EventArgs e)
         {
-            if(txtuser.Text == "")
+            if(string.IsNullOrWhiteSpace(txtuser.Text))
             {
                 txtuser.Text = "USUARIO";
                 txtuser.ForeColor = Color.Red;
@@ -60,13 +64,12 @@ namespace Optica_Tokio
 
         private void txtpassword_Leave(object sender, EventArgs e)
         {
-            if (txtpassword.Text == "")
+            if (string.IsNullOrWhiteSpace(txtpassword.Text))
             {
                 txtpassword.Text = "CONTRASEÑA";
                 txtpassword.ForeColor = Color.Red;
                 txtpassword.UseSystemPasswordChar = false;
             }
-
         }
 
 
@@ -112,14 +115,52 @@ namespace Optica_Tokio
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            FrmLoading_Screen Screen  = new FrmLoading_Screen();
-            Screen.Show();
-            this.Hide();
+            if (string.IsNullOrWhiteSpace(txtuser.Text) || txtuser.Text == "USUARIO")
+            {
+                MessageBox.Show("Por favor, ingresa un nombre de usuario válido.", "Error de Validación");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtpassword.Text) || txtpassword.Text == "CONTRASEÑA")
+            {
+                MessageBox.Show("Por favor, ingresa una contraseña válida.", "Error de Validación");
+                return;
+            }
+
+            try
+            {
+             
+                Usuario usuario = UsuarioService.ValidarCredenciales(txtuser.Text, txtpassword.Text);
+                /*if (usuario == null)
+                {
+                    
+                    MessageBox.Show("Usuario o contraseña incorrectos.", "Error de Autenticación");
+                    return;
+                }*/
+                FrmLoading_Screen loadingScreen = new FrmLoading_Screen();
+                loadingScreen.Show();
+                this.Hide(); 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error al intentar iniciar sesión: {ex.Message}", "Error");
+            }
         }
         
         private void FrmLogin_Load(object sender, EventArgs e)
         {
-
+            try
+            {
+              
+                coneccion conexion = new coneccion();
+                conexion.AbrirConexion();
+                MessageBox.Show("Conexión a PostgreSQL exitosa", "Conexión", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                conexion.CerrarConexion();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al conectar con la base de datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

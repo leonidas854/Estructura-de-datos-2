@@ -32,6 +32,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.txtCategoria = new System.Windows.Forms.TextBox();
             this.btnNuevoProducto = new System.Windows.Forms.Button();
             this.dgvCategoria = new System.Windows.Forms.DataGridView();
@@ -39,7 +40,6 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnEditar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.btnEliminar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategoria)).BeginInit();
             this.SuspendLayout();
@@ -51,25 +51,33 @@
             this.groupBox1.Controls.Add(this.txtCategoria);
             this.groupBox1.Controls.Add(this.btnNuevoProducto);
             this.groupBox1.Controls.Add(this.dgvCategoria);
-            this.groupBox1.Location = new System.Drawing.Point(66, 12);
+            this.groupBox1.Location = new System.Drawing.Point(21, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1148, 599);
+            this.groupBox1.Size = new System.Drawing.Size(883, 574);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lista Productos";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(356, 90);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(227, 30);
+            this.comboBox1.TabIndex = 3;
+            // 
             // txtCategoria
             // 
-            this.txtCategoria.Location = new System.Drawing.Point(274, 54);
+            this.txtCategoria.Location = new System.Drawing.Point(251, 55);
             this.txtCategoria.Name = "txtCategoria";
-            this.txtCategoria.Size = new System.Drawing.Size(611, 34);
+            this.txtCategoria.Size = new System.Drawing.Size(622, 29);
             this.txtCategoria.TabIndex = 2;
             // 
             // btnNuevoProducto
             // 
-            this.btnNuevoProducto.Location = new System.Drawing.Point(39, 50);
+            this.btnNuevoProducto.Location = new System.Drawing.Point(16, 51);
             this.btnNuevoProducto.Name = "btnNuevoProducto";
-            this.btnNuevoProducto.Size = new System.Drawing.Size(206, 41);
+            this.btnNuevoProducto.Size = new System.Drawing.Size(217, 33);
             this.btnNuevoProducto.TabIndex = 1;
             this.btnNuevoProducto.Text = "Nuevo Producto";
             this.btnNuevoProducto.UseVisualStyleBackColor = true;
@@ -98,7 +106,7 @@
             this.btnEliminar});
             this.dgvCategoria.EnableHeadersVisualStyles = false;
             this.dgvCategoria.GridColor = System.Drawing.Color.Sienna;
-            this.dgvCategoria.Location = new System.Drawing.Point(39, 143);
+            this.dgvCategoria.Location = new System.Drawing.Point(16, 144);
             this.dgvCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvCategoria.Name = "dgvCategoria";
             this.dgvCategoria.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -118,7 +126,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
             this.dgvCategoria.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvCategoria.RowTemplate.Height = 24;
-            this.dgvCategoria.Size = new System.Drawing.Size(1077, 427);
+            this.dgvCategoria.Size = new System.Drawing.Size(810, 383);
             this.dgvCategoria.TabIndex = 0;
             // 
             // Categoria
@@ -149,20 +157,12 @@
             this.btnEliminar.MinimumWidth = 6;
             this.btnEliminar.Name = "btnEliminar";
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(906, 54);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(227, 35);
-            this.comboBox1.TabIndex = 3;
-            // 
             // ProductosForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(1924, 1055);
+            this.ClientSize = new System.Drawing.Size(932, 611);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);

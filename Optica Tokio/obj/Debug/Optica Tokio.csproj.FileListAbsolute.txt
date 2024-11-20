@@ -206,6 +206,7 @@ C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
+<<<<<<< HEAD
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe.config
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.pdb
@@ -238,3 +239,98 @@ C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
+=======
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmCategoriasNuevas.resources
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmCategoriasNuevas.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AbaoutForm.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AgregarUsuario.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.CategoriasForms.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ConfigForm.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.DashboardForm.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.EntradasForms.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmAsignarRoles.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmCategoriasNuevas.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmPermisos.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.GestionInventarioForm.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ProductosForm.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ProovedoresForm.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.ReportesForm.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.RolesForms.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.SalidasForms.resources
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe.config
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Npgsql.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Buffers.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Collections.Immutable.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Memory.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Json.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Channels.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.ValueTuple.dll
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\Npgsql.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Buffers.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Collections.Immutable.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Memory.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Json.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Channels.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.ValueTuple.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Npgsql.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Buffers.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Collections.Immutable.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Memory.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Json.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Channels.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.ValueTuple.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Npgsql.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Buffers.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Collections.Immutable.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Memory.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Json.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Channels.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.ValueTuple.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.SuggestedBindingRedirects.cache
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe.config
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.AgregarUsuario.resources
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmCategoriasNuevas.resources
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources
+>>>>>>> a7000576f32cd713e8753412bc299e173b09b2ba
