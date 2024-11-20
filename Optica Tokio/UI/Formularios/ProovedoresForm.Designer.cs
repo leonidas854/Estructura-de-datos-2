@@ -368,7 +368,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "ProovedoresForm";
             this.Text = "Proovedores";
-            this.Load += new System.EventHandler(this.ProovedoresForm_Load);
+            //this.Load += new System.EventHandler(this.ProovedoresForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProveedores)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
