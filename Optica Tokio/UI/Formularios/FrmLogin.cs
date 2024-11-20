@@ -151,7 +151,6 @@ namespace Optica_Tokio
         {
             try
             {
-              
                 coneccion conexion = new coneccion();
                 conexion.AbrirConexion();
                 MessageBox.Show("Conexión a PostgreSQL exitosa", "Conexión", MessageBoxButtons.OK, MessageBoxIcon.Information);
