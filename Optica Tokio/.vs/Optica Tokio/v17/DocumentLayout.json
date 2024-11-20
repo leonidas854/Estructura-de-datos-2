@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\data access\\repositorios\\proovedoresreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +27,20 @@
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\modelos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\acer\\onedrive\\documentos\\github\\estructura-de-datos-2\\optica tokio\\ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\acer\\onedrive\\documentos\\github\\estructura-de-datos-2\\optica tokio\\logica del negocio\\servicios\\provedoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\logica del negocio\\servicios\\provedoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\servicios\\provedoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frm loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -122,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,46 +134,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Proveedores.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Modelos\\Proveedores.cs",
               "RelativeDocumentMoniker": "Logica del Negocio\\Modelos\\Proveedores.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Modelos\\Proveedores.cs",
               "RelativeToolTip": "Logica del Negocio\\Modelos\\Proveedores.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T00:37:19.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProovedoresReposi.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
               "RelativeDocumentMoniker": "Data Access\\Repositorios\\ProovedoresReposi.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
               "RelativeToolTip": "Data Access\\Repositorios\\ProovedoresReposi.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAJAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwD8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T00:37:00.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProovedoresForm.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
               "RelativeToolTip": "UI\\Formularios\\ProovedoresForm.cs",
-              "ViewState": "AQIAALMAAAAAAAAAAAAgwCcAAABRAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIkAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T01:48:51.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProovedoresForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
@@ -185,45 +185,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AbaoutForm.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
               "RelativeToolTip": "UI\\Formularios\\AbaoutForm.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBcAAAA9AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwBcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T23:19:02.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T23:19:02.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "AbaoutForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Formularios\\AbaoutForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T23:17:40.464Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-16T23:17:40.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "EntradasForms.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
               "RelativeToolTip": "UI\\Formularios\\EntradasForms.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOQAAAAJAAAA",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAtwJYAAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T01:49:18.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "EntradasForms.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
@@ -264,10 +262,9 @@
               "RelativeDocumentMoniker": "Logica del Negocio\\Servicios\\ProvedoresServices.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\ProvedoresServices.cs",
               "RelativeToolTip": "Logica del Negocio\\Servicios\\ProvedoresServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAFAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:35:12.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T00:35:12.727Z"
             },
             {
               "$type": "Document",
@@ -383,14 +380,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "DashboardForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\DashboardForm.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Formularios\\DashboardForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T14:19:51.747Z"
+              "WhenOpened": "2024-11-11T14:19:51.747Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",

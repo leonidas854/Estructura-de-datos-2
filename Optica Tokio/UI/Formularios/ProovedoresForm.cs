@@ -17,6 +17,7 @@ namespace Optica_Tokio.UI.Formularios
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             CargarProveedores();
+            
         }
         private void CargarProveedores()
         {
@@ -28,10 +29,7 @@ namespace Optica_Tokio.UI.Formularios
             dataGridViewProveedores.Columns.Add("Email", "Email");
             dataGridViewProveedores.Columns.Add("Dirección", "Dirección");
         }
-        private void ProovedoresForm_Load(object sender, EventArgs e)
-        {
-            MessageBox.Show("Formulario de Proveedores cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
+        private void ProovedoresForm_Load(object sender, EventArgs e){}
         private void btnAgregarPROVEEDOR_Click(object sender, EventArgs e){}
         private void btnEditarPROVEEDOR_Click(object sender, EventArgs e){}
         private void btnElimarPROVEEDOR_Click(object sender, EventArgs e){}
@@ -108,54 +106,62 @@ namespace Optica_Tokio.UI.Formularios
         private void btnBuscarPROVEEDOR_Click_1(object sender, EventArgs e)
         {
             string nombreBuscado = txtNombreProveedor.Text.ToLower();
+            string contactoBuscado = txtContacto.Text.ToLower();
+            string emailBuscado = txtEmail.Text.ToLower();
+            bool encontrado = false;
+            dataGridViewProveedores.ClearSelection();
             foreach (DataGridViewRow fila in dataGridViewProveedores.Rows)
             {
-                if (fila.Cells["Nombre"].Value?.ToString().ToLower().Contains(nombreBuscado) == true)
+                bool coincideNombre = string.IsNullOrEmpty(nombreBuscado) || fila.Cells["Nombre"].Value?.ToString().ToLower().Contains(nombreBuscado) == true;
+                bool coincideContacto = string.IsNullOrEmpty(contactoBuscado) || fila.Cells["Contacto"].Value?.ToString().ToLower().Contains(contactoBuscado) == true;
+                bool coincideEmail = string.IsNullOrEmpty(emailBuscado) || fila.Cells["Email"].Value?.ToString().ToLower().Contains(emailBuscado) == true;
+                if (coincideNombre && coincideContacto && coincideEmail)
                 {
                     fila.Selected = true;
-                    MessageBox.Show("Proveedor encontrado.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    return;
+                    encontrado = true;
                 }
             }
-
-            MessageBox.Show("Proveedor no encontrado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if (encontrado)
+            {
+                MessageBox.Show("Proveedor(es) encontrado(s).", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("No se encontraron proveedores que coincidan con los criterios especificados.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void dataGridViewProveedores_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            if (dataGridViewProveedores.SelectedRows.Count > 0)
             {
-                DataGridViewRow filaSeleccionada = dataGridViewProveedores.Rows[e.RowIndex];
-                txtNombreProveedor.Text = filaSeleccionada.Cells["Nombre"].Value?.ToString();
-                txtContacto.Text = filaSeleccionada.Cells["Contacto"].Value?.ToString();
-                txtTelefono.Text = filaSeleccionada.Cells["Teléfono"].Value?.ToString();
-                txtEmail.Text = filaSeleccionada.Cells["Email"].Value?.ToString();
-                txtDireccion.Text = filaSeleccionada.Cells["Dirección"].Value?.ToString();
-
-                MessageBox.Show("Información del proveedor cargada en los campos.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                DataGridViewRow filaSeleccionada = dataGridViewProveedores.SelectedRows[0];
+                txtNombreProveedor.Text = filaSeleccionada.Cells["Nombre"].Value?.ToString() ?? "";
+                txtContacto.Text = filaSeleccionada.Cells["Contacto"].Value?.ToString() ?? "";
+                txtTelefono.Text = filaSeleccionada.Cells["Teléfono"].Value?.ToString() ?? "";
+                txtEmail.Text = filaSeleccionada.Cells["Email"].Value?.ToString() ?? "";
+                txtDireccion.Text = filaSeleccionada.Cells["Dirección"].Value?.ToString() ?? "";
             }
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
-            MessageBox.Show("Estás interactuando con el grupo de información del proveedor.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
         private void txtNombreProveedor_TextChanged(object sender, EventArgs e)
         {
-            if (txtNombreProveedor.Text.Length > 100)
+            if (txtNombreProveedor.Text.Length > 50)
             {
-                MessageBox.Show("El nombre no puede exceder los 100 caracteres.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtNombreProveedor.Text = txtNombreProveedor.Text.Substring(0, 100);
+                MessageBox.Show("El nombre no puede exceder los 50 caracteres.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtNombreProveedor.Text = txtNombreProveedor.Text.Substring(0, 50);
             }
         }
 
         private void txtContacto_TextChanged(object sender, EventArgs e)
         {
-            if (txtContacto.Text.Length > 100)
+            if (txtContacto.Text.Length > 1000)
             {
-                MessageBox.Show("El contacto no puede exceder los 100 caracteres.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtContacto.Text = txtContacto.Text.Substring(0, 100);
+                MessageBox.Show("El contacto no puede exceder los 1000 caracteres.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtContacto.Text = txtContacto.Text.Substring(0, 1000);
             }
         }
 
@@ -170,9 +176,22 @@ namespace Optica_Tokio.UI.Formularios
 
         private void txtEmail_TextChanged(object sender, EventArgs e)
         {
-            if (!txtEmail.Text.Contains("@") && !string.IsNullOrEmpty(txtEmail.Text))
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+
+            if (!string.IsNullOrEmpty(txtEmail.Text))
             {
-                MessageBox.Show("Por favor, introduce un email válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (!System.Text.RegularExpressions.Regex.IsMatch(txtEmail.Text, emailPattern))
+                {
+                    txtEmail.BackColor = Color.Red;
+                }
+                else
+                {
+                    txtEmail.BackColor = Color.White;
+                }
+            }
+            else
+            {
+                txtEmail.BackColor = Color.White;
             }
         }
 
