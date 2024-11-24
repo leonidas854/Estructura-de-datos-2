@@ -358,6 +358,7 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\print-icon-logo-illustration-suitable-for-web-design-logo-application-free-vector.jpg" />
     <None Include="Resources\Venta.png" />
     <None Include="Resources\png-clipart-bundle-icon-search-blue-search-button-thumbnail.png" />
     <None Include="Resources\images1.png" />

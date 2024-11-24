@@ -571,5 +571,10 @@ namespace Optica_Tokio.UI.Formularios
             frmLogin.Show();
             this.Hide();
         }
+
+        private void panTop_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

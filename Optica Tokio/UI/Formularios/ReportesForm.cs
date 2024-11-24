@@ -24,6 +24,26 @@ namespace Optica_Tokio.UI.Formularios
             cmbCategoriaReport.SelectedIndex = 0;  
             cmbCategoriaReport.ForeColor = Color.Silver;
 
+            cmbProvedorReport.Items.Insert(0, "eleguir Provedor");
+            cmbProvedorReport.SelectedIndex = 0;
+            cmbProvedorReport.ForeColor = Color.Silver;
+
+            cmbProductoReport.Items.Insert(0, "eleguir Producto");
+            cmbProductoReport.SelectedIndex = 0;
+            cmbProductoReport.ForeColor = Color.Silver;
+
+            cmbVendedorReport.Items.Insert(0, "eleguir Vendedor");
+            cmbVendedorReport.SelectedIndex = 0;
+            cmbVendedorReport.ForeColor = Color.Silver;
+
+            cmbComprobanteReport.Items.Insert(0, "Comprobante");
+            cmbComprobanteReport.SelectedIndex = 0;
+            cmbComprobanteReport.ForeColor = Color.Silver;
+
+            cmbStockReport.Items.Insert(0, "eleguir Stock");
+            cmbStockReport.SelectedIndex = 0;
+            cmbStockReport.ForeColor = Color.Silver;
+
             dateTimePicker1.Format = DateTimePickerFormat.Custom;
             dateTimePicker1.CustomFormat = "inicial";
             dateTimePicker1.ShowCheckBox = false;
@@ -94,6 +114,96 @@ namespace Optica_Tokio.UI.Formularios
             {
                 cmbCategoriaReport.Text = "Seleccione una opción";
                 cmbCategoriaReport.ForeColor = Color.Silver;
+            }
+        }
+
+        private void cmbProvedorReport_Enter(object sender, EventArgs e)
+        {
+            if (cmbProvedorReport.Text == "Seleccione una opción")
+            {
+                cmbProvedorReport.Text = "";
+                cmbProvedorReport.ForeColor = Color.Black;
+            }
+        }
+
+        private void cmbProvedorReport_Leave(object sender, EventArgs e)
+        {
+            if (cmbProvedorReport.Text == "")
+            {
+                cmbProvedorReport.Text = "Seleccione una opción";
+                cmbProvedorReport.ForeColor = Color.Silver;
+            }
+        }
+
+        private void cmbProductoReport_Leave(object sender, EventArgs e)
+        {
+            if (cmbProductoReport.Text == "")
+            {
+                cmbProductoReport.Text = "Seleccione una opción";
+                cmbProductoReport.ForeColor = Color.Silver;
+            }
+        }
+
+        private void cmbProductoReport_Enter(object sender, EventArgs e)
+        {
+            if (cmbProductoReport.Text == "Seleccione una opción")
+            {
+                cmbProductoReport.Text = "";
+                cmbProductoReport.ForeColor = Color.Black;
+            }
+        }
+
+        private void cmbVendedorReport_Enter(object sender, EventArgs e)
+        {
+            if (cmbVendedorReport.Text == "Seleccione una opción")
+            {
+                cmbVendedorReport.Text = "";
+                cmbVendedorReport.ForeColor = Color.Black;
+            }
+        }
+
+        private void cmbVendedorReport_Leave(object sender, EventArgs e)
+        {
+            if (cmbVendedorReport.Text == "")
+            {
+                cmbVendedorReport.Text = "Seleccione una opción";
+                cmbVendedorReport.ForeColor = Color.Silver;
+            }
+        }
+
+        private void cmbComprobanteReport_Enter(object sender, EventArgs e)
+        {
+            if (cmbComprobanteReport.Text == "Seleccione una opción")
+            {
+                cmbComprobanteReport.Text = "";
+                cmbComprobanteReport.ForeColor = Color.Black;
+            }
+        }
+
+        private void cmbComprobanteReport_Leave(object sender, EventArgs e)
+        {
+            if (cmbComprobanteReport.Text == "")
+            {
+                cmbComprobanteReport.Text = "Seleccione una opción";
+                cmbComprobanteReport.ForeColor = Color.Silver;
+            }
+        }
+
+        private void cmbStockReport_Leave(object sender, EventArgs e)
+        {
+            if (cmbStockReport.Text == "")
+            {
+                cmbStockReport.Text = "Seleccione una opción";
+                cmbStockReport.ForeColor = Color.Silver;
+            }
+        }
+
+        private void cmbStockReport_Enter(object sender, EventArgs e)
+        {
+            if (cmbStockReport.Text == "Seleccione una opción")
+            {
+                cmbStockReport.Text = "";
+                cmbStockReport.ForeColor = Color.Black;
             }
         }
     }

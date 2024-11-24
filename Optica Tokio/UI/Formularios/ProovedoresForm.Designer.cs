@@ -70,12 +70,12 @@
             this.Telefono});
             this.dataGridViewProveedores.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dataGridViewProveedores.GridColor = System.Drawing.Color.Black;
-            this.dataGridViewProveedores.Location = new System.Drawing.Point(248, 507);
+            this.dataGridViewProveedores.Location = new System.Drawing.Point(248, 511);
             this.dataGridViewProveedores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridViewProveedores.Name = "dataGridViewProveedores";
             this.dataGridViewProveedores.RowHeadersWidth = 51;
             this.dataGridViewProveedores.RowTemplate.Height = 24;
-            this.dataGridViewProveedores.Size = new System.Drawing.Size(995, 245);
+            this.dataGridViewProveedores.Size = new System.Drawing.Size(995, 241);
             this.dataGridViewProveedores.TabIndex = 8;
             this.dataGridViewProveedores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProveedores_CellContentClick);
             // 
@@ -359,10 +359,10 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridViewProveedores);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProovedoresForm";
             this.Text = "Proovedores";
-            //this.Load += new System.EventHandler(this.ProovedoresForm_Load);
+            this.Load += new System.EventHandler(this.ProovedoresForm_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProveedores)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

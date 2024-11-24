@@ -407,3 +407,41 @@ D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Json.xml
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Channels.xml
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.ValueTuple.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Npgsql.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Buffers.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Collections.Immutable.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Memory.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Numerics.Vectors.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Encodings.Web.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Json.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Channels.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.ValueTuple.dll
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\Npgsql.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Buffers.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Collections.Immutable.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Memory.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Numerics.Vectors.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Encodings.Web.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Text.Json.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Channels.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\bin\Debug\System.ValueTuple.xml
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.SuggestedBindingRedirects.cache
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe.config
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmCategoriasNuevas.resources
+C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources
