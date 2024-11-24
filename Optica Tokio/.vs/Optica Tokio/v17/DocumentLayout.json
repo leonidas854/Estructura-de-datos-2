@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Estructura-de-datos-2\\Optica Tokio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\ui\\formularios\\frmcategoriasnuevas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmcategoriasnuevas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -134,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmCategoriasNuevas.cs",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmCategoriasNuevas.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmCategoriasNuevas.cs",
@@ -163,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CategoriasForms.cs",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\CategoriasForms.cs",
@@ -175,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FrmCategoriasNuevas.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmCategoriasNuevas.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmCategoriasNuevas.cs",
@@ -186,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CategoriasForms.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\CategoriasForms.cs",
@@ -197,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Proveedores.cs",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Modelos\\Proveedores.cs",
               "RelativeDocumentMoniker": "Logica del Negocio\\Modelos\\Proveedores.cs",
@@ -221,15 +221,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ProovedoresForm.cs",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
               "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
               "RelativeToolTip": "UI\\Formularios\\ProovedoresForm.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAAKQAAAALAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDQAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T07:51:28.704Z"
+              "WhenOpened": "2024-11-24T07:51:28.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -240,7 +241,8 @@
               "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Formularios\\ProovedoresForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T07:51:28.704Z"
+              "WhenOpened": "2024-11-24T07:51:28.704Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -266,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EntradasForms.cs",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
@@ -278,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EntradasForms.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
