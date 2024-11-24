@@ -29,10 +29,7 @@ namespace Optica_Tokio.UI.Formularios
             dataGridViewProveedores.Columns.Add("Email", "Email");
             dataGridViewProveedores.Columns.Add("Dirección", "Dirección");
         }
-<<<<<<< HEAD
         private void ProovedoresForm_Load(object sender, EventArgs e){}
-=======
->>>>>>> ab481e60986b39eb2dedd84cd78402ccd6e07983
         private void btnAgregarPROVEEDOR_Click(object sender, EventArgs e){}
         private void btnEditarPROVEEDOR_Click(object sender, EventArgs e){}
         private void btnElimarPROVEEDOR_Click(object sender, EventArgs e){}
@@ -154,6 +151,7 @@ namespace Optica_Tokio.UI.Formularios
         {
             if (txtNombreProveedor.Text.Length > 50)
             {
+                
                 MessageBox.Show("El nombre no puede exceder los 50 caracteres.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtNombreProveedor.Text = txtNombreProveedor.Text.Substring(0, 50);
             }

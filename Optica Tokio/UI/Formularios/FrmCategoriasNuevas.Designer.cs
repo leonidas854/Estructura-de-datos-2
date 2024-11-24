@@ -42,7 +42,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.panel1.Margin = new System.Windows.Forms.Padding(5);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(939, 76);
             this.panel1.TabIndex = 7;
@@ -54,7 +54,7 @@
             this.label1.Location = new System.Drawing.Point(357, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 37);
+            this.label1.Size = new System.Drawing.Size(196, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nueva Categoria";
             // 
@@ -67,7 +67,7 @@
             this.btnCancelarNuevoRol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelarNuevoRol.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarNuevoRol.Location = new System.Drawing.Point(423, 290);
-            this.btnCancelarNuevoRol.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnCancelarNuevoRol.Margin = new System.Windows.Forms.Padding(5);
             this.btnCancelarNuevoRol.Name = "btnCancelarNuevoRol";
             this.btnCancelarNuevoRol.Size = new System.Drawing.Size(202, 64);
             this.btnCancelarNuevoRol.TabIndex = 6;
@@ -84,7 +84,7 @@
             this.btnGuardarNuevoRol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarNuevoRol.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarNuevoRol.Location = new System.Drawing.Point(179, 290);
-            this.btnGuardarNuevoRol.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnGuardarNuevoRol.Margin = new System.Windows.Forms.Padding(5);
             this.btnGuardarNuevoRol.Name = "btnGuardarNuevoRol";
             this.btnGuardarNuevoRol.Size = new System.Drawing.Size(203, 64);
             this.btnGuardarNuevoRol.TabIndex = 5;
@@ -96,9 +96,9 @@
             // 
             this.txtNuevoRol.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.txtNuevoRol.Location = new System.Drawing.Point(145, 200);
-            this.txtNuevoRol.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtNuevoRol.Margin = new System.Windows.Forms.Padding(5);
             this.txtNuevoRol.Name = "txtNuevoRol";
-            this.txtNuevoRol.Size = new System.Drawing.Size(521, 34);
+            this.txtNuevoRol.Size = new System.Drawing.Size(521, 29);
             this.txtNuevoRol.TabIndex = 4;
             this.txtNuevoRol.Text = "NOMBRE";
             this.txtNuevoRol.Enter += new System.EventHandler(this.txtNuevoRol_Enter);
@@ -106,7 +106,7 @@
             // 
             // FrmCategoriasNuevas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClientSize = new System.Drawing.Size(939, 478);
@@ -116,12 +116,13 @@
             this.Controls.Add(this.txtNuevoRol);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmCategoriasNuevas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCategoriasNuevas";
+            this.Load += new System.EventHandler(this.FrmCategoriasNuevas_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

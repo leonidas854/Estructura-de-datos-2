@@ -32,7 +32,7 @@ namespace Optica_Tokio.UI.Formularios
             cmbProducto.Items.AddRange(new string[] { "Lentes", "Armazones", "Accesorios" });
             cmbProveedor.Items.AddRange(new string[] { "Proveedor A", "Proveedor B", "Proveedor C" });
             dtpFecha.Value = DateTime.Now;
-           MessageBox.Show("Formulario cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           //MessageBox.Show("Formulario cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
@@ -47,7 +47,7 @@ namespace Optica_Tokio.UI.Formularios
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
-            MessageBox.Show("Estás configurando un nuevo registro.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //MessageBox.Show("Estás configurando un nuevo registro.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void cmbProducto_SelectedIndexChanged(object sender, EventArgs e)
@@ -55,7 +55,7 @@ namespace Optica_Tokio.UI.Formularios
             string productoSeleccionado = cmbProducto.SelectedItem?.ToString();
             if (!string.IsNullOrEmpty(productoSeleccionado))
             {
-                MessageBox.Show($"Producto seleccionado: {productoSeleccionado}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //MessageBox.Show($"Producto seleccionado: {productoSeleccionado}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -217,7 +217,7 @@ namespace Optica_Tokio.UI.Formularios
             string proveedorSeleccionado = cmbProveedor.SelectedItem?.ToString();
             if (!string.IsNullOrEmpty(proveedorSeleccionado))
             {
-                MessageBox.Show($"Proveedor seleccionado: {proveedorSeleccionado}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //MessageBox.Show($"Proveedor seleccionado: {proveedorSeleccionado}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

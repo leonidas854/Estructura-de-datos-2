@@ -143,6 +143,7 @@
     <Compile Include="Logica del Negocio\Servicios\RolesServices.cs" />
     <Compile Include="Logica del Negocio\Servicios\UsuarioService.cs" />
     <Compile Include="Static\coneccion.cs" />
+    <Compile Include="Static\estatico.cs" />
     <Compile Include="UI\Controles\ThemeColor.cs" />
     <Compile Include="UI\Formularios\AbaoutForm.cs">
       <SubType>Form</SubType>

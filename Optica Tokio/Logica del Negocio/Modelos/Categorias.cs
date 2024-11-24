@@ -8,23 +8,25 @@ namespace Optica_Tokio.Logica_del_Negocio.Modelos
 {
     class Categorias
     {
-        string id_cat;
-        string nombre_cat;
-        string descrip_cat;
+        public int ID_Categoria { get; set; }
+        public string Nombre_Categoria { get; set; }
+        public string Descripcion { get; set; }
 
-        Categorias enlace_cat;
+        // Constructor predeterminado para flexibilidad
+        public Categorias() { }
 
-        public Categorias(string id_cat, string nombre_cat, string descrip_cat)
+        // Constructor completo
+        public Categorias(int id, string nombre, string descripcion)
         {
-            this.id_cat = id_cat;
-            this.nombre_cat = nombre_cat;
-            this.descrip_cat = descrip_cat;
-            this.enlace_cat = null;
+            ID_Categoria = id;
+            Nombre_Categoria = nombre;
+            Descripcion = descripcion;
         }
 
-        public string Id_cat { get => id_cat; set => id_cat = value; }
-        public string Nombre_cat { get => nombre_cat; set => nombre_cat = value; }
-        public string Descrip_cat { get => descrip_cat; set => descrip_cat = value; }
-        internal Categorias Enlace_cat { get => enlace_cat; set => enlace_cat = value; }
+        // Método para representar la categoría como una cadena (útil para depuración)
+        public override string ToString()
+        {
+            return $"{ID_Categoria}: {Nombre_Categoria} - {Descripcion}";
+        }
     }
 }
