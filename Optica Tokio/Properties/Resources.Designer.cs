@@ -576,6 +576,17 @@ namespace Optica_Tokio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap print_icon_logo_illustration_suitable_for_web_design_logo_application_free_vector {
+            get {
+                object obj = ResourceManager.GetObject("print-icon-logo-illustration-suitable-for-web-design-logo-application-free-vector" +
+                        "", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap puerta_tokio {
             get {
                 object obj = ResourceManager.GetObject("puerta tokio", resourceCulture);

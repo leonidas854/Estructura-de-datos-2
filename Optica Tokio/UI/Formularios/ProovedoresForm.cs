@@ -204,5 +204,10 @@ namespace Optica_Tokio.UI.Formularios
                 txtTelefono.Clear();
             }
         }
+
+        private void ProovedoresForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
