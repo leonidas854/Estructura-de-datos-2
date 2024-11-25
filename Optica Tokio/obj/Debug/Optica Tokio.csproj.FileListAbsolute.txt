@@ -371,12 +371,10 @@ C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.SuggestedBindingRedirects.cache
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe.config
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmCategoriasNuevas.resources
-<<<<<<< HEAD
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.dll
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.dll
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.xml
-=======
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.SuggestedBindingRedirects.cache
 D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe.config
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
@@ -452,3 +450,7 @@ C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Toki
 C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmCategoriasNuevas.resources
 C:\GABOID\Nueva carpeta\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.InformedelReport.resources
 >>>>>>> 0cefac9c4386aed0a5b436764264d0d992b7e117
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.dll
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.xml

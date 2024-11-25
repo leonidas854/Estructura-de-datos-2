@@ -34,11 +34,7 @@ namespace Optica_Tokio.UI.Formularios
             cmbProducto.Items.AddRange(new string[] { "Lentes", "Armazones", "Accesorios" });
             cmbProveedor.Items.AddRange(new string[] { "Proveedor A", "Proveedor B", "Proveedor C" });
             dtpFecha.Value = DateTime.Now;
-<<<<<<< HEAD
-=======
-           //MessageBox.Show("Formulario cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
->>>>>>> 0cefac9c4386aed0a5b436764264d0d992b7e117
         }
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -50,10 +46,7 @@ namespace Optica_Tokio.UI.Formularios
         }
         private void groupBox1_Enter(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-=======
-            //MessageBox.Show("Estás configurando un nuevo registro.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
->>>>>>> 0cefac9c4386aed0a5b436764264d0d992b7e117
+
         }
         private void cmbProducto_SelectedIndexChanged(object sender, EventArgs e)
         {

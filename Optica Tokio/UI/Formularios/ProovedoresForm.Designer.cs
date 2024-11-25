@@ -362,10 +362,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProovedoresForm";
             this.Text = "Proovedores";
-<<<<<<< HEAD
-=======
-            this.Load += new System.EventHandler(this.ProovedoresForm_Load_1);
->>>>>>> 0cefac9c4386aed0a5b436764264d0d992b7e117
+
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProveedores)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -35,15 +35,7 @@ namespace Optica_Tokio.UI.Formularios
             dataGridViewProveedores.Columns.Add("Email", "Email");
             dataGridViewProveedores.Columns.Add("Dirección", "Dirección");
         }
-<<<<<<< HEAD
-=======
-        private void ProovedoresForm_Load(object sender, EventArgs e){}
-        private void btnAgregarPROVEEDOR_Click(object sender, EventArgs e){}
-        private void btnEditarPROVEEDOR_Click(object sender, EventArgs e){}
-        private void btnElimarPROVEEDOR_Click(object sender, EventArgs e){}
-        private void btnBuscarPROVEEDOR_Click(object sender, EventArgs e){}
-        private void txtExportar_Click(object sender, EventArgs e){}
->>>>>>> 0cefac9c4386aed0a5b436764264d0d992b7e117
+
         private void txtExportar_Click_1(object sender, EventArgs e)//btnExportar
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog
