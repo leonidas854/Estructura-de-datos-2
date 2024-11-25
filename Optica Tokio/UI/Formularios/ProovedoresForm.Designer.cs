@@ -277,7 +277,7 @@
             this.btnBuscarPROVEEDOR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarPROVEEDOR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarPROVEEDOR.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnBuscarPROVEEDOR.Location = new System.Drawing.Point(43, 432);
+            this.btnBuscarPROVEEDOR.Location = new System.Drawing.Point(43, 497);
             this.btnBuscarPROVEEDOR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnBuscarPROVEEDOR.Name = "btnBuscarPROVEEDOR";
             this.btnBuscarPROVEEDOR.Size = new System.Drawing.Size(137, 101);
@@ -293,7 +293,7 @@
             this.txtExportar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.txtExportar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtExportar.ForeColor = System.Drawing.Color.CadetBlue;
-            this.txtExportar.Location = new System.Drawing.Point(43, 571);
+            this.txtExportar.Location = new System.Drawing.Point(43, 630);
             this.txtExportar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtExportar.Name = "txtExportar";
             this.txtExportar.Size = new System.Drawing.Size(137, 84);
@@ -309,7 +309,7 @@
             this.btnAgregarPROVEEDOR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarPROVEEDOR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarPROVEEDOR.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnAgregarPROVEEDOR.Location = new System.Drawing.Point(43, 95);
+            this.btnAgregarPROVEEDOR.Location = new System.Drawing.Point(43, 91);
             this.btnAgregarPROVEEDOR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAgregarPROVEEDOR.Name = "btnAgregarPROVEEDOR";
             this.btnAgregarPROVEEDOR.Size = new System.Drawing.Size(137, 101);
@@ -325,7 +325,7 @@
             this.btnElimarPROVEEDOR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnElimarPROVEEDOR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnElimarPROVEEDOR.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnElimarPROVEEDOR.Location = new System.Drawing.Point(43, 320);
+            this.btnElimarPROVEEDOR.Location = new System.Drawing.Point(43, 364);
             this.btnElimarPROVEEDOR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnElimarPROVEEDOR.Name = "btnElimarPROVEEDOR";
             this.btnElimarPROVEEDOR.Size = new System.Drawing.Size(137, 101);
@@ -341,7 +341,7 @@
             this.btnEditarPROVEEDOR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditarPROVEEDOR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarPROVEEDOR.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEditarPROVEEDOR.Location = new System.Drawing.Point(43, 210);
+            this.btnEditarPROVEEDOR.Location = new System.Drawing.Point(43, 233);
             this.btnEditarPROVEEDOR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEditarPROVEEDOR.Name = "btnEditarPROVEEDOR";
             this.btnEditarPROVEEDOR.Size = new System.Drawing.Size(137, 101);
@@ -359,10 +359,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridViewProveedores);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProovedoresForm";
             this.Text = "Proovedores";
-            //this.Load += new System.EventHandler(this.ProovedoresForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProveedores)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -371,3 +371,7 @@ C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.csproj.SuggestedBindingRedirects.cache
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe.config
 C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmCategoriasNuevas.resources
+C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.dll
+C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ACER\OneDrive\Documentos\GitHub\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.xml

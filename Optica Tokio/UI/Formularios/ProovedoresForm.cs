@@ -1,12 +1,19 @@
-﻿using System;
+﻿using Npgsql.Internal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+
 
 namespace Optica_Tokio.UI.Formularios
 {
@@ -17,7 +24,6 @@ namespace Optica_Tokio.UI.Formularios
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
             CargarProveedores();
-            
         }
         private void CargarProveedores()
         {
@@ -29,40 +35,46 @@ namespace Optica_Tokio.UI.Formularios
             dataGridViewProveedores.Columns.Add("Email", "Email");
             dataGridViewProveedores.Columns.Add("Dirección", "Dirección");
         }
-<<<<<<< HEAD
-        private void ProovedoresForm_Load(object sender, EventArgs e){}
-=======
->>>>>>> ab481e60986b39eb2dedd84cd78402ccd6e07983
-        private void btnAgregarPROVEEDOR_Click(object sender, EventArgs e){}
-        private void btnEditarPROVEEDOR_Click(object sender, EventArgs e){}
-        private void btnElimarPROVEEDOR_Click(object sender, EventArgs e){}
-        private void btnBuscarPROVEEDOR_Click(object sender, EventArgs e){}
-        private void txtExportar_Click(object sender, EventArgs e){}
         private void txtExportar_Click_1(object sender, EventArgs e)//btnExportar
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog
             {
-                Filter = "Archivos CSV (*.csv)|*.csv",
+                Filter = "Archivos PDF (*.pdf)|*.pdf",
                 Title = "Exportar Proveedores"
             };
-
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-                StringBuilder sb = new StringBuilder();
-                foreach (DataGridViewRow fila in dataGridViewProveedores.Rows)
+                try
                 {
-                    foreach (DataGridViewCell celda in fila.Cells)
+                    Document documento = new Document(PageSize.A4, 50, 50, 25, 25);
+                    PdfWriter.GetInstance(documento, new FileStream(saveFileDialog.FileName, FileMode.Create));
+                    documento.Open();
+                    PdfPTable tabla = new PdfPTable(dataGridViewProveedores.Columns.Count);
+                    foreach (DataGridViewColumn columna in dataGridViewProveedores.Columns)
                     {
-                        sb.Append(celda.Value?.ToString() + ",");
+                        tabla.AddCell(new Phrase(columna.HeaderText));
                     }
-                    sb.AppendLine();
-                }
+                    foreach (DataGridViewRow fila in dataGridViewProveedores.Rows)
+                    {
+                        if (!fila.IsNewRow)
+                        {
+                            foreach (DataGridViewCell celda in fila.Cells)
+                            {
+                                tabla.AddCell(new Phrase(celda.Value?.ToString() ?? ""));
+                            }
+                        }
+                    }
+                    documento.Add(tabla);
+                    documento.Close();
 
-                System.IO.File.WriteAllText(saveFileDialog.FileName, sb.ToString());
-                MessageBox.Show("Proveedores exportados correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Los datos han sido exportados exitosamente a PDF.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Ocurrió un error al exportar el archivo: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
-
         private void btnAgregarPROVEEDOR_Click_1(object sender, EventArgs e)
         {
             dataGridViewProveedores.Rows.Add(txtNombreProveedor.Text, txtContacto.Text, txtTelefono.Text, txtEmail.Text, txtDireccion.Text);
@@ -92,7 +104,6 @@ namespace Optica_Tokio.UI.Formularios
                 MessageBox.Show("Por favor, selecciona un proveedor para editar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void btnElimarPROVEEDOR_Click_1(object sender, EventArgs e)
         {
             if (dataGridViewProveedores.SelectedRows.Count > 0)
@@ -133,7 +144,6 @@ namespace Optica_Tokio.UI.Formularios
                 MessageBox.Show("No se encontraron proveedores que coincidan con los criterios especificados.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void dataGridViewProveedores_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dataGridViewProveedores.SelectedRows.Count > 0)
@@ -146,7 +156,6 @@ namespace Optica_Tokio.UI.Formularios
                 txtDireccion.Text = filaSeleccionada.Cells["Dirección"].Value?.ToString() ?? "";
             }
         }
-
         private void groupBox1_Enter(object sender, EventArgs e)
         {
         }

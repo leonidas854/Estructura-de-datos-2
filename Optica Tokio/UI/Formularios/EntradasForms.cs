@@ -20,22 +20,21 @@ namespace Optica_Tokio.UI.Formularios
         }
         private void ConfigurarDataGridView()
         {
-            dataGridView1.Columns.Add("Producto", "Producto");
-            dataGridView1.Columns.Add("Proveedor", "Proveedor");
-            dataGridView1.Columns.Add("Cantidad", "Cantidad");
-            dataGridView1.Columns.Add("Descripcion", "Descripción");
-            dataGridView1.Columns.Add("Fecha", "Fecha");
+            if (dataGridView1.Columns.Count == 0)
+            {
+                dataGridView1.Columns.Add("Producto", "Producto");
+                dataGridView1.Columns.Add("Cantidad", "Cantidad");
+                dataGridView1.Columns.Add("Proveedor", "Proveedor");
+                dataGridView1.Columns.Add("Fecha", "Fecha");
+                dataGridView1.Columns.Add("Descripcion", "Descripcion");
+            }
         }
-
         private void EntradasForms_Load(object sender, EventArgs e)
         {
             cmbProducto.Items.AddRange(new string[] { "Lentes", "Armazones", "Accesorios" });
             cmbProveedor.Items.AddRange(new string[] { "Proveedor A", "Proveedor B", "Proveedor C" });
             dtpFecha.Value = DateTime.Now;
-           MessageBox.Show("Formulario cargado correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
         }
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             using (Pen pen = new Pen(Color.Gray, 2))
@@ -44,12 +43,9 @@ namespace Optica_Tokio.UI.Formularios
                 e.Graphics.DrawRectangle(pen, rect);
             }
         }
-
         private void groupBox1_Enter(object sender, EventArgs e)
         {
-            MessageBox.Show("Estás configurando un nuevo registro.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
         private void cmbProducto_SelectedIndexChanged(object sender, EventArgs e)
         {
             string productoSeleccionado = cmbProducto.SelectedItem?.ToString();
@@ -58,7 +54,6 @@ namespace Optica_Tokio.UI.Formularios
                 MessageBox.Show($"Producto seleccionado: {productoSeleccionado}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
         private void txtCantidad_TextChanged(object sender, EventArgs e)
         {
             if (!int.TryParse(txtCantidad.Text, out _) && !string.IsNullOrEmpty(txtCantidad.Text))
@@ -67,13 +62,10 @@ namespace Optica_Tokio.UI.Formularios
                 txtCantidad.Clear();
             }
         }
-
         private void dtpFecha_ValueChanged(object sender, EventArgs e)
         {
             DateTime fechaSeleccionada = dtpFecha.Value;
-            //MessageBox.Show($"Fecha seleccionada: {fechaSeleccionada.ToShortDateString()}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
         private void txtDescripcion_TextChanged(object sender, EventArgs e)
         {
             if (txtDescripcion.Text.Length > 200)
@@ -82,7 +74,6 @@ namespace Optica_Tokio.UI.Formularios
                 txtDescripcion.Text = txtDescripcion.Text.Substring(0, 200);
             }
         }
-
         private void btnRegistrarPROVEEDOR_Click(object sender, EventArgs e)
         {
             try
@@ -93,6 +84,7 @@ namespace Optica_Tokio.UI.Formularios
                 bool esCantidadValida = int.TryParse(txtCantidad.Text, out cantidad);
                 string descripcion = txtDescripcion.Text;
                 DateTime fecha = dtpFecha.Value;
+
                 if (string.IsNullOrEmpty(producto) || string.IsNullOrEmpty(proveedor) || !esCantidadValida || cantidad <= 0)
                 {
                     MessageBox.Show("Por favor, complete todos los campos correctamente.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -128,7 +120,6 @@ namespace Optica_Tokio.UI.Formularios
                 {
                     int rowIndex = dataGridView1.SelectedRows[0].Index;
                     dataGridView1.Rows.RemoveAt(rowIndex);
-
                     MessageBox.Show("Registro eliminado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
@@ -148,52 +139,56 @@ namespace Optica_Tokio.UI.Formularios
                 if (dataGridView1.SelectedRows.Count > 0)
                 {
                     int rowIndex = dataGridView1.SelectedRows[0].Index;
-                    cmbProducto.SelectedItem = dataGridView1.Rows[rowIndex].Cells["Producto"].Value.ToString();
-                    cmbProveedor.SelectedItem = dataGridView1.Rows[rowIndex].Cells["Proveedor"].Value.ToString();
-                    txtCantidad.Text = dataGridView1.Rows[rowIndex].Cells["Cantidad"].Value.ToString();
-                    txtDescripcion.Text = dataGridView1.Rows[rowIndex].Cells["Descripcion"].Value.ToString();
-                    dtpFecha.Value = DateTime.Parse(dataGridView1.Rows[rowIndex].Cells["Fecha"].Value.ToString());
-                    dataGridView1.Rows.RemoveAt(rowIndex);
+
+                    string producto = dataGridView1.Rows[rowIndex].Cells["Producto"].Value?.ToString();
+                    string proveedor = dataGridView1.Rows[rowIndex].Cells["Proveedor"].Value?.ToString();
+                    string cantidad = dataGridView1.Rows[rowIndex].Cells["Cantidad"].Value?.ToString();
+                    string descripcion = dataGridView1.Rows[rowIndex].Cells["Descripcion"].Value?.ToString();
+                    string fecha = dataGridView1.Rows[rowIndex].Cells["Fecha"].Value?.ToString();
+
+                    if (string.IsNullOrWhiteSpace(producto) || string.IsNullOrWhiteSpace(proveedor) ||
+                        string.IsNullOrWhiteSpace(cantidad) || string.IsNullOrWhiteSpace(fecha))
+                    {
+                        MessageBox.Show("Algunos valores de la fila seleccionada están vacíos. Por favor, revise los datos.",
+                                        "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                    if (!int.TryParse(cantidad, out int cantidadInt) || cantidadInt < 0)
+                    {
+                        MessageBox.Show("La cantidad debe ser un número entero positivo.", "Advertencia",
+                                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                    cmbProducto.SelectedItem = producto;
+                    cmbProveedor.SelectedItem = proveedor;
+                    txtCantidad.Text = cantidad;
+                    txtDescripcion.Text = descripcion;
+                    dtpFecha.Value = DateTime.Parse(fecha);
+                    DialogResult confirmacion = MessageBox.Show("¿Está seguro de que desea eliminar esta fila para editarla?",
+                                                                 "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                    if (confirmacion == DialogResult.Yes)
+                    {
+                        dataGridView1.Rows.RemoveAt(rowIndex);
+                        MessageBox.Show("Los datos han sido cargados para editar. Realice los cambios y guarde.",
+                                        "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 }
                 else
                 {
                     MessageBox.Show("Seleccione un registro para editar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
-            catch (Exception ex)
+            catch (FormatException ex)
             {
-                MessageBox.Show($"Ocurrió un error al editar: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void btnBuscar_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                string productoBuscar = cmbProducto.SelectedItem?.ToString();
-                if (string.IsNullOrEmpty(productoBuscar))
-                {
-                    MessageBox.Show("Seleccione un producto para buscar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-                foreach (DataGridViewRow row in dataGridView1.Rows)
-                {
-                    if (row.Cells["Producto"].Value?.ToString() == productoBuscar)
-                    {
-                        row.Selected = true;
-                        dataGridView1.FirstDisplayedScrollingRowIndex = row.Index;
-                        MessageBox.Show("Registro encontrado.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        return;
-                    }
-                }
-                MessageBox.Show("No se encontró un registro con el producto especificado.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show($"El formato de los datos no es válido: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocurrió un error al buscar: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Ocurrió un error inesperado: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        private void btnBuscar_Click(object sender, EventArgs e){}
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             try
@@ -211,7 +206,6 @@ namespace Optica_Tokio.UI.Formularios
                 MessageBox.Show($"Ocurrió un error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void cmbProveedor_SelectedIndexChanged(object sender, EventArgs e)
         {
             string proveedorSeleccionado = cmbProveedor.SelectedItem?.ToString();
@@ -220,7 +214,6 @@ namespace Optica_Tokio.UI.Formularios
                 MessageBox.Show($"Proveedor seleccionado: {proveedorSeleccionado}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
         private void toolTip1_Popup(object sender, PopupEventArgs e)
         {
             toolTip1.SetToolTip(dataGridView1, "Aquí puedes ver y gestionar las entradas registradas.");
