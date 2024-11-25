@@ -86,6 +86,32 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
             }
             return false;
         }
+        public void Eliminar(T item)
+        {
+            if (cabeza == null) throw new InvalidOperationException("La lista está vacía");
+
+            if (EqualityComparer<T>.Default.Equals(cabeza.Item, item))
+            {
+                cabeza = cabeza.Enlace; // Eliminar el primer nodo
+                tam--;
+                return;
+            }
+
+            Nodo actual = cabeza;
+            while (actual.Enlace != null)
+            {
+                if (EqualityComparer<T>.Default.Equals(actual.Enlace.Item, item))
+                {
+                    actual.Enlace = actual.Enlace.Enlace; // Salta el nodo
+                    tam--;
+                    return;
+                }
+                actual = actual.Enlace;
+            }
+
+            throw new InvalidOperationException("El elemento no existe en la lista");
+        }
+
 
         public void MergeSort()
         {
@@ -204,6 +230,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
             sb.Append("]");
             return sb.ToString();
         }
+
 
     }
 }

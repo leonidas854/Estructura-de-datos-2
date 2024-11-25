@@ -34,103 +34,103 @@
             this.Existencias_timer = new System.Windows.Forms.Timer(this.components);
             this.Usuarios_timer = new System.Windows.Forms.Timer(this.components);
             this.panel8 = new System.Windows.Forms.Panel();
+            this.about = new System.Windows.Forms.PictureBox();
             this.btnabout = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.config = new System.Windows.Forms.PictureBox();
             this.btnsettings = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.reports = new System.Windows.Forms.PictureBox();
             this.btnreport = new System.Windows.Forms.Button();
             this.Contaneir_users = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.btnUsuarios = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.btnRoles = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.user = new System.Windows.Forms.PictureBox();
             this.btnusers = new System.Windows.Forms.Button();
             this.existencias_conteneir = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.btnsalidas = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.btnentradas = new System.Windows.Forms.Button();
             this.Panel_existencias = new System.Windows.Forms.Panel();
+            this.existen = new System.Windows.Forms.PictureBox();
             this.btnexiste = new System.Windows.Forms.Button();
             this.Pproductos_contaneir = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.btnProveedores = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.btnCategorias = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.btnProductos = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.productos = new System.Windows.Forms.PictureBox();
             this.btnproduc = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dashboard = new System.Windows.Forms.PictureBox();
             this.btndashborad = new System.Windows.Forms.Button();
             this.panel_user = new System.Windows.Forms.Panel();
+            this.btnexit = new System.Windows.Forms.Button();
             this.Pmenu = new System.Windows.Forms.Panel();
+            this.btnMneu = new System.Windows.Forms.Button();
             this.lblmenu = new System.Windows.Forms.Label();
             this.sidebar_1 = new System.Windows.Forms.FlowLayoutPanel();
             this.lbltitle = new System.Windows.Forms.Label();
             this.panTop = new System.Windows.Forms.Panel();
-            this.panelDesktop = new System.Windows.Forms.Panel();
-            this.lblhora = new System.Windows.Forms.Label();
-            this.lblfecha = new System.Windows.Forms.Label();
-            this.Fecha_hora = new System.Windows.Forms.Timer(this.components);
             this.btncloseForm = new System.Windows.Forms.Button();
             this.btnCLOSE = new System.Windows.Forms.Button();
             this.btnminimizar = new System.Windows.Forms.Button();
             this.btnocultar = new System.Windows.Forms.Button();
             this.btnmaximizar = new System.Windows.Forms.Button();
-            this.btnMneu = new System.Windows.Forms.Button();
-            this.dashboard = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.productos = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.existen = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.user = new System.Windows.Forms.PictureBox();
-            this.reports = new System.Windows.Forms.PictureBox();
-            this.config = new System.Windows.Forms.PictureBox();
-            this.about = new System.Windows.Forms.PictureBox();
-            this.btnexit = new System.Windows.Forms.Button();
+            this.panelDesktop = new System.Windows.Forms.Panel();
+            this.lblfecha = new System.Windows.Forms.Label();
+            this.lblhora = new System.Windows.Forms.Label();
+            this.Fecha_hora = new System.Windows.Forms.Timer(this.components);
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.about)).BeginInit();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.config)).BeginInit();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.reports)).BeginInit();
             this.Contaneir_users.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.user)).BeginInit();
             this.existencias_conteneir.SuspendLayout();
             this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.Panel_existencias.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.existen)).BeginInit();
             this.Pproductos_contaneir.SuspendLayout();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.productos)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dashboard)).BeginInit();
             this.panel_user.SuspendLayout();
             this.Pmenu.SuspendLayout();
             this.sidebar_1.SuspendLayout();
             this.panTop.SuspendLayout();
             this.panelDesktop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dashboard)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.existen)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.user)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.reports)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.config)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.about)).BeginInit();
             this.SuspendLayout();
             // 
             // siderbartimer
@@ -157,10 +157,22 @@
             // 
             this.panel8.Controls.Add(this.about);
             this.panel8.Controls.Add(this.btnabout);
-            this.panel8.Location = new System.Drawing.Point(3, 531);
+            this.panel8.Location = new System.Drawing.Point(4, 659);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(247, 40);
+            this.panel8.Size = new System.Drawing.Size(329, 49);
             this.panel8.TabIndex = 7;
+            // 
+            // about
+            // 
+            this.about.Image = global::Optica_Tokio.Properties.Resources.icon_about;
+            this.about.Location = new System.Drawing.Point(8, 4);
+            this.about.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.about.Name = "about";
+            this.about.Size = new System.Drawing.Size(63, 46);
+            this.about.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.about.TabIndex = 2;
+            this.about.TabStop = false;
             // 
             // btnabout
             // 
@@ -168,9 +180,10 @@
             this.btnabout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnabout.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnabout.ForeColor = System.Drawing.Color.White;
-            this.btnabout.Location = new System.Drawing.Point(-3, -18);
+            this.btnabout.Location = new System.Drawing.Point(-4, -22);
+            this.btnabout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnabout.Name = "btnabout";
-            this.btnabout.Size = new System.Drawing.Size(260, 82);
+            this.btnabout.Size = new System.Drawing.Size(347, 101);
             this.btnabout.TabIndex = 1;
             this.btnabout.Text = "            ABOUT";
             this.btnabout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -181,10 +194,22 @@
             // 
             this.panel7.Controls.Add(this.config);
             this.panel7.Controls.Add(this.btnsettings);
-            this.panel7.Location = new System.Drawing.Point(3, 478);
+            this.panel7.Location = new System.Drawing.Point(4, 593);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(247, 47);
+            this.panel7.Size = new System.Drawing.Size(329, 58);
             this.panel7.TabIndex = 6;
+            // 
+            // config
+            // 
+            this.config.Image = global::Optica_Tokio.Properties.Resources.icon_settings;
+            this.config.Location = new System.Drawing.Point(8, 9);
+            this.config.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.config.Name = "config";
+            this.config.Size = new System.Drawing.Size(63, 46);
+            this.config.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.config.TabIndex = 2;
+            this.config.TabStop = false;
             // 
             // btnsettings
             // 
@@ -192,9 +217,10 @@
             this.btnsettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsettings.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsettings.ForeColor = System.Drawing.Color.White;
-            this.btnsettings.Location = new System.Drawing.Point(-3, -14);
+            this.btnsettings.Location = new System.Drawing.Point(-4, -17);
+            this.btnsettings.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsettings.Name = "btnsettings";
-            this.btnsettings.Size = new System.Drawing.Size(260, 82);
+            this.btnsettings.Size = new System.Drawing.Size(347, 101);
             this.btnsettings.TabIndex = 1;
             this.btnsettings.Text = "            CONFIG";
             this.btnsettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -205,10 +231,22 @@
             // 
             this.panel6.Controls.Add(this.reports);
             this.panel6.Controls.Add(this.btnreport);
-            this.panel6.Location = new System.Drawing.Point(3, 428);
+            this.panel6.Location = new System.Drawing.Point(4, 531);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(247, 44);
+            this.panel6.Size = new System.Drawing.Size(329, 54);
             this.panel6.TabIndex = 5;
+            // 
+            // reports
+            // 
+            this.reports.Image = global::Optica_Tokio.Properties.Resources.report_icon;
+            this.reports.Location = new System.Drawing.Point(8, 4);
+            this.reports.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.reports.Name = "reports";
+            this.reports.Size = new System.Drawing.Size(63, 46);
+            this.reports.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.reports.TabIndex = 2;
+            this.reports.TabStop = false;
             // 
             // btnreport
             // 
@@ -216,9 +254,10 @@
             this.btnreport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnreport.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnreport.ForeColor = System.Drawing.Color.White;
-            this.btnreport.Location = new System.Drawing.Point(-3, -16);
+            this.btnreport.Location = new System.Drawing.Point(-4, -20);
+            this.btnreport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnreport.Name = "btnreport";
-            this.btnreport.Size = new System.Drawing.Size(260, 82);
+            this.btnreport.Size = new System.Drawing.Size(347, 101);
             this.btnreport.TabIndex = 1;
             this.btnreport.Text = "           REPORTES";
             this.btnreport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -231,11 +270,12 @@
             this.Contaneir_users.Controls.Add(this.panel4);
             this.Contaneir_users.Controls.Add(this.panel1);
             this.Contaneir_users.Controls.Add(this.panel5);
-            this.Contaneir_users.Location = new System.Drawing.Point(3, 371);
-            this.Contaneir_users.MaximumSize = new System.Drawing.Size(251, 156);
-            this.Contaneir_users.MinimumSize = new System.Drawing.Size(251, 51);
+            this.Contaneir_users.Location = new System.Drawing.Point(4, 460);
+            this.Contaneir_users.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Contaneir_users.MaximumSize = new System.Drawing.Size(335, 192);
+            this.Contaneir_users.MinimumSize = new System.Drawing.Size(335, 63);
             this.Contaneir_users.Name = "Contaneir_users";
-            this.Contaneir_users.Size = new System.Drawing.Size(251, 51);
+            this.Contaneir_users.Size = new System.Drawing.Size(335, 63);
             this.Contaneir_users.TabIndex = 8;
             this.Contaneir_users.Paint += new System.Windows.Forms.PaintEventHandler(this.Contaneir_users_Paint);
             // 
@@ -243,10 +283,22 @@
             // 
             this.panel4.Controls.Add(this.pictureBox14);
             this.panel4.Controls.Add(this.btnUsuarios);
-            this.panel4.Location = new System.Drawing.Point(6, 106);
+            this.panel4.Location = new System.Drawing.Point(8, 130);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(245, 41);
+            this.panel4.Size = new System.Drawing.Size(327, 50);
             this.panel4.TabIndex = 8;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
+            this.pictureBox14.Location = new System.Drawing.Point(8, 4);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(63, 46);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 2;
+            this.pictureBox14.TabStop = false;
             // 
             // btnUsuarios
             // 
@@ -254,9 +306,10 @@
             this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUsuarios.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btnUsuarios.Location = new System.Drawing.Point(-3, -18);
+            this.btnUsuarios.Location = new System.Drawing.Point(-4, -22);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(260, 82);
+            this.btnUsuarios.Size = new System.Drawing.Size(347, 101);
             this.btnUsuarios.TabIndex = 1;
             this.btnUsuarios.Text = "           Usuarios";
             this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -267,10 +320,22 @@
             // 
             this.panel1.Controls.Add(this.pictureBox13);
             this.panel1.Controls.Add(this.btnRoles);
-            this.panel1.Location = new System.Drawing.Point(4, 60);
+            this.panel1.Location = new System.Drawing.Point(5, 74);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(245, 41);
+            this.panel1.Size = new System.Drawing.Size(327, 50);
             this.panel1.TabIndex = 7;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
+            this.pictureBox13.Location = new System.Drawing.Point(8, 4);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(63, 46);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 2;
+            this.pictureBox13.TabStop = false;
             // 
             // btnRoles
             // 
@@ -278,9 +343,10 @@
             this.btnRoles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRoles.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRoles.ForeColor = System.Drawing.Color.White;
-            this.btnRoles.Location = new System.Drawing.Point(-3, -18);
+            this.btnRoles.Location = new System.Drawing.Point(-4, -22);
+            this.btnRoles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRoles.Name = "btnRoles";
-            this.btnRoles.Size = new System.Drawing.Size(260, 82);
+            this.btnRoles.Size = new System.Drawing.Size(347, 101);
             this.btnRoles.TabIndex = 1;
             this.btnRoles.Text = "           Roles";
             this.btnRoles.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -293,9 +359,23 @@
             this.panel5.Controls.Add(this.user);
             this.panel5.Controls.Add(this.btnusers);
             this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(251, 56);
+            this.panel5.Size = new System.Drawing.Size(335, 69);
             this.panel5.TabIndex = 4;
+            // 
+            // user
+            // 
+            this.user.BackColor = System.Drawing.Color.IndianRed;
+            this.user.Image = global::Optica_Tokio.Properties.Resources.iocn_users;
+            this.user.Location = new System.Drawing.Point(8, 5);
+            this.user.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(63, 46);
+            this.user.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.user.TabIndex = 2;
+            this.user.TabStop = false;
+            this.user.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // btnusers
             // 
@@ -304,9 +384,10 @@
             this.btnusers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnusers.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnusers.ForeColor = System.Drawing.Color.White;
-            this.btnusers.Location = new System.Drawing.Point(-4, -9);
+            this.btnusers.Location = new System.Drawing.Point(-5, -11);
+            this.btnusers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnusers.Name = "btnusers";
-            this.btnusers.Size = new System.Drawing.Size(260, 70);
+            this.btnusers.Size = new System.Drawing.Size(347, 86);
             this.btnusers.TabIndex = 1;
             this.btnusers.Text = "           USUARIOS";
             this.btnusers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -319,21 +400,34 @@
             this.existencias_conteneir.Controls.Add(this.panel13);
             this.existencias_conteneir.Controls.Add(this.panel12);
             this.existencias_conteneir.Controls.Add(this.Panel_existencias);
-            this.existencias_conteneir.Location = new System.Drawing.Point(3, 325);
-            this.existencias_conteneir.MaximumSize = new System.Drawing.Size(251, 138);
-            this.existencias_conteneir.MinimumSize = new System.Drawing.Size(251, 40);
+            this.existencias_conteneir.Location = new System.Drawing.Point(4, 403);
+            this.existencias_conteneir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.existencias_conteneir.MaximumSize = new System.Drawing.Size(335, 170);
+            this.existencias_conteneir.MinimumSize = new System.Drawing.Size(335, 49);
             this.existencias_conteneir.Name = "existencias_conteneir";
-            this.existencias_conteneir.Size = new System.Drawing.Size(251, 40);
+            this.existencias_conteneir.Size = new System.Drawing.Size(335, 49);
             this.existencias_conteneir.TabIndex = 9;
             // 
             // panel13
             // 
             this.panel13.Controls.Add(this.pictureBox12);
             this.panel13.Controls.Add(this.btnsalidas);
-            this.panel13.Location = new System.Drawing.Point(3, 92);
+            this.panel13.Location = new System.Drawing.Point(4, 113);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(245, 41);
+            this.panel13.Size = new System.Drawing.Size(327, 50);
             this.panel13.TabIndex = 7;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
+            this.pictureBox12.Location = new System.Drawing.Point(8, 4);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(63, 46);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 2;
+            this.pictureBox12.TabStop = false;
             // 
             // btnsalidas
             // 
@@ -341,9 +435,10 @@
             this.btnsalidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalidas.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsalidas.ForeColor = System.Drawing.Color.White;
-            this.btnsalidas.Location = new System.Drawing.Point(-3, -18);
+            this.btnsalidas.Location = new System.Drawing.Point(-4, -22);
+            this.btnsalidas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnsalidas.Name = "btnsalidas";
-            this.btnsalidas.Size = new System.Drawing.Size(260, 82);
+            this.btnsalidas.Size = new System.Drawing.Size(347, 101);
             this.btnsalidas.TabIndex = 1;
             this.btnsalidas.Text = "           Salidas";
             this.btnsalidas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -354,11 +449,23 @@
             // 
             this.panel12.Controls.Add(this.pictureBox11);
             this.panel12.Controls.Add(this.btnentradas);
-            this.panel12.Location = new System.Drawing.Point(3, 46);
+            this.panel12.Location = new System.Drawing.Point(4, 57);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(245, 41);
+            this.panel12.Size = new System.Drawing.Size(327, 50);
             this.panel12.TabIndex = 6;
             this.panel12.Paint += new System.Windows.Forms.PaintEventHandler(this.panel12_Paint);
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
+            this.pictureBox11.Location = new System.Drawing.Point(8, 4);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(63, 46);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 2;
+            this.pictureBox11.TabStop = false;
             // 
             // btnentradas
             // 
@@ -366,9 +473,10 @@
             this.btnentradas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnentradas.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnentradas.ForeColor = System.Drawing.Color.White;
-            this.btnentradas.Location = new System.Drawing.Point(-3, -18);
+            this.btnentradas.Location = new System.Drawing.Point(-4, -22);
+            this.btnentradas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnentradas.Name = "btnentradas";
-            this.btnentradas.Size = new System.Drawing.Size(260, 82);
+            this.btnentradas.Size = new System.Drawing.Size(347, 101);
             this.btnentradas.TabIndex = 1;
             this.btnentradas.Text = "           Entradas";
             this.btnentradas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -380,11 +488,24 @@
             this.Panel_existencias.BackColor = System.Drawing.Color.Salmon;
             this.Panel_existencias.Controls.Add(this.existen);
             this.Panel_existencias.Controls.Add(this.btnexiste);
-            this.Panel_existencias.Location = new System.Drawing.Point(-6, 0);
-            this.Panel_existencias.MinimumSize = new System.Drawing.Size(247, 42);
+            this.Panel_existencias.Location = new System.Drawing.Point(-8, 0);
+            this.Panel_existencias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Panel_existencias.MinimumSize = new System.Drawing.Size(329, 52);
             this.Panel_existencias.Name = "Panel_existencias";
-            this.Panel_existencias.Size = new System.Drawing.Size(261, 42);
+            this.Panel_existencias.Size = new System.Drawing.Size(348, 52);
             this.Panel_existencias.TabIndex = 3;
+            // 
+            // existen
+            // 
+            this.existen.BackColor = System.Drawing.Color.IndianRed;
+            this.existen.Image = global::Optica_Tokio.Properties.Resources.iocn_reportes;
+            this.existen.Location = new System.Drawing.Point(11, 2);
+            this.existen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.existen.Name = "existen";
+            this.existen.Size = new System.Drawing.Size(63, 46);
+            this.existen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.existen.TabIndex = 2;
+            this.existen.TabStop = false;
             // 
             // btnexiste
             // 
@@ -393,9 +514,10 @@
             this.btnexiste.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnexiste.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnexiste.ForeColor = System.Drawing.Color.White;
-            this.btnexiste.Location = new System.Drawing.Point(0, -16);
+            this.btnexiste.Location = new System.Drawing.Point(0, -20);
+            this.btnexiste.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnexiste.Name = "btnexiste";
-            this.btnexiste.Size = new System.Drawing.Size(262, 82);
+            this.btnexiste.Size = new System.Drawing.Size(349, 101);
             this.btnexiste.TabIndex = 1;
             this.btnexiste.Text = "           EXISTENCIAS";
             this.btnexiste.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -409,11 +531,12 @@
             this.Pproductos_contaneir.Controls.Add(this.panel10);
             this.Pproductos_contaneir.Controls.Add(this.panel9);
             this.Pproductos_contaneir.Controls.Add(this.panel3);
-            this.Pproductos_contaneir.Location = new System.Drawing.Point(3, 266);
-            this.Pproductos_contaneir.MaximumSize = new System.Drawing.Size(251, 196);
-            this.Pproductos_contaneir.MinimumSize = new System.Drawing.Size(251, 53);
+            this.Pproductos_contaneir.Location = new System.Drawing.Point(4, 330);
+            this.Pproductos_contaneir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Pproductos_contaneir.MaximumSize = new System.Drawing.Size(335, 241);
+            this.Pproductos_contaneir.MinimumSize = new System.Drawing.Size(335, 65);
             this.Pproductos_contaneir.Name = "Pproductos_contaneir";
-            this.Pproductos_contaneir.Size = new System.Drawing.Size(251, 53);
+            this.Pproductos_contaneir.Size = new System.Drawing.Size(335, 65);
             this.Pproductos_contaneir.TabIndex = 8;
             this.Pproductos_contaneir.Paint += new System.Windows.Forms.PaintEventHandler(this.Pproductos_contaneir_Paint);
             // 
@@ -421,10 +544,22 @@
             // 
             this.panel11.Controls.Add(this.pictureBox10);
             this.panel11.Controls.Add(this.btnProveedores);
-            this.panel11.Location = new System.Drawing.Point(1, 146);
+            this.panel11.Location = new System.Drawing.Point(1, 180);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(233, 41);
+            this.panel11.Size = new System.Drawing.Size(311, 50);
             this.panel11.TabIndex = 5;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
+            this.pictureBox10.Location = new System.Drawing.Point(8, 4);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(63, 46);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 2;
+            this.pictureBox10.TabStop = false;
             // 
             // btnProveedores
             // 
@@ -432,9 +567,10 @@
             this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProveedores.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProveedores.ForeColor = System.Drawing.Color.White;
-            this.btnProveedores.Location = new System.Drawing.Point(-3, -18);
+            this.btnProveedores.Location = new System.Drawing.Point(-4, -22);
+            this.btnProveedores.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnProveedores.Name = "btnProveedores";
-            this.btnProveedores.Size = new System.Drawing.Size(260, 82);
+            this.btnProveedores.Size = new System.Drawing.Size(347, 101);
             this.btnProveedores.TabIndex = 1;
             this.btnProveedores.Text = "           Proveedores";
             this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -445,10 +581,22 @@
             // 
             this.panel10.Controls.Add(this.pictureBox9);
             this.panel10.Controls.Add(this.btnCategorias);
-            this.panel10.Location = new System.Drawing.Point(1, 100);
+            this.panel10.Location = new System.Drawing.Point(1, 123);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(233, 41);
+            this.panel10.Size = new System.Drawing.Size(311, 50);
             this.panel10.TabIndex = 4;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
+            this.pictureBox9.Location = new System.Drawing.Point(8, 4);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(63, 46);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 2;
+            this.pictureBox9.TabStop = false;
             // 
             // btnCategorias
             // 
@@ -456,9 +604,10 @@
             this.btnCategorias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCategorias.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCategorias.ForeColor = System.Drawing.Color.White;
-            this.btnCategorias.Location = new System.Drawing.Point(-3, -18);
+            this.btnCategorias.Location = new System.Drawing.Point(-4, -22);
+            this.btnCategorias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCategorias.Name = "btnCategorias";
-            this.btnCategorias.Size = new System.Drawing.Size(260, 82);
+            this.btnCategorias.Size = new System.Drawing.Size(347, 101);
             this.btnCategorias.TabIndex = 1;
             this.btnCategorias.Text = "           Categorias";
             this.btnCategorias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -469,10 +618,22 @@
             // 
             this.panel9.Controls.Add(this.pictureBox7);
             this.panel9.Controls.Add(this.btnProductos);
-            this.panel9.Location = new System.Drawing.Point(0, 53);
+            this.panel9.Location = new System.Drawing.Point(0, 65);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(233, 41);
+            this.panel9.Size = new System.Drawing.Size(311, 50);
             this.panel9.TabIndex = 3;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
+            this.pictureBox7.Location = new System.Drawing.Point(8, 4);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(63, 46);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 2;
+            this.pictureBox7.TabStop = false;
             // 
             // btnProductos
             // 
@@ -480,9 +641,10 @@
             this.btnProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProductos.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProductos.ForeColor = System.Drawing.Color.White;
-            this.btnProductos.Location = new System.Drawing.Point(-3, -18);
+            this.btnProductos.Location = new System.Drawing.Point(-4, -22);
+            this.btnProductos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnProductos.Name = "btnProductos";
-            this.btnProductos.Size = new System.Drawing.Size(260, 82);
+            this.btnProductos.Size = new System.Drawing.Size(347, 101);
             this.btnProductos.TabIndex = 1;
             this.btnProductos.Text = "           Productos";
             this.btnProductos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -495,9 +657,23 @@
             this.panel3.Controls.Add(this.productos);
             this.panel3.Controls.Add(this.btnproduc);
             this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(251, 53);
+            this.panel3.Size = new System.Drawing.Size(335, 65);
             this.panel3.TabIndex = 2;
+            // 
+            // productos
+            // 
+            this.productos.BackColor = System.Drawing.Color.IndianRed;
+            this.productos.Image = global::Optica_Tokio.Properties.Resources.icon_productos;
+            this.productos.Location = new System.Drawing.Point(8, 12);
+            this.productos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.productos.Name = "productos";
+            this.productos.Size = new System.Drawing.Size(63, 46);
+            this.productos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.productos.TabIndex = 2;
+            this.productos.TabStop = false;
+            this.productos.Click += new System.EventHandler(this.productos_Click);
             // 
             // btnproduc
             // 
@@ -507,9 +683,10 @@
             this.btnproduc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnproduc.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnproduc.ForeColor = System.Drawing.Color.White;
-            this.btnproduc.Location = new System.Drawing.Point(-3, -10);
+            this.btnproduc.Location = new System.Drawing.Point(-4, -12);
+            this.btnproduc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnproduc.Name = "btnproduc";
-            this.btnproduc.Size = new System.Drawing.Size(254, 82);
+            this.btnproduc.Size = new System.Drawing.Size(339, 101);
             this.btnproduc.TabIndex = 1;
             this.btnproduc.Text = "           PRODUCTOS";
             this.btnproduc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -520,10 +697,23 @@
             // 
             this.panel2.Controls.Add(this.dashboard);
             this.panel2.Controls.Add(this.btndashborad);
-            this.panel2.Location = new System.Drawing.Point(3, 219);
+            this.panel2.Location = new System.Drawing.Point(4, 272);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(247, 41);
+            this.panel2.Size = new System.Drawing.Size(329, 50);
             this.panel2.TabIndex = 1;
+            // 
+            // dashboard
+            // 
+            this.dashboard.Image = global::Optica_Tokio.Properties.Resources.icon_dashboard;
+            this.dashboard.Location = new System.Drawing.Point(8, 4);
+            this.dashboard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dashboard.Name = "dashboard";
+            this.dashboard.Size = new System.Drawing.Size(63, 46);
+            this.dashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.dashboard.TabIndex = 2;
+            this.dashboard.TabStop = false;
+            this.dashboard.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btndashborad
             // 
@@ -531,9 +721,10 @@
             this.btndashborad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btndashborad.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndashborad.ForeColor = System.Drawing.Color.White;
-            this.btndashborad.Location = new System.Drawing.Point(-3, -16);
+            this.btndashborad.Location = new System.Drawing.Point(-4, -20);
+            this.btndashborad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btndashborad.Name = "btndashborad";
-            this.btndashborad.Size = new System.Drawing.Size(260, 82);
+            this.btndashborad.Size = new System.Drawing.Size(347, 101);
             this.btndashborad.TabIndex = 1;
             this.btndashborad.Text = "           DASHBOARD";
             this.btndashborad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -543,30 +734,61 @@
             // panel_user
             // 
             this.panel_user.Controls.Add(this.btnexit);
-            this.panel_user.Location = new System.Drawing.Point(3, 59);
+            this.panel_user.Location = new System.Drawing.Point(4, 74);
+            this.panel_user.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel_user.Name = "panel_user";
-            this.panel_user.Size = new System.Drawing.Size(251, 154);
+            this.panel_user.Size = new System.Drawing.Size(335, 190);
             this.panel_user.TabIndex = 0;
             this.panel_user.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // btnexit
+            // 
+            this.btnexit.BackgroundImage = global::Optica_Tokio.Properties.Resources.salir;
+            this.btnexit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnexit.FlatAppearance.BorderSize = 0;
+            this.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnexit.Location = new System.Drawing.Point(5, 4);
+            this.btnexit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnexit.Name = "btnexit";
+            this.btnexit.Size = new System.Drawing.Size(65, 50);
+            this.btnexit.TabIndex = 10;
+            this.btnexit.UseVisualStyleBackColor = true;
+            this.btnexit.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Pmenu
             // 
             this.Pmenu.Controls.Add(this.btnMneu);
             this.Pmenu.Controls.Add(this.lblmenu);
-            this.Pmenu.Location = new System.Drawing.Point(3, 3);
+            this.Pmenu.Location = new System.Drawing.Point(4, 4);
+            this.Pmenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Pmenu.Name = "Pmenu";
-            this.Pmenu.Size = new System.Drawing.Size(252, 50);
+            this.Pmenu.Size = new System.Drawing.Size(336, 62);
             this.Pmenu.TabIndex = 1;
             this.Pmenu.Paint += new System.Windows.Forms.PaintEventHandler(this.Pmenu_Paint);
             this.Pmenu.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Pmenu_MouseDown);
+            // 
+            // btnMneu
+            // 
+            this.btnMneu.BackgroundImage = global::Optica_Tokio.Properties.Resources.icon_barras;
+            this.btnMneu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMneu.FlatAppearance.BorderSize = 0;
+            this.btnMneu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMneu.Location = new System.Drawing.Point(8, 5);
+            this.btnMneu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMneu.Name = "btnMneu";
+            this.btnMneu.Size = new System.Drawing.Size(60, 44);
+            this.btnMneu.TabIndex = 2;
+            this.btnMneu.UseVisualStyleBackColor = true;
+            this.btnMneu.Click += new System.EventHandler(this.btnMneu_Click);
             // 
             // lblmenu
             // 
             this.lblmenu.AutoSize = true;
             this.lblmenu.Font = new System.Drawing.Font("Elephant", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblmenu.Location = new System.Drawing.Point(57, 8);
+            this.lblmenu.Location = new System.Drawing.Point(76, 10);
+            this.lblmenu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblmenu.Name = "lblmenu";
-            this.lblmenu.Size = new System.Drawing.Size(82, 25);
+            this.lblmenu.Size = new System.Drawing.Size(103, 31);
             this.lblmenu.TabIndex = 1;
             this.lblmenu.Text = "MENU";
             this.lblmenu.Click += new System.EventHandler(this.lblmenu_Click);
@@ -585,10 +807,11 @@
             this.sidebar_1.Controls.Add(this.panel8);
             this.sidebar_1.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar_1.Location = new System.Drawing.Point(0, 0);
-            this.sidebar_1.MaximumSize = new System.Drawing.Size(252, 0);
-            this.sidebar_1.MinimumSize = new System.Drawing.Size(63, 0);
+            this.sidebar_1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sidebar_1.MaximumSize = new System.Drawing.Size(336, 0);
+            this.sidebar_1.MinimumSize = new System.Drawing.Size(84, 0);
             this.sidebar_1.Name = "sidebar_1";
-            this.sidebar_1.Size = new System.Drawing.Size(252, 700);
+            this.sidebar_1.Size = new System.Drawing.Size(336, 862);
             this.sidebar_1.TabIndex = 2;
             this.sidebar_1.Paint += new System.Windows.Forms.PaintEventHandler(this.sidebar_1_Paint);
             this.sidebar_1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.sidebar_1_MouseDown);
@@ -599,9 +822,10 @@
             this.lbltitle.AutoSize = true;
             this.lbltitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltitle.ForeColor = System.Drawing.Color.White;
-            this.lbltitle.Location = new System.Drawing.Point(375, 3);
+            this.lbltitle.Location = new System.Drawing.Point(500, 4);
+            this.lbltitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbltitle.Name = "lbltitle";
-            this.lbltitle.Size = new System.Drawing.Size(130, 42);
+            this.lbltitle.Size = new System.Drawing.Size(164, 54);
             this.lbltitle.TabIndex = 4;
             this.lbltitle.Text = "HOME";
             // 
@@ -615,54 +839,13 @@
             this.panTop.Controls.Add(this.btnocultar);
             this.panTop.Controls.Add(this.btnmaximizar);
             this.panTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panTop.Location = new System.Drawing.Point(252, 0);
+            this.panTop.Location = new System.Drawing.Point(336, 0);
+            this.panTop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panTop.Name = "panTop";
-            this.panTop.Size = new System.Drawing.Size(948, 50);
+            this.panTop.Size = new System.Drawing.Size(1264, 62);
             this.panTop.TabIndex = 5;
+            this.panTop.Paint += new System.Windows.Forms.PaintEventHandler(this.panTop_Paint);
             this.panTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel14_MouseDown_1);
-            // 
-            // panelDesktop
-            // 
-            this.panelDesktop.Controls.Add(this.lblfecha);
-            this.panelDesktop.Controls.Add(this.lblhora);
-            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(252, 50);
-            this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(948, 650);
-            this.panelDesktop.TabIndex = 6;
-            this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
-            this.panelDesktop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelDesktop_MouseDown);
-            // 
-            // lblhora
-            // 
-            this.lblhora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lblhora.AutoSize = true;
-            this.lblhora.BackColor = System.Drawing.Color.Transparent;
-            this.lblhora.Font = new System.Drawing.Font("ROG Fonts", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblhora.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblhora.Location = new System.Drawing.Point(150, 226);
-            this.lblhora.Name = "lblhora";
-            this.lblhora.Size = new System.Drawing.Size(387, 115);
-            this.lblhora.TabIndex = 0;
-            this.lblhora.Text = "Hora";
-            // 
-            // lblfecha
-            // 
-            this.lblfecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.lblfecha.AutoSize = true;
-            this.lblfecha.BackColor = System.Drawing.Color.Transparent;
-            this.lblfecha.Font = new System.Drawing.Font("ROG Fonts", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfecha.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.lblfecha.Location = new System.Drawing.Point(160, 346);
-            this.lblfecha.Name = "lblfecha";
-            this.lblfecha.Size = new System.Drawing.Size(229, 58);
-            this.lblfecha.TabIndex = 1;
-            this.lblfecha.Text = "Fecha";
-            // 
-            // Fecha_hora
-            // 
-            this.Fecha_hora.Enabled = true;
-            this.Fecha_hora.Tick += new System.EventHandler(this.Fecha_hora_Tick);
             // 
             // btncloseForm
             // 
@@ -672,8 +855,9 @@
             this.btncloseForm.FlatAppearance.BorderSize = 0;
             this.btncloseForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncloseForm.Location = new System.Drawing.Point(0, 0);
+            this.btncloseForm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncloseForm.Name = "btncloseForm";
-            this.btncloseForm.Size = new System.Drawing.Size(52, 50);
+            this.btncloseForm.Size = new System.Drawing.Size(69, 62);
             this.btncloseForm.TabIndex = 5;
             this.btncloseForm.TabStop = false;
             this.btncloseForm.UseVisualStyleBackColor = true;
@@ -688,9 +872,10 @@
             this.btnCLOSE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnCLOSE.FlatAppearance.BorderSize = 0;
             this.btnCLOSE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCLOSE.Location = new System.Drawing.Point(905, 7);
+            this.btnCLOSE.Location = new System.Drawing.Point(1207, 9);
+            this.btnCLOSE.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCLOSE.Name = "btnCLOSE";
-            this.btnCLOSE.Size = new System.Drawing.Size(31, 32);
+            this.btnCLOSE.Size = new System.Drawing.Size(41, 39);
             this.btnCLOSE.TabIndex = 0;
             this.btnCLOSE.UseVisualStyleBackColor = false;
             this.btnCLOSE.Click += new System.EventHandler(this.btnCLOSE_Click);
@@ -702,9 +887,10 @@
             this.btnminimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnminimizar.FlatAppearance.BorderSize = 0;
             this.btnminimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnminimizar.Location = new System.Drawing.Point(867, 9);
+            this.btnminimizar.Location = new System.Drawing.Point(1156, 11);
+            this.btnminimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnminimizar.Name = "btnminimizar";
-            this.btnminimizar.Size = new System.Drawing.Size(28, 32);
+            this.btnminimizar.Size = new System.Drawing.Size(37, 39);
             this.btnminimizar.TabIndex = 1;
             this.btnminimizar.UseVisualStyleBackColor = true;
             this.btnminimizar.Visible = false;
@@ -717,9 +903,10 @@
             this.btnocultar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnocultar.FlatAppearance.BorderSize = 0;
             this.btnocultar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnocultar.Location = new System.Drawing.Point(829, 9);
+            this.btnocultar.Location = new System.Drawing.Point(1105, 11);
+            this.btnocultar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnocultar.Name = "btnocultar";
-            this.btnocultar.Size = new System.Drawing.Size(31, 29);
+            this.btnocultar.Size = new System.Drawing.Size(41, 36);
             this.btnocultar.TabIndex = 2;
             this.btnocultar.UseVisualStyleBackColor = true;
             this.btnocultar.Click += new System.EventHandler(this.btnocultar_Click);
@@ -731,216 +918,106 @@
             this.btnmaximizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnmaximizar.FlatAppearance.BorderSize = 0;
             this.btnmaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmaximizar.Location = new System.Drawing.Point(868, 10);
+            this.btnmaximizar.Location = new System.Drawing.Point(1157, 12);
+            this.btnmaximizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnmaximizar.Name = "btnmaximizar";
-            this.btnmaximizar.Size = new System.Drawing.Size(31, 27);
+            this.btnmaximizar.Size = new System.Drawing.Size(41, 33);
             this.btnmaximizar.TabIndex = 3;
             this.btnmaximizar.UseVisualStyleBackColor = true;
             this.btnmaximizar.Click += new System.EventHandler(this.btnmaximizar_Click);
             // 
-            // btnMneu
+            // panelDesktop
             // 
-            this.btnMneu.BackgroundImage = global::Optica_Tokio.Properties.Resources.icon_barras;
-            this.btnMneu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnMneu.FlatAppearance.BorderSize = 0;
-            this.btnMneu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMneu.Location = new System.Drawing.Point(6, 4);
-            this.btnMneu.Name = "btnMneu";
-            this.btnMneu.Size = new System.Drawing.Size(45, 36);
-            this.btnMneu.TabIndex = 2;
-            this.btnMneu.UseVisualStyleBackColor = true;
-            this.btnMneu.Click += new System.EventHandler(this.btnMneu_Click);
+            this.panelDesktop.Controls.Add(this.lblfecha);
+            this.panelDesktop.Controls.Add(this.lblhora);
+            this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktop.Location = new System.Drawing.Point(336, 62);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelDesktop.Name = "panelDesktop";
+            this.panelDesktop.Size = new System.Drawing.Size(1264, 800);
+            this.panelDesktop.TabIndex = 6;
+            this.panelDesktop.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktop_Paint);
+            this.panelDesktop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelDesktop_MouseDown);
             // 
-            // dashboard
+            // lblfecha
             // 
-            this.dashboard.Image = global::Optica_Tokio.Properties.Resources.icon_dashboard;
-            this.dashboard.Location = new System.Drawing.Point(6, 3);
-            this.dashboard.Name = "dashboard";
-            this.dashboard.Size = new System.Drawing.Size(47, 37);
-            this.dashboard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.dashboard.TabIndex = 2;
-            this.dashboard.TabStop = false;
-            this.dashboard.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.lblfecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.lblfecha.AutoSize = true;
+            this.lblfecha.BackColor = System.Drawing.Color.Transparent;
+            this.lblfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfecha.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.lblfecha.Location = new System.Drawing.Point(213, 426);
+            this.lblfecha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblfecha.Name = "lblfecha";
+            this.lblfecha.Size = new System.Drawing.Size(196, 69);
+            this.lblfecha.TabIndex = 1;
+            this.lblfecha.Text = "Fecha";
             // 
-            // pictureBox10
+            // lblhora
             // 
-            this.pictureBox10.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
-            this.pictureBox10.Location = new System.Drawing.Point(6, 3);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(47, 37);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 2;
-            this.pictureBox10.TabStop = false;
+            this.lblhora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.lblhora.AutoSize = true;
+            this.lblhora.BackColor = System.Drawing.Color.Transparent;
+            this.lblhora.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblhora.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.lblhora.Location = new System.Drawing.Point(200, 278);
+            this.lblhora.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblhora.Name = "lblhora";
+            this.lblhora.Size = new System.Drawing.Size(318, 135);
+            this.lblhora.TabIndex = 0;
+            this.lblhora.Text = "Hora";
             // 
-            // pictureBox9
+            // Fecha_hora
             // 
-            this.pictureBox9.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
-            this.pictureBox9.Location = new System.Drawing.Point(6, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(47, 37);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 2;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
-            this.pictureBox7.Location = new System.Drawing.Point(6, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(47, 37);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 2;
-            this.pictureBox7.TabStop = false;
-            // 
-            // productos
-            // 
-            this.productos.BackColor = System.Drawing.Color.IndianRed;
-            this.productos.Image = global::Optica_Tokio.Properties.Resources.icon_productos;
-            this.productos.Location = new System.Drawing.Point(6, 10);
-            this.productos.Name = "productos";
-            this.productos.Size = new System.Drawing.Size(47, 37);
-            this.productos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.productos.TabIndex = 2;
-            this.productos.TabStop = false;
-            this.productos.Click += new System.EventHandler(this.productos_Click);
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
-            this.pictureBox12.Location = new System.Drawing.Point(6, 3);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(47, 37);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 2;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
-            this.pictureBox11.Location = new System.Drawing.Point(6, 3);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(47, 37);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 2;
-            this.pictureBox11.TabStop = false;
-            // 
-            // existen
-            // 
-            this.existen.BackColor = System.Drawing.Color.IndianRed;
-            this.existen.Image = global::Optica_Tokio.Properties.Resources.iocn_reportes;
-            this.existen.Location = new System.Drawing.Point(8, 2);
-            this.existen.Name = "existen";
-            this.existen.Size = new System.Drawing.Size(47, 37);
-            this.existen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.existen.TabIndex = 2;
-            this.existen.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
-            this.pictureBox14.Location = new System.Drawing.Point(6, 3);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(47, 37);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 2;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = global::Optica_Tokio.Properties.Resources.icon_flecha;
-            this.pictureBox13.Location = new System.Drawing.Point(6, 3);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(47, 37);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 2;
-            this.pictureBox13.TabStop = false;
-            // 
-            // user
-            // 
-            this.user.BackColor = System.Drawing.Color.IndianRed;
-            this.user.Image = global::Optica_Tokio.Properties.Resources.iocn_users;
-            this.user.Location = new System.Drawing.Point(6, 4);
-            this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(47, 37);
-            this.user.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.user.TabIndex = 2;
-            this.user.TabStop = false;
-            this.user.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // reports
-            // 
-            this.reports.Image = global::Optica_Tokio.Properties.Resources.report_icon;
-            this.reports.Location = new System.Drawing.Point(6, 3);
-            this.reports.Name = "reports";
-            this.reports.Size = new System.Drawing.Size(47, 37);
-            this.reports.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.reports.TabIndex = 2;
-            this.reports.TabStop = false;
-            // 
-            // config
-            // 
-            this.config.Image = global::Optica_Tokio.Properties.Resources.icon_settings;
-            this.config.Location = new System.Drawing.Point(6, 7);
-            this.config.Name = "config";
-            this.config.Size = new System.Drawing.Size(47, 37);
-            this.config.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.config.TabIndex = 2;
-            this.config.TabStop = false;
-            // 
-            // about
-            // 
-            this.about.Image = global::Optica_Tokio.Properties.Resources.icon_about;
-            this.about.Location = new System.Drawing.Point(6, 3);
-            this.about.Name = "about";
-            this.about.Size = new System.Drawing.Size(47, 37);
-            this.about.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.about.TabIndex = 2;
-            this.about.TabStop = false;
-            // 
-            // btnexit
-            // 
-            this.btnexit.BackgroundImage = global::Optica_Tokio.Properties.Resources.salir;
-            this.btnexit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnexit.FlatAppearance.BorderSize = 0;
-            this.btnexit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnexit.Location = new System.Drawing.Point(4, 3);
-            this.btnexit.Name = "btnexit";
-            this.btnexit.Size = new System.Drawing.Size(49, 41);
-            this.btnexit.TabIndex = 10;
-            this.btnexit.UseVisualStyleBackColor = true;
-            this.btnexit.Click += new System.EventHandler(this.button1_Click_1);
+            this.Fecha_hora.Enabled = true;
+            this.Fecha_hora.Tick += new System.EventHandler(this.Fecha_hora_Tick);
             // 
             // FrmMain_Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSalmon;
-            this.ClientSize = new System.Drawing.Size(1200, 700);
+            this.ClientSize = new System.Drawing.Size(1600, 862);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panTop);
             this.Controls.Add(this.sidebar_1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmMain_Menu";
             this.Text = "Main Menu";
             this.Load += new System.EventHandler(this.FrmMain_Menu_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FrmMain_Menu_MouseDown);
             this.Resize += new System.EventHandler(this.FrmMain_Menu_Resize);
             this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.about)).EndInit();
             this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.config)).EndInit();
             this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.reports)).EndInit();
             this.Contaneir_users.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.user)).EndInit();
             this.existencias_conteneir.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.Panel_existencias.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.existen)).EndInit();
             this.Pproductos_contaneir.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.productos)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dashboard)).EndInit();
             this.panel_user.ResumeLayout(false);
             this.Pmenu.ResumeLayout(false);
             this.Pmenu.PerformLayout();
@@ -949,20 +1026,6 @@
             this.panTop.PerformLayout();
             this.panelDesktop.ResumeLayout(false);
             this.panelDesktop.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dashboard)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.productos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.existen)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.user)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.reports)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.config)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.about)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -1,0 +1,97 @@
+//hola
+Tablas Principales
+
+Productos
+
+ID_Producto (PK): Identificador único para cada producto.
+Nombre: Nombre del producto.
+Descripción: Descripción detallada del producto.
+Cantidad_Total: Cantidad total en el inventario.
+Precio_Costo: Precio de costo del producto.
+ID_Proveedor (FK): Relación con el proveedor del producto.
+Fecha_Registro: Fecha en que el producto fue registrado.
+
+Categorías
+
+ID_Categoria (PK): Identificador único para cada categoría.
+Nombre_Categoria: Nombre de la categoría (por ejemplo, "Lentes de Sol", "Monturas", etc.).
+Descripción: Descripción de la categoría.
+
+Producto_Categoria
+
+Esta tabla intermedia crea la relación muchos a muchos entre Productos y Categorías.
+ID_Producto (FK): Relación con la tabla Productos.
+ID_Categoria (FK): Relación con la tabla Categorías.
+
+Locales
+
+Propósito: Representar los diferentes locales donde se almacenan los productos.
+Campos:
+ID_Local (PK): Identificador único para cada local.
+Nombre_Local: Nombre del local (por ejemplo, "Local Centro" o "Local Norte").
+Dirección: Ubicación física del local.
+Teléfono: Número de contacto del local.
+Responsable: Nombre del encargado de inventario en el local.
+
+Inventario_Local
+
+Propósito: Almacenar el inventario de productos por local, permitiendo un seguimiento preciso de cuántas unidades de cada producto hay en cada lugar.
+Campos:
+ID_Inventario (PK): Identificador único para el registro en el inventario.
+ID_Producto (FK): Relación con el producto.
+ID_Local (FK): Relación con el local.
+Cantidad: Cantidad de este producto en el local específico.
+Fecha_Ultima_Actualizacion: Fecha de la última actualización de cantidad para tener un seguimiento del flujo de inventario por local.
+
+Proveedores
+
+Propósito: Registrar información detallada de los proveedores de los productos.
+Campos:
+ID_Proveedor (PK): Identificador único del proveedor.
+Nombre: Nombre de la empresa proveedora.
+Contacto: Nombre de la persona de contacto en el proveedor.
+Teléfono: Teléfono del proveedor.
+Email: Correo electrónico del proveedor.
+Dirección: Dirección física del proveedor.
+Condiciones_Entrega: Detalles sobre las condiciones de entrega o tiempos de despacho.
+
+Movimientos_Inventario
+
+Propósito: Registrar todos los movimientos de productos dentro del inventario, como entradas (recepción de proveedores) y salidas (transferencias entre locales o ajustes de inventario).
+Campos:
+ID_Movimiento (PK): Identificador único para cada movimiento.
+ID_Producto (FK): Relación con el producto involucrado.
+ID_Local (FK): Relación con el local donde ocurre el movimiento.
+Tipo_Movimiento: Tipo de movimiento (“entrada” o “salida”).
+Cantidad: Cantidad involucrada en el movimiento.
+Fecha: Fecha del movimiento.
+ID_Usuario (FK): Identificador del usuario responsable del movimiento.
+Comentarios: Observaciones adicionales sobre el movimiento, como motivo o descripción detallada.
+
+Usuarios
+
+ID_Usuario (PK): Identificador único para cada usuario.
+Nombre_Usuario: Nombre de usuario para iniciar sesión.
+Contraseña: Contraseña encriptada para el usuario.
+Correo
+ID_Rol (FK): Relación con la tabla Roles para asignar el rol al usuario.
+Fecha_Creacion: Fecha en que se creó el usuario.
+Foto Byte
+
+Roles
+
+ID_Rol (PK): Identificador único para cada rol.
+Nombre_Rol: Nombre del rol (por ejemplo, "Administrador", "Empleado", "Supervisor").
+Descripción: Descripción del rol.
+
+Controladores
+
+ID_Controlador (PK): Identificador único para cada controlador o sección de la aplicación.
+Nombre_Controlador: Nombre del controlador (por ejemplo, "Gestión de Productos", "Reportes", "Usuarios").
+Descripción: Descripción de la funcionalidad del controlador.
+
+Permisos_Rol
+
+ID_Rol (FK): Relación con la tabla Roles.
+ID_Controlador (FK): Relación con la tabla Controladores.
+Permiso: Valor booleano o de texto (por ejemplo, "Lectura", "Escritura", "Completo") que especifica el nivel de acceso.

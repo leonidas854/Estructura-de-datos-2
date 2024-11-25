@@ -149,6 +149,7 @@
     <Compile Include="Logica del Negocio\Servicios\RolesServices.cs" />
     <Compile Include="Logica del Negocio\Servicios\UsuarioService.cs" />
     <Compile Include="Static\coneccion.cs" />
+    <Compile Include="Static\estatico.cs" />
     <Compile Include="UI\Controles\ThemeColor.cs" />
     <Compile Include="UI\Formularios\AbaoutForm.cs">
       <SubType>Form</SubType>
@@ -363,6 +364,7 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\print-icon-logo-illustration-suitable-for-web-design-logo-application-free-vector.jpg" />
     <None Include="Resources\Venta.png" />
     <None Include="Resources\png-clipart-bundle-icon-search-blue-search-button-thumbnail.png" />
     <None Include="Resources\images1.png" />

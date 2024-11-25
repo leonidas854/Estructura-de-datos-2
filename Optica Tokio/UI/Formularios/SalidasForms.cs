@@ -42,7 +42,14 @@ namespace Optica_Tokio.UI.Formularios
 
         private void btnNuevaFactura_Click_1(object sender, EventArgs e)
         {
+            grbNuevaSalida.Visible = true;
+            grbSalidas.Visible = false;
+        }
 
+        private void btnCancelarSalida_Click(object sender, EventArgs e)
+        {
+            grbNuevaSalida.Visible = false;
+            grbSalidas.Visible = true;
         }
     }
 }
