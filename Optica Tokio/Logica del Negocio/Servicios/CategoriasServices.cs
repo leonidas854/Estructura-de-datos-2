@@ -12,7 +12,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
     {
         public static Lista<Categorias> categorias = new Lista<Categorias>();
 
-        // Método para agregar una nueva categoría
+        
         public void AgregarCategoria(Categorias categoria)
         {
             if (categoria != null && !categorias.Pertenece(categoria))
@@ -25,13 +25,13 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
             }
         }
 
-        // Método para obtener todas las categorías
+        
         public Lista<Categorias> ObtenerCategorias()
         {
             return categorias;
         }
 
-        // Método para buscar una categoría por ID
+      
         public Categorias BuscarCategoriaPorId(int id)
         {
             foreach (var categoria in categorias)
@@ -45,7 +45,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
         }
 
 
-        // Método para eliminar una categoría por ID
+        
         public bool EliminarCategoriaPorId(int id)
         {
             foreach (var categoria in categorias)
@@ -59,7 +59,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
             return false;
         }
 
-        // Método para editar una categoría
+       
         public void EditarCategoria(int id, string nuevoNombre, string nuevaDescripcion)
         {
             var categoria = BuscarCategoriaPorId(id);

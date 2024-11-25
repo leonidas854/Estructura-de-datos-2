@@ -12,10 +12,10 @@ namespace Optica_Tokio.Logica_del_Negocio.Modelos
         public string Nombre_Categoria { get; set; }
         public string Descripcion { get; set; }
 
-        // Constructor predeterminado para flexibilidad
+        
         public Categorias() { }
 
-        // Constructor completo
+       
         public Categorias(int id, string nombre, string descripcion)
         {
             ID_Categoria = id;
@@ -23,7 +23,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Modelos
             Descripcion = descripcion;
         }
 
-        // Método para representar la categoría como una cadena (útil para depuración)
+        
         public override string ToString()
         {
             return $"{ID_Categoria}: {Nombre_Categoria} - {Descripcion}";
