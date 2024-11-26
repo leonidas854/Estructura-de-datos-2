@@ -359,7 +359,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Config\App.config" />
+    <None Include="Config\App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />

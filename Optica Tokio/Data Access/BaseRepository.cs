@@ -12,18 +12,27 @@ namespace Optica_Tokio.Static
 {
     public abstract class BaseRepository
     {
-    
-       
-            protected NpgsqlConnection connection;
+        static string servidor = "localhost";
+        static string bd = "db_optica";
+        static string usuario = "postgres";
+        static string password = "124875369";
+        static int puerto = 5432;
+
+        string cadena = $"server={servidor};port={puerto};user id={usuario};password={password};database={bd};";
+
+        protected NpgsqlConnection connection;
+
+
 
             public BaseRepository()
             {
-                string connectionString = ConfigurationManager.AppSettings["PostgresConnection"];
+
+                string connectionString = cadena;
                 if (string.IsNullOrEmpty(connectionString))
                 {
                     throw new Exception("La cadena de conexión no está configurada.");
                 }
-            MessageBox.Show(ConfigurationManager.AppSettings["PostgresConnection"]);
+            //MessageBox.Show(cadena);
                 connection = new NpgsqlConnection(connectionString);
             }
 
