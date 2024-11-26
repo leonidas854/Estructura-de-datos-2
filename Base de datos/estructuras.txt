@@ -1,0 +1,13 @@
+Modelo	              Estructura Recomendada
+Productos	        Árbol Rojo-Negro   
+Clasificación	        Lista            //listo
+Categorías	         Árbol Rojo-Negro   //listo
+Producto_Categoria	 Lista        //listo
+Locales	                  Lista           //listo    
+Inventario_Local	    Árbol Rojo-Negro          //listo   
+Proveedores	          Árbol Rojo-Negro          //listo   
+Movimientos_Inventario	  Cola      //listo
+Usuarios	          Lista      //listo
+Roles	                  Lista      //listo
+Controladores	           Lista      //listo
+Permisos_Rol	            Lista     //listo

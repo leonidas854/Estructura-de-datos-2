@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Modelos
 {
-    class Categorias
+    public class Categorias
     {
         public int ID_Categoria { get; set; }
         public string Nombre_Categoria { get; set; }

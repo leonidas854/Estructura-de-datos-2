@@ -6,33 +6,26 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Modelos
 {
-    class Proveedores
+    public class Proveedor
     {
-        string id_proveedor;
-        string nom_proveedor;
-        string telf_proveedor;
-        string email_proveedor;
-        string dir_proveedor;
-        string condiciones;
-        Proveedores enlace_proveedores;
+        public int ID_Proveedor { get; set; }
+        public string Nombre { get; set; }
+        public string Contacto { get; set; }
+        public string Telefono { get; set; }
+        public string Email { get; set; }
+        public string Direccion { get; set; }
+        public string Condiciones_Entrega { get; set; }
 
-        public Proveedores(string id_proveedor, string nom_proveedor, string telf_proveedor, string email_proveedor, string dir_proveedor, string condiciones)
+        public Proveedor(int iD_Proveedor, string nombre, string contacto, string telefono, string email, string direccion, string condiciones_Entrega)
         {
-            this.id_proveedor = id_proveedor;
-            this.nom_proveedor = nom_proveedor;
-            this.telf_proveedor = telf_proveedor;
-            this.email_proveedor = email_proveedor;
-            this.dir_proveedor = dir_proveedor;
-            this.condiciones = condiciones;
-            this.enlace_proveedores = null;
+            ID_Proveedor = iD_Proveedor;
+            Nombre = nombre;
+            Contacto = contacto;
+            Telefono = telefono;
+            Email = email;
+            Direccion = direccion;
+            Condiciones_Entrega = condiciones_Entrega;
         }
-
-        public string Id_proveedor { get => id_proveedor; set => id_proveedor = value; }
-        public string Nom_proveedor { get => nom_proveedor; set => nom_proveedor = value; }
-        public string Telf_proveedor { get => telf_proveedor; set => telf_proveedor = value; }
-        public string Email_proveedor { get => email_proveedor; set => email_proveedor = value; }
-        public string Dir_proveedor { get => dir_proveedor; set => dir_proveedor = value; }
-        public string Condiciones { get => condiciones; set => condiciones = value; }
-        internal Proveedores Enlace_proveedores { get => enlace_proveedores; set => enlace_proveedores = value; }
     }
+
 }

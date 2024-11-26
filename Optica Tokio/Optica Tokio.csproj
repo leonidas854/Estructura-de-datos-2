@@ -111,6 +111,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data Access\AppDataManager.cs" />
     <Compile Include="Data Access\Repositorios\CategoriasReposi.cs" />
     <Compile Include="Data Access\Repositorios\ControladoresReposi.cs" />
     <Compile Include="Data Access\Repositorios\InventarioReposi.cs" />
@@ -127,6 +128,7 @@
     <Compile Include="Logica del Negocio\Estructura de datos\Lista.cs" />
     <Compile Include="Logica del Negocio\Estructura de datos\Pila.cs" />
     <Compile Include="Logica del Negocio\Modelos\Categorias.cs" />
+    <Compile Include="Logica del Negocio\Modelos\Clasificacion.cs" />
     <Compile Include="Logica del Negocio\Modelos\Controladores.cs" />
     <Compile Include="Logica del Negocio\Modelos\Inventacio Local.cs" />
     <Compile Include="Logica del Negocio\Modelos\Locales.cs" />
@@ -138,6 +140,7 @@
     <Compile Include="Logica del Negocio\Modelos\Roles.cs" />
     <Compile Include="Logica del Negocio\Modelos\Usuario.cs" />
     <Compile Include="Logica del Negocio\Servicios\CategoriasServices.cs" />
+    <Compile Include="Logica del Negocio\Servicios\ClasificacionServices.cs" />
     <Compile Include="Logica del Negocio\Servicios\ControladoresServices.cs" />
     <Compile Include="Logica del Negocio\Servicios\InventarioServices.cs" />
     <Compile Include="Logica del Negocio\Servicios\LocalesServices.cs" />
@@ -148,7 +151,7 @@
     <Compile Include="Logica del Negocio\Servicios\ProvedoresServices.cs" />
     <Compile Include="Logica del Negocio\Servicios\RolesServices.cs" />
     <Compile Include="Logica del Negocio\Servicios\UsuarioService.cs" />
-    <Compile Include="Static\coneccion.cs" />
+    <Compile Include="Data Access\BaseRepository.cs" />
     <Compile Include="Static\estatico.cs" />
     <Compile Include="UI\Controles\ThemeColor.cs" />
     <Compile Include="UI\Formularios\AbaoutForm.cs">

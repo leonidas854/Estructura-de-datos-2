@@ -8,58 +8,89 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Servicios
 {
-    class UsuarioService
+    public class UsuarioService
     {
-        private static Lista<Usuario> listaUsuarios= new Lista<Usuario>();
+       public static Lista<Usuario> listaUsuarios = new Lista<Usuario>();
+
+     
         public static List<Usuario> ListarUsuarios()
         {
             List<Usuario> usuarios = new List<Usuario>();
-            for(int i = 0; i< listaUsuarios.GetTam(); i++)
+            for (int i = 0; i < listaUsuarios.GetTam(); i++)
             {
                 usuarios.Add(listaUsuarios.Get(i));
             }
             return usuarios;
         }
+
+   
         public static void CrearUsuario(Usuario usuario)
         {
-            if(ValidarCredenciales(usuario.Nom_usuario, usuario.Contrasenia_usuario)!= null)
+            if (ValidarCredenciales(usuario.Nombre_Usuario, usuario.Contrasena) != null)
             {
-                throw new InvalidOperationException("El usuario ya existe");
+                throw new InvalidOperationException("El usuario ya existe.");
             }
             listaUsuarios.Insertar(usuario);
         }
+
+    
         public static void EditarUsuario(Usuario usuario)
         {
-            Usuario usuarioExiste=ValidarCredenciales(usuario.Nom_usuario, usuario.Contrasenia_usuario);
-            if(usuarioExiste == null)
+            Usuario usuarioExistente = BuscarUsuarioPorId(usuario.ID_Usuario);
+            if (usuarioExistente == null)
             {
-                throw new InvalidOperationException("El usuario no existe por lo tanto es paraguayo");
+                throw new InvalidOperationException("El usuario no existe.");
             }
-            usuarioExiste.Nom_usuario=usuario.Nom_usuario;
-            usuarioExiste.Contrasenia_usuario = usuario.Contrasenia_usuario;
-            usuarioExiste.Email_usuario= usuario.Email_usuario;
-            usuarioExiste.Id_rol=usuario.Id_rol;
-        }
-        public static void EliminarUsuario(int idUsuario)
-        {
-           
-        }
-        public static void AsignarRol(int idUsuario, string rol)
-        {
-            Usuario usuario = listaUsuarios.Get(idUsuario);
-            if (usuario == null)
-            {
-                throw new InvalidOperationException("El usuario no existe");
-            }
-            usuario.Id_rol=rol;
+            usuarioExistente.Nombre_Usuario = usuario.Nombre_Usuario;
+            usuarioExistente.Contrasena = usuario.Contrasena;
+            usuarioExistente.Correo = usuario.Correo;
+            usuarioExistente.ID_Rol = usuario.ID_Rol;
+            usuarioExistente.Foto = usuario.Foto;
         }
 
-       public static Usuario ValidarCredenciales(string username, string password)
+      
+        public static void EliminarUsuario(int idUsuario)
         {
-            for(int i=0;i< listaUsuarios.GetTam(); i++)
+            Usuario usuario = BuscarUsuarioPorId(idUsuario);
+            if (usuario == null)
             {
-                Usuario usuario=listaUsuarios.Get(i);
-                if(usuario.Nom_usuario == username && usuario.Contrasenia_usuario==password)
+                throw new InvalidOperationException("El usuario no existe.");
+            }
+            listaUsuarios.Eliminar(usuario);
+        }
+
+     
+        public static void AsignarRol(int idUsuario, int idRol)
+        {
+            Usuario usuario = BuscarUsuarioPorId(idUsuario);
+            if (usuario == null)
+            {
+                throw new InvalidOperationException("El usuario no existe.");
+            }
+            usuario.ID_Rol = idRol;
+        }
+
+      
+        public static Usuario ValidarCredenciales(string username, string password)
+        {
+            for (int i = 0; i < listaUsuarios.GetTam(); i++)
+            {
+                Usuario usuario = listaUsuarios.Get(i);
+                if (usuario.Nombre_Usuario == username && usuario.Contrasena == password)
+                {
+                    return usuario;
+                }
+            }
+            return null;
+        }
+
+     
+        private static Usuario BuscarUsuarioPorId(int idUsuario)
+        {
+            for (int i = 0; i < listaUsuarios.GetTam(); i++)
+            {
+                Usuario usuario = listaUsuarios.Get(i);
+                if (usuario.ID_Usuario == idUsuario)
                 {
                     return usuario;
                 }

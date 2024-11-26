@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
 {
-    class Pila<T>:IEnumerable<T>
+    public class Pila<T>:IEnumerable<T>
     {
         private Nodo<T> primero;
         private int tam;

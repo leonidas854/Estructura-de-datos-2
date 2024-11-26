@@ -148,18 +148,18 @@ namespace Optica_Tokio
         }
         
         private void FrmLogin_Load(object sender, EventArgs e)
-        {
+        {/*
             try
             {
-                coneccion conexion = new coneccion();
-                conexion.AbrirConexion();
-                MessageBox.Show("Conexión a PostgreSQL exitosa", "Conexión", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                conexion.CerrarConexion();
+                //BaseRepository conexion = new BaseRepository();
+                //conexion.AbrirConexion();
+                //MessageBox.Show("Conexión a PostgreSQL exitosa", "Conexión", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //conexion.CerrarConexion();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error al conectar con la base de datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            }*/
         }
     }
 }

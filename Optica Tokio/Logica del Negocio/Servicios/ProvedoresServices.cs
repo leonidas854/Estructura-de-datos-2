@@ -1,4 +1,5 @@
 ﻿using Optica_Tokio.Data_Access.Repositorios;
+using Optica_Tokio.Logica_del_Negocio.Estructura_de_datos;
 using Optica_Tokio.Logica_del_Negocio.Modelos;
 using System;
 using System.Collections.Generic;
@@ -8,36 +9,67 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Servicios
 {
-    internal class ProvedoresServices
+    class ProvedoresServices
     {
-        private ProovedoresReposi repositorio = new ProovedoresReposi();
+      public static  ArbolRN<int, Proveedor> arbolProveedores = new ArbolRN<int, Proveedor>();
 
-        public Proveedores[] ListarProveedores()
+   
+        public void AgregarProveedor(Proveedor proveedor)
         {
-            return repositorio.ListarTodos();
-        }
-
-        public void CrearProveedor(Proveedores proveedor)
-        {
-            repositorio.Insertar(proveedor);
-        }
-
-        public void EditarProveedor(Proveedores proveedor)
-        {
-            var proveedorExistente = repositorio.Buscar(proveedor.Id_proveedor);
-            if (proveedorExistente != null)
+            if (arbolProveedores.Contiene(proveedor.ID_Proveedor))
             {
-                proveedorExistente.Nom_proveedor = proveedor.Nom_proveedor;
-                proveedorExistente.Telf_proveedor = proveedor.Telf_proveedor;
-                proveedorExistente.Email_proveedor = proveedor.Email_proveedor;
-                proveedorExistente.Dir_proveedor = proveedor.Dir_proveedor;
-                proveedorExistente.Condiciones = proveedor.Condiciones;
+                throw new InvalidOperationException("El proveedor con este ID ya existe.");
+            }
+            arbolProveedores.Insertar(proveedor.ID_Proveedor, proveedor);
+        }
+
+   
+        public Proveedor ObtenerProveedorPorId(int idProveedor)
+        {
+            return arbolProveedores.GetValorPorLlave(idProveedor) ?? throw new KeyNotFoundException("El proveedor no existe.");
+        }
+
+
+        public void EliminarProveedorPorId(int idProveedor)
+        {
+            if (!arbolProveedores.Contiene(idProveedor))
+            {
+                throw new InvalidOperationException("El proveedor no existe.");
+            }
+            arbolProveedores.Eliminar(idProveedor);
+        }
+
+   
+        public void EditarProveedor(int idProveedor, string nuevoNombre, string nuevoContacto, string nuevoTelefono, string nuevoEmail, string nuevaDireccion, string nuevasCondiciones)
+        {
+            var proveedor = ObtenerProveedorPorId(idProveedor);
+            if (proveedor != null)
+            {
+                proveedor.Nombre = nuevoNombre;
+                proveedor.Contacto = nuevoContacto;
+                proveedor.Telefono = nuevoTelefono;
+                proveedor.Email = nuevoEmail;
+                proveedor.Direccion = nuevaDireccion;
+                proveedor.Condiciones_Entrega = nuevasCondiciones;
+
+
+                arbolProveedores.Insertar(idProveedor, proveedor);
+            }
+            else
+            {
+                throw new InvalidOperationException("El proveedor no existe.");
             }
         }
 
-        public void EliminarProveedor(string idProveedor)
+
+        public IEnumerable<Proveedor> ListarProveedoresAmplitud()
         {
-            repositorio.Eliminar(idProveedor);
+            return arbolProveedores.RecorridoAmplitud();
+        }
+
+        public IEnumerable<Proveedor> ListarProveedoresProfundidad()
+        {
+            return arbolProveedores.RecorridoPorProfundidad();
         }
     }
 }

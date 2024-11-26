@@ -1,0 +1,101 @@
+
+CREATE TABLE Clasificacion (
+    ID_Clasificacion INT PRIMARY KEY,
+    Nombre_Clasificacion VARCHAR(100)
+);
+CREATE TABLE Categorias (
+    ID_Categoria INT PRIMARY KEY,
+    Nombre_Categoria NVARCHAR(100),
+    Descripcion NVARCHAR(255)
+);
+CREATE TABLE Proveedores (
+    ID_Proveedor INT PRIMARY KEY,
+    Nombre NVARCHAR(100),
+    Contacto NVARCHAR(100),
+    Telefono NVARCHAR(20),
+    Email NVARCHAR(100),
+    Direccion NVARCHAR(255),
+    Condiciones_Entrega NVARCHAR(255)
+);
+CREATE TABLE Productos (
+    ID_Producto INT PRIMARY KEY,
+    Nombre NVARCHAR(100),
+    Descripcion NVARCHAR(255),
+    Cantidad_Total INT,
+    Precio_Costo DECIMAL(10, 2),
+    ID_Proveedor INT,
+    Fecha_Registro DATE,
+    Foto VARBINARY(MAX),
+    Peso DECIMAL(10, 2),
+    Ancho DECIMAL(10, 2),
+    Alto DECIMAL(10, 2),
+    Grosor DECIMAL(10, 2),
+    ID_Clasificacion INT
+);
+CREATE TABLE Producto_Categoria (
+    ID_Producto INT,
+    ID_Categoria INT,
+    PRIMARY KEY (ID_Producto, ID_Categoria),
+    FOREIGN KEY (ID_Producto) REFERENCES Productos(ID_Producto),
+    FOREIGN KEY (ID_Categoria) REFERENCES Categorias(ID_Categoria)
+);
+CREATE TABLE Locales (
+    ID_Local INT PRIMARY KEY,
+    Nombre_Local NVARCHAR(100),
+    Direccion NVARCHAR(255),
+    Telefono NVARCHAR(20),
+    Responsable NVARCHAR(100)
+);
+CREATE TABLE Inventario_Local (
+    ID_Inventario INT PRIMARY KEY,
+    ID_Producto INT,
+    ID_Local INT,
+    Cantidad INT,
+    Fecha_Ultima_Actualizacion DATE,
+    FOREIGN KEY (ID_Producto) REFERENCES Productos(ID_Producto),
+    FOREIGN KEY (ID_Local) REFERENCES Locales(ID_Local)
+);
+CREATE TABLE Roles (
+    ID_Rol INT PRIMARY KEY,
+    Nombre_Rol NVARCHAR(100),
+    Descripcion NVARCHAR(255)
+);
+CREATE TABLE Controladores (
+    ID_Controlador INT PRIMARY KEY,
+    Nombre_Controlador NVARCHAR(100),
+    Descripcion NVARCHAR(255)
+);
+CREATE TABLE Permisos_Rol (
+    ID_Rol INT,
+    ID_Controlador INT,
+    Permiso NVARCHAR(50),
+    PRIMARY KEY (ID_Rol, ID_Controlador),
+    FOREIGN KEY (ID_Rol) REFERENCES Roles(ID_Rol),
+    FOREIGN KEY (ID_Controlador) REFERENCES Controladores(ID_Controlador)
+);
+
+
+CREATE TABLE Usuarios (
+    ID_Usuario INT PRIMARY KEY,
+    Nombre_Usuario NVARCHAR(100),
+    Contrasena NVARCHAR(255),
+    Correo NVARCHAR(100),
+    ID_Rol INT,
+    Fecha_Creacion DATE,
+    Foto VARBINARY(MAX),
+    FOREIGN KEY (ID_Rol) REFERENCES Roles(ID_Rol)
+);
+
+CREATE TABLE Movimientos_Inventario (
+    ID_Movimiento INT PRIMARY KEY,
+    ID_Producto INT,
+    ID_Local INT,
+    Tipo_Movimiento NVARCHAR(20),
+    Cantidad INT,
+    Fecha DATE,
+    ID_Usuario INT,
+    Comentarios NVARCHAR(255),
+    FOREIGN KEY (ID_Producto) REFERENCES Productos(ID_Producto),
+    FOREIGN KEY (ID_Local) REFERENCES Locales(ID_Local),
+    FOREIGN KEY (ID_Usuario) REFERENCES Usuarios(ID_Usuario)
+);

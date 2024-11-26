@@ -8,69 +8,69 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Servicios
 {
-    class CategoriasServices
+    public class CategoriasServices
     {
-        public static Lista<Categorias> categorias = new Lista<Categorias>();
+       
+        public  static ArbolRN<int, Categorias> categorias = new ArbolRN<int, Categorias>();
 
         
         public void AgregarCategoria(Categorias categoria)
         {
-            if (categoria != null && !categorias.Pertenece(categoria))
+            if (categoria == null)
             {
-                categorias.Insertar(categoria);
+                throw new ArgumentNullException(nameof(categoria), "La categoría no puede ser nula.");
+            }
+
+            if (!categorias.Contiene(categoria.ID_Categoria))
+            {
+                categorias.Insertar(categoria.ID_Categoria, categoria);
             }
             else
             {
-                throw new InvalidOperationException("La categoría ya existe o es inválida.");
+                throw new InvalidOperationException($"La categoría con ID {categoria.ID_Categoria} ya existe.");
             }
-        }
-
-        
-        public Lista<Categorias> ObtenerCategorias()
-        {
-            return categorias;
         }
 
       
-        public Categorias BuscarCategoriaPorId(int id)
+        public IEnumerable<Categorias> ObtenerCategorias()
         {
-            foreach (var categoria in categorias)
-            {
-                if (categoria.ID_Categoria == id)
-                {
-                    return categoria;
-                }
-            }
-            return null;
+            return categorias.RecorridoAmplitud();
         }
 
-
         
+        public Categorias BuscarCategoriaPorId(int id)
+        {
+            var categoria = categorias.GetValorPorLlave(id);
+            if (categoria == null)
+            {
+                throw new KeyNotFoundException($"No se encontró ninguna categoría con ID {id}.");
+            }
+            return categoria;
+        }
+
+    
         public bool EliminarCategoriaPorId(int id)
         {
-            foreach (var categoria in categorias)
+            if (categorias.Contiene(id))
             {
-                if (categoria.ID_Categoria == id)
-                {
-                    categorias.Eliminar(categoria);
-                    return true;
-                }
+                categorias.Eliminar(id); 
+                return true;
             }
             return false;
         }
 
-       
+      
         public void EditarCategoria(int id, string nuevoNombre, string nuevaDescripcion)
         {
             var categoria = BuscarCategoriaPorId(id);
             if (categoria != null)
             {
-                categoria.Nombre_Categoria = nuevoNombre;
-                categoria.Descripcion = nuevaDescripcion;
+                categoria.Nombre_Categoria = nuevoNombre ?? throw new ArgumentNullException(nameof(nuevoNombre));
+                categoria.Descripcion = nuevaDescripcion ?? throw new ArgumentNullException(nameof(nuevaDescripcion));
             }
             else
             {
-                throw new InvalidOperationException("La categoría no existe.");
+                throw new InvalidOperationException($"No se encontró ninguna categoría con ID {id} para editar.");
             }
         }
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
 {
-    class Cola<T> :IEnumerable<T>
+   public  class Cola<T> :IEnumerable<T>
     {
         private Nodo<T> ultimo;
         private Nodo<T> primero;

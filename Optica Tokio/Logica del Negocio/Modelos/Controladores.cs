@@ -6,24 +6,18 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Modelos
 {
-    class Controladores
+    public class Controlador
     {
-        string id_controlador;
-        string nom_controlador;
-        string descr_controlador;
-        Controladores enlace_controladores;
+        public int ID_Controlador { get; set; }
+        public string Nombre_Controlador { get; set; }
+        public string Descripcion { get; set; }
 
-        public Controladores(string id_controlador, string nom_controlador, string descr_controlador)
+        public Controlador(int iD_Controlador, string nombre_Controlador, string descripcion)
         {
-            this.id_controlador = id_controlador;
-            this.nom_controlador = nom_controlador;
-            this.descr_controlador = descr_controlador;
-            this.enlace_controladores = null;
+            ID_Controlador = iD_Controlador;
+            Nombre_Controlador = nombre_Controlador;
+            Descripcion = descripcion;
         }
-
-        public string Id_controlador { get => id_controlador; set => id_controlador = value; }
-        public string Nom_controlador { get => nom_controlador; set => nom_controlador = value; }
-        public string Descr_controlador { get => descr_controlador; set => descr_controlador = value; }
-        internal Controladores Enlace_controladores { get => enlace_controladores; set => enlace_controladores = value; }
     }
+
 }

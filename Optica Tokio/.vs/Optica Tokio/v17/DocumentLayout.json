@@ -1,133 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\",
+  "WorkspaceRootPath": "D:\\Estructura-de-datos-2\\Optica Tokio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\asus zephyrus m16\\documents\\estructura-de-datos-2\\optica tokio\\logica del negocio\\estructura de datos\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\estructura de datos\\pila.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\config\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:config\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\asus zephyrus m16\\documents\\estructura-de-datos-2\\optica tokio\\logica del negocio\\servicios\\categoriasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\data access\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:data access\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\data access\\repositorios\\categoriasreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:data access\\repositorios\\categoriasreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\logica del negocio\\servicios\\categoriasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\servicios\\categoriasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\asus zephyrus m16\\documents\\estructura-de-datos-2\\optica tokio\\logica del negocio\\modelos\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\modelos\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\asus zephyrus m16\\documents\\estructura-de-datos-2\\optica tokio\\logica del negocio\\estructura de datos\\arbolrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\estructura de datos\\arbolrn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\informedelreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\informedelreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\data access\\repositorios\\proovedoresreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:data access\\repositorios\\proovedoresreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\logica del negocio\\modelos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\modelos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\asus zephyrus m16\\documents\\estructura-de-datos-2\\optica tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\logica del negocio\\servicios\\provedoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\logica del negocio\\servicios\\provedoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\servicios\\provedoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frm loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\data access\\appdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:data access\\appdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\config\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:config\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\data access\\repositorios\\proovedoresreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:data access\\repositorios\\proovedoresreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\ui\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|d:\\estructura-de-datos-2\\optica tokio\\ui\\formularios\\frmcategoriasnuevas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmcategoriasnuevas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\informedelreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\informedelreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frm loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frm loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\gestioninventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\gestioninventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\gestioninventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\salidasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\salidasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\salidasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\rolesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|D:\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\rolesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\rolesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -155,200 +171,244 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pila.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Estructura de datos\\Pila.cs",
-              "RelativeDocumentMoniker": "Logica del Negocio\\Estructura de datos\\Pila.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Estructura de datos\\Pila.cs",
-              "RelativeToolTip": "Logica del Negocio\\Estructura de datos\\Pila.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:05:03.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ArbolRN.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Estructura de datos\\ArbolRN.cs",
-              "RelativeDocumentMoniker": "Logica del Negocio\\Estructura de datos\\ArbolRN.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Estructura de datos\\ArbolRN.cs",
-              "RelativeToolTip": "Logica del Negocio\\Estructura de datos\\ArbolRN.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:03:33.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoriasServices.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\CategoriasServices.cs",
-              "RelativeDocumentMoniker": "Logica del Negocio\\Servicios\\CategoriasServices.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\CategoriasServices.cs",
-              "RelativeToolTip": "Logica del Negocio\\Servicios\\CategoriasServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:46:26.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Modelos\\Categorias.cs",
-              "RelativeDocumentMoniker": "Logica del Negocio\\Modelos\\Categorias.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Modelos\\Categorias.cs",
-              "RelativeToolTip": "Logica del Negocio\\Modelos\\Categorias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:46:04.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EntradasForms.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
-              "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
-              "RelativeToolTip": "UI\\Formularios\\EntradasForms.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EntradasForms.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
-              "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs [Design]",
-              "RelativeToolTip": "UI\\Formularios\\EntradasForms.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.578Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProovedoresForm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
-              "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
-              "RelativeToolTip": "UI\\Formularios\\ProovedoresForm.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProovedoresForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
-              "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs [Design]",
-              "RelativeToolTip": "UI\\Formularios\\ProovedoresForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.579Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Proveedores.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Modelos\\Proveedores.cs",
-              "RelativeDocumentMoniker": "Logica del Negocio\\Modelos\\Proveedores.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Modelos\\Proveedores.cs",
-              "RelativeToolTip": "Logica del Negocio\\Modelos\\Proveedores.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AbaoutForm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
-              "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
-              "RelativeToolTip": "UI\\Formularios\\AbaoutForm.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AbaoutForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
-              "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs [Design]",
-              "RelativeToolTip": "UI\\Formularios\\AbaoutForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.581Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProovedoresReposi.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
-              "RelativeDocumentMoniker": "Data Access\\Repositorios\\ProovedoresReposi.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
-              "RelativeToolTip": "Data Access\\Repositorios\\ProovedoresReposi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.582Z",
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\Config\\App.config",
+              "RelativeDocumentMoniker": "Config\\App.config",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\Config\\App.config",
+              "RelativeToolTip": "Config\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-26T06:03:35.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FrmMain Menu.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
-              "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
-              "RelativeToolTip": "UI\\Formularios\\FrmMain Menu.cs",
-              "ViewState": "AgIAAAkBAAAAAAAAAAAQwCAAAAAHAAAAAAAAAA==",
+              "Title": "ProvedoresServices.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\ProvedoresServices.cs",
+              "RelativeDocumentMoniker": "Logica del Negocio\\Servicios\\ProvedoresServices.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\ProvedoresServices.cs",
+              "RelativeToolTip": "Logica del Negocio\\Servicios\\ProvedoresServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.582Z",
+              "WhenOpened": "2024-11-26T05:44:16.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriasServices.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\CategoriasServices.cs",
+              "RelativeDocumentMoniker": "Logica del Negocio\\Servicios\\CategoriasServices.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\CategoriasServices.cs",
+              "RelativeToolTip": "Logica del Negocio\\Servicios\\CategoriasServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:44:14.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriasReposi.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\CategoriasReposi.cs",
+              "RelativeDocumentMoniker": "Data Access\\Repositorios\\CategoriasReposi.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\CategoriasReposi.cs",
+              "RelativeToolTip": "Data Access\\Repositorios\\CategoriasReposi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:37:09.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDataManager.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\AppDataManager.cs",
+              "RelativeDocumentMoniker": "Data Access\\AppDataManager.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\AppDataManager.cs",
+              "RelativeToolTip": "Data Access\\AppDataManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:36:41.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProovedoresReposi.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
+              "RelativeDocumentMoniker": "Data Access\\Repositorios\\ProovedoresReposi.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
+              "RelativeToolTip": "Data Access\\Repositorios\\ProovedoresReposi.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:15:18.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\Config\\Program.cs",
+              "RelativeDocumentMoniker": "Config\\Program.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\Config\\Program.cs",
+              "RelativeToolTip": "Config\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:36:34.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmLogin.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs",
+              "RelativeToolTip": "UI\\Formularios\\FrmLogin.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAAKEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:31:05.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Data Access\\BaseRepository.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\BaseRepository.cs",
+              "RelativeToolTip": "Data Access\\BaseRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwBkAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T04:58:17.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FrmMain Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
-              "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs [Design]",
-              "RelativeToolTip": "UI\\Formularios\\FrmMain Menu.cs [Design]",
+              "Title": "CategoriasForms.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\CategoriasForms.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
+              "RelativeToolTip": "UI\\Formularios\\CategoriasForms.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.583Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-26T02:08:32.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FrmCategoriasNuevas.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmCategoriasNuevas.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmCategoriasNuevas.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmCategoriasNuevas.cs",
+              "RelativeToolTip": "UI\\Formularios\\FrmCategoriasNuevas.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDYAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:02:42.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EntradasForms.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
+              "RelativeToolTip": "UI\\Formularios\\EntradasForms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:31:04.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EntradasForms.cs [Design]",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
+              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:31:04.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProovedoresForm.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
+              "RelativeToolTip": "UI\\Formularios\\ProovedoresForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:31:04.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProovedoresForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Formularios\\ProovedoresForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:31:04.579Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AbaoutForm.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
+              "RelativeToolTip": "UI\\Formularios\\AbaoutForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:31:04.581Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "ProvedoresServices.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\ProvedoresServices.cs",
-              "RelativeDocumentMoniker": "Logica del Negocio\\Servicios\\ProvedoresServices.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\ProvedoresServices.cs",
-              "RelativeToolTip": "Logica del Negocio\\Servicios\\ProvedoresServices.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCkAAAAFAAAA",
+              "Title": "AbaoutForm.cs [Design]",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
+              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:31:04.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmMain Menu.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+              "RelativeToolTip": "UI\\Formularios\\FrmMain Menu.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAQwCAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:31:04.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FrmMain Menu.cs [Design]",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
+              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "ReportesForm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ReportesForm.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
               "RelativeToolTip": "UI\\Formularios\\ReportesForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -356,148 +416,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ReportesForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ReportesForm.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2024-11-25T06:31:04.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "AgregarUsuario.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\AgregarUsuario.cs",
               "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs [Design]",
-              "RelativeToolTip": "UI\\Formularios\\AgregarUsuario.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.585Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "FrmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs",
-              "RelativeDocumentMoniker": "UI\\Formularios\\FrmLogin.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2024-11-25T06:31:04.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 32,
+              "Title": "FrmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmLogin.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Formularios\\FrmLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:31:04.585Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "AgregarUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\AgregarUsuario.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
               "RelativeToolTip": "UI\\Formularios\\AgregarUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T06:31:04.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "InformedelReport.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\InformedelReport.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\InformedelReport.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\InformedelReport.cs",
               "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\InformedelReport.cs [Design]",
-              "RelativeToolTip": "UI\\Formularios\\InformedelReport.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.586Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-25T06:31:04.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Frm LoadingScreen.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\Frm LoadingScreen.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "CategoriasForms.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\CategoriasForms.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs [Dise\u00F1o]",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Formularios\\CategoriasForms.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.588Z"
+              "WhenOpened": "2024-11-25T06:31:04.588Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "FrmPermisos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmPermisos.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "FrmAsignarRoles.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmAsignarRoles.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2024-11-25T06:31:04.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "DashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\DashboardForm.cs",
               "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs [Design]",
-              "RelativeToolTip": "UI\\Formularios\\DashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T06:31:04.589Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-25T06:31:04.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "GestionInventarioForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\GestionInventarioForm.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2024-11-25T06:31:04.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "ProductosForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProductosForm.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProductosForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ProductosForm.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProductosForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProductosForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2024-11-25T06:31:04.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "FrmPermisos.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmPermisos.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
               "RelativeToolTip": "UI\\Formularios\\FrmPermisos.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAApwCgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -505,11 +554,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "RolesForm.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\RolesForm.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\RolesForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\RolesForm.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\RolesForm.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\RolesForm.cs",
               "RelativeToolTip": "UI\\Formularios\\RolesForm.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -517,11 +566,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "FrmAsignarRoles.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmAsignarRoles.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
               "RelativeToolTip": "UI\\Formularios\\FrmAsignarRoles.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAhwB0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -529,11 +578,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "SalidasForms.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs",
+              "DocumentMoniker": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\SalidasForms.cs",
-              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs",
               "RelativeToolTip": "UI\\Formularios\\SalidasForms.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

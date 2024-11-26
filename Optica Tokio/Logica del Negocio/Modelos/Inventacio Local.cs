@@ -6,30 +6,22 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Modelos
 {
-    class Inventacio_Local
+    public class InventarioLocal
     {
-        string id_invent;
-        string id_prod;
-        string id_local;
-        string cantidad_invent;
-        string fecha_act_invent;
-        Inventacio_Local enlace_inventario;
+        public int ID_Inventario { get; set; }
+        public int ID_Producto { get; set; }
+        public int ID_Local { get; set; }
+        public int Cantidad { get; set; }
+        public DateTime Fecha_Ultima_Actualizacion { get; set; }
 
-        public Inventacio_Local(string id_invent, string id_prod, string id_local, string cantidad_invent, string fecha_act_invent)
+        public InventarioLocal(int iD_Inventario, int iD_Producto, int iD_Local, int cantidad, DateTime fecha_Ultima_Actualizacion)
         {
-            this.id_invent = id_invent;
-            this.id_prod = id_prod;
-            this.id_local = id_local;
-            this.cantidad_invent = cantidad_invent;
-            this.fecha_act_invent = fecha_act_invent;
-            this.enlace_inventario = null;
+            ID_Inventario = iD_Inventario;
+            ID_Producto = iD_Producto;
+            ID_Local = iD_Local;
+            Cantidad = cantidad;
+            Fecha_Ultima_Actualizacion = fecha_Ultima_Actualizacion;
         }
-
-        public string Id_invent { get => id_invent; set => id_invent = value; }
-        public string Id_prod { get => id_prod; set => id_prod = value; }
-        public string Id_local { get => id_local; set => id_local = value; }
-        public string Cantidad_invent { get => cantidad_invent; set => cantidad_invent = value; }
-        public string Fecha_act_invent { get => fecha_act_invent; set => fecha_act_invent = value; }
-        internal Inventacio_Local Enlace_inventario { get => enlace_inventario; set => enlace_inventario = value; }
     }
+
 }

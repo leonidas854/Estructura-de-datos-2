@@ -10,6 +10,16 @@ Cantidad_Total: Cantidad total en el inventario.
 Precio_Costo: Precio de costo del producto.
 ID_Proveedor (FK): Relación con el proveedor del producto.
 Fecha_Registro: Fecha en que el producto fue registrado.
+foto
+peso
+ancho
+alto
+grosor
+id_clasificacion
+
+Clasificación 
+id_clasificacion
+nombre de clasificacion
 
 Categorías
 

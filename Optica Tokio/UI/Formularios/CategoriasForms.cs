@@ -47,7 +47,7 @@ namespace Optica_Tokio.UI.Formularios
             if (string.IsNullOrWhiteSpace(txtCategoria.Text))
             {
                 txtCategoria.Text = "BUSCAR POR NOMBRE";
-                txtCategoria.ForeColor = Color.Gray; // Volver al color gris
+                txtCategoria.ForeColor = Color.Gray;
             }
         }
 
@@ -57,14 +57,25 @@ namespace Optica_Tokio.UI.Formularios
         }
         private void ActualizarDataGridView()
         {
-            dgvCategoria.Rows.Clear();
-            foreach (var categoria in CategoriasServices.categorias)
+            try
             {
-                dgvCategoria.Rows.Add(
-                    categoria.Nombre_Categoria,
-                    "Editar",
-                    "Eliminar"
-                );
+                dgvCategoria.Rows.Clear();
+
+               
+                var categoriasOrdenadas = CategoriasServices.categorias.RecorridoAmplitud();
+
+                foreach (var categoria in categoriasOrdenadas)
+                {
+                    dgvCategoria.Rows.Add(
+                        categoria.Nombre_Categoria,
+                        "Editar",                   
+                        "Eliminar"                  
+                    );
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al actualizar la vista de categorías: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

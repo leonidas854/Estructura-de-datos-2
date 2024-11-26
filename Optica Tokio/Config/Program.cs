@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Optica_Tokio.Data_Access;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace Optica_Tokio
 {
@@ -14,9 +16,26 @@ namespace Optica_Tokio
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLogin());
+            //Application.EnableVisualStyles();
+            //Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new FrmLogin());
+            try
+            {
+                // Cargar datos
+                AppDataManager.CargarDatos();
+
+                // Iniciar la aplicación
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new FrmLogin());
+
+                // Guardar datos
+                AppDataManager.GuardarDatos();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al iniciar la aplicación: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

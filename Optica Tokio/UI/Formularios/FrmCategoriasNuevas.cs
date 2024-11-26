@@ -30,19 +30,30 @@ namespace Optica_Tokio.UI.Formularios
         {
             try
             {
+                // Validar si el campo de texto tiene contenido válido
                 if (string.IsNullOrWhiteSpace(txtNuevoRol.Text) || txtNuevoRol.Text == "NOMBRE")
                 {
                     MessageBox.Show("Por favor, ingrese un nombre válido para la categoría.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
+                // Crear la nueva categoría con datos del formulario
                 var nuevaCategoria = new Categorias(
                     id: CategoriasServices.categorias.GetTam() + 1, // Asignar un nuevo ID incremental
                     nombre: txtNuevoRol.Text.Trim(),
-                    descripcion: "Descripción predeterminada" // Cambia esto si tienes un campo para descripción
+                    descripcion: "Descripción predeterminada" // Cambiar si tienes un campo para descripción
                 );
 
-                CategoriasServices.categorias.Insertar(nuevaCategoria);
+                // Verificar si la categoría ya existe en el árbol
+                if (CategoriasServices.categorias.GetValorPorLlave(nuevaCategoria.ID_Categoria) != null)
+                {
+                    MessageBox.Show("La categoría ya existe. Por favor, ingrese una nueva categoría.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // Insertar la nueva categoría en el árbol RN
+                CategoriasServices.categorias.Insertar(nuevaCategoria.ID_Categoria, nuevaCategoria);
+
                 MessageBox.Show("Categoría guardada correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.DialogResult = DialogResult.OK;
                 this.Close();

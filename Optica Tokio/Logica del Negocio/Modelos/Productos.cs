@@ -6,33 +6,39 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Modelos
 {
-    class Productos
+    public class Producto
     {
-        string id_prod;
-        string nombre_pord;
-        string cantidad_prod;
-        string precio_pord;
-        string id_prov;
-        string fecha_registro;
-        Productos enlace_prod;
+        public int ID_Producto { get; set; }
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
+        public int Cantidad_Total { get; set; }
+        public decimal Precio_Costo { get; set; }
+        public int ID_Proveedor { get; set; }
+        public DateTime Fecha_Registro { get; set; }
+        public byte[] Foto { get; set; }
+        public decimal Peso { get; set; }
+        public decimal Ancho { get; set; }
+        public decimal Alto { get; set; }
+        public decimal Grosor { get; set; }
+        public int ID_Clasificacion { get; set; }
 
-        public Productos(string id_prod, string nombre_pord, string cantidad_prod, string precio_pord, string id_prov, string fecha_registro)
+        public Producto(int iD_Producto, string nombre, string descripcion, int cantidad_Total, decimal precio_Costo, int iD_Proveedor, DateTime fecha_Registro, byte[] foto, decimal peso, decimal ancho, decimal alto, decimal grosor, int iD_Clasificacion)
         {
-            this.id_prod = id_prod;
-            this.nombre_pord = nombre_pord;
-            this.cantidad_prod = cantidad_prod;
-            this.precio_pord = precio_pord;
-            this.id_prov = id_prov;
-            this.fecha_registro = fecha_registro;
-            this.enlace_prod = null;
+            ID_Producto = iD_Producto;
+            Nombre = nombre;
+            Descripcion = descripcion;
+            Cantidad_Total = cantidad_Total;
+            Precio_Costo = precio_Costo;
+            ID_Proveedor = iD_Proveedor;
+            Fecha_Registro = fecha_Registro;
+            Foto = foto;
+            Peso = peso;
+            Ancho = ancho;
+            Alto = alto;
+            Grosor = grosor;
+            ID_Clasificacion = iD_Clasificacion;
         }
 
-        public string Id_prod { get => id_prod; set => id_prod = value; }
-        public string Nombre_pord { get => nombre_pord; set => nombre_pord = value; }
-        public string Cantidad_prod { get => cantidad_prod; set => cantidad_prod = value; }
-        public string Precio_pord { get => precio_pord; set => precio_pord = value; }
-        public string Id_prov { get => id_prov; set => id_prov = value; }
-        public string Fecha_registro { get => fecha_registro; set => fecha_registro = value; }
-        internal Productos Enlace_prod { get => enlace_prod; set => enlace_prod = value; }
     }
+
 }

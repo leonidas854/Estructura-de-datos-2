@@ -1,0 +1,197 @@
+BEGIN;
+
+CREATE TABLE IF NOT EXISTS public.clasificacion
+(
+    id_clasificacion INT NOT NULL,
+    nombre_clasificacion VARCHAR(100) NOT NULL,
+    CONSTRAINT clasificacion_pkey PRIMARY KEY (id_clasificacion)
+);
+
+CREATE TABLE IF NOT EXISTS public.categorias
+(
+    id_categoria INT NOT NULL,
+    nombre_categoria VARCHAR(100) NOT NULL,
+    descripcion VARCHAR(255),
+    CONSTRAINT categorias_pkey PRIMARY KEY (id_categoria)
+);
+
+CREATE TABLE IF NOT EXISTS public.proveedores
+(
+    id_proveedor INT NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
+    contacto VARCHAR(100),
+    telefono VARCHAR(20),
+    email VARCHAR(100),
+    direccion VARCHAR(255),
+    condiciones_entrega VARCHAR(255),
+    CONSTRAINT proveedores_pkey PRIMARY KEY (id_proveedor)
+);
+
+CREATE TABLE IF NOT EXISTS public.productos
+(
+    id_producto INT NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
+    descripcion VARCHAR(255),
+    cantidad_total INT,
+    precio_costo DECIMAL(10, 2),
+    id_proveedor INT,
+    fecha_registro DATE,
+    foto BYTEA,
+    peso DECIMAL(10, 2),
+    ancho DECIMAL(10, 2),
+    alto DECIMAL(10, 2),
+    grosor DECIMAL(10, 2),
+    id_clasificacion INT,
+    CONSTRAINT productos_pkey PRIMARY KEY (id_producto)
+);
+CREATE TABLE IF NOT EXISTS public.producto_categoria
+(
+    id_producto INT NOT NULL,
+    id_categoria INT NOT NULL,
+    CONSTRAINT producto_categoria_pkey PRIMARY KEY (id_producto, id_categoria)
+);
+
+CREATE TABLE IF NOT EXISTS public.locales
+(
+    id_local INT NOT NULL,
+    nombre_local VARCHAR(100) NOT NULL,
+    direccion VARCHAR(255),
+    telefono VARCHAR(20),
+    responsable VARCHAR(100),
+    CONSTRAINT locales_pkey PRIMARY KEY (id_local)
+);
+
+CREATE TABLE IF NOT EXISTS public.inventario_local
+(
+    id_inventario INT NOT NULL,
+    id_producto INT NOT NULL,
+    id_local INT NOT NULL,
+    cantidad INT,
+    fecha_ultima_actualizacion DATE,
+    CONSTRAINT inventario_local_pkey PRIMARY KEY (id_inventario)
+);
+
+CREATE TABLE IF NOT EXISTS public.roles
+(
+    id_rol INT NOT NULL,
+    nombre_rol VARCHAR(100) NOT NULL,
+    descripcion VARCHAR(255),
+    CONSTRAINT roles_pkey PRIMARY KEY (id_rol)
+);
+
+CREATE TABLE IF NOT EXISTS public.controladores
+(
+    id_controlador INT NOT NULL,
+    nombre_controlador VARCHAR(100) NOT NULL,
+    descripcion VARCHAR(255),
+    CONSTRAINT controladores_pkey PRIMARY KEY (id_controlador)
+);
+
+CREATE TABLE IF NOT EXISTS public.permisos_rol
+(
+    id_rol INT NOT NULL,
+    id_controlador INT NOT NULL,
+    permiso VARCHAR(50),
+    CONSTRAINT permisos_rol_pkey PRIMARY KEY (id_rol, id_controlador)
+);
+
+CREATE TABLE IF NOT EXISTS public.usuarios
+(
+    id_usuario INT NOT NULL,
+    nombre_usuario VARCHAR(100) NOT NULL,
+    contrasena VARCHAR(255),
+    correo VARCHAR(100),
+    id_rol INT,
+    fecha_creacion DATE,
+    foto BYTEA,
+    CONSTRAINT usuarios_pkey PRIMARY KEY (id_usuario)
+);
+
+CREATE TABLE IF NOT EXISTS public.movimientos_inventario
+(
+    id_movimiento INT NOT NULL,
+    id_producto INT NOT NULL,
+    id_local INT NOT NULL,
+    tipo_movimiento VARCHAR(20),
+    cantidad INT,
+    fecha DATE,
+    id_usuario INT,
+    comentarios VARCHAR(255),
+    CONSTRAINT movimientos_inventario_pkey PRIMARY KEY (id_movimiento)
+);
+
+-- Relaciones entre las tablas
+
+ALTER TABLE IF EXISTS public.productos
+    ADD CONSTRAINT fk_productos_proveedores FOREIGN KEY (id_proveedor)
+    REFERENCES public.proveedores (id_proveedor) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE SET NULL;
+
+ALTER TABLE IF EXISTS public.productos
+    ADD CONSTRAINT fk_productos_clasificacion FOREIGN KEY (id_clasificacion)
+    REFERENCES public.clasificacion (id_clasificacion) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE RESTRICT;
+
+ALTER TABLE IF EXISTS public.producto_categoria
+    ADD CONSTRAINT fk_producto_categoria_productos FOREIGN KEY (id_producto)
+    REFERENCES public.productos (id_producto) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+ALTER TABLE IF EXISTS public.producto_categoria
+    ADD CONSTRAINT fk_producto_categoria_categorias FOREIGN KEY (id_categoria)
+    REFERENCES public.categorias (id_categoria) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+ALTER TABLE IF EXISTS public.inventario_local
+    ADD CONSTRAINT fk_inventario_local_productos FOREIGN KEY (id_producto)
+    REFERENCES public.productos (id_producto) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+ALTER TABLE IF EXISTS public.inventario_local
+    ADD CONSTRAINT fk_inventario_local_locales FOREIGN KEY (id_local)
+    REFERENCES public.locales (id_local) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+ALTER TABLE IF EXISTS public.permisos_rol
+    ADD CONSTRAINT fk_permisos_rol_roles FOREIGN KEY (id_rol)
+    REFERENCES public.roles (id_rol) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+ALTER TABLE IF EXISTS public.permisos_rol
+    ADD CONSTRAINT fk_permisos_rol_controladores FOREIGN KEY (id_controlador)
+    REFERENCES public.controladores (id_controlador) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+ALTER TABLE IF EXISTS public.usuarios
+    ADD CONSTRAINT fk_usuarios_roles FOREIGN KEY (id_rol)
+    REFERENCES public.roles (id_rol) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE SET NULL;
+
+ALTER TABLE IF EXISTS public.movimientos_inventario
+    ADD CONSTRAINT fk_movimientos_inventario_productos FOREIGN KEY (id_producto)
+    REFERENCES public.productos (id_producto) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+ALTER TABLE IF EXISTS public.movimientos_inventario
+    ADD CONSTRAINT fk_movimientos_inventario_locales FOREIGN KEY (id_local)
+    REFERENCES public.locales (id_local) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE;
+
+ALTER TABLE IF EXISTS public.movimientos_inventario
+    ADD CONSTRAINT fk_movimientos_inventario_usuarios FOREIGN KEY (id_usuario)
+    REFERENCES public.usuarios (id_usuario) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE SET NULL;
+
+END;

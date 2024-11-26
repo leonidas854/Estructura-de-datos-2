@@ -1,4 +1,7 @@
-﻿using Optica_Tokio.Logica_del_Negocio.Modelos;
+﻿using Npgsql;
+using Optica_Tokio.Logica_del_Negocio.Estructura_de_datos;
+using Optica_Tokio.Logica_del_Negocio.Modelos;
+using Optica_Tokio.Static;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,73 +10,89 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Data_Access.Repositorios
 {
-    internal class ProovedoresReposi
+  public  class ProovedoresReposi : BaseRepository
     {
-        private Proveedores primerProveedor;
-
-        public void Insertar(Proveedores nuevoProveedor)
+        public ArbolRN<int, Proveedor> CargarProveedores()
         {
-            if (primerProveedor == null)
+            var arbolProveedores = new ArbolRN<int, Proveedor>();
+            string query = "SELECT * FROM Proveedores";
+
+            try
             {
-                primerProveedor = nuevoProveedor;
-            }
-            else
-            {
-                Proveedores actual = primerProveedor;
-                while (actual.Enlace_proveedores != null)
+                AbrirConexion();
+                using (var command = new NpgsqlCommand(query, connection))
+                using (var reader = command.ExecuteReader())
                 {
-                    actual = actual.Enlace_proveedores;
+                    while (reader.Read())
+                    {
+                        var proveedor = new Proveedor(
+                            reader.GetInt32(0), // ID_Proveedor
+                            reader.GetString(1), // Nombre
+                            reader.GetString(2), // Contacto
+                            reader.GetString(3), // Telefono
+                            reader.GetString(4), // Email
+                            reader.GetString(5), // Direccion
+                            reader.GetString(6)  // Condiciones_Entrega
+                        );
+                        arbolProveedores.Insertar(proveedor.ID_Proveedor, proveedor);
+                    }
                 }
-                actual.Enlace_proveedores = nuevoProveedor;
             }
+            finally
+            {
+                CerrarConexion();
+            }
+
+            return arbolProveedores;
         }
 
-        public Proveedores Buscar(string idProveedor)
+        public void GuardarProveedores(ArbolRN<int, Proveedor> arbolProveedores)
         {
-            Proveedores actual = primerProveedor;
-            while (actual != null)
+            string query = "INSERT INTO Proveedores (ID_Proveedor, Nombre, Contacto, Telefono, Email, Direccion, Condiciones_Entrega) " +
+                           "VALUES (@ID, @Nombre, @Contacto, @Telefono, @Email, @Direccion, @Condiciones)";
+            try
             {
-                if (actual.Id_proveedor == idProveedor)
+                AbrirConexion();
+                foreach (var proveedor in arbolProveedores.RecorridoAmplitud())
                 {
-                    return actual;
+                    using (var command = new NpgsqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("ID", proveedor.ID_Proveedor);
+                        command.Parameters.AddWithValue("Nombre", proveedor.Nombre);
+                        command.Parameters.AddWithValue("Contacto", proveedor.Contacto);
+                        command.Parameters.AddWithValue("Telefono", proveedor.Telefono);
+                        command.Parameters.AddWithValue("Email", proveedor.Email);
+                        command.Parameters.AddWithValue("Direccion", proveedor.Direccion);
+                        command.Parameters.AddWithValue("Condiciones", proveedor.Condiciones_Entrega);
+
+                        command.ExecuteNonQuery();
+                    }
                 }
-                actual = actual.Enlace_proveedores;
             }
-            return null;
+            finally
+            {
+                CerrarConexion();
+            }
         }
-        public void Eliminar(string idProveedor)
+
+        public void LimpiarTabla()
         {
-            if (primerProveedor == null) return;
-
-            if (primerProveedor.Id_proveedor == idProveedor)
+            string query = "DELETE FROM Proveedores";
+            try
             {
-                primerProveedor = primerProveedor.Enlace_proveedores;
-                return;
-            }
-
-            Proveedores actual = primerProveedor;
-            while (actual.Enlace_proveedores != null)
-            {
-                if (actual.Enlace_proveedores.Id_proveedor == idProveedor)
+                AbrirConexion();
+                using (var command = new NpgsqlCommand(query, connection))
                 {
-                    actual.Enlace_proveedores = actual.Enlace_proveedores.Enlace_proveedores;
-                    return;
+                    command.ExecuteNonQuery();
                 }
-                actual = actual.Enlace_proveedores;
             }
-        }
-        public Proveedores[] ListarTodos()
-        {
-            Proveedores actual = primerProveedor;
-            var lista = new System.Collections.ArrayList();
-
-            while (actual != null)
+            finally
             {
-                lista.Add(actual);
-                actual = actual.Enlace_proveedores;
+                CerrarConexion();
             }
-
-            return (Proveedores[])lista.ToArray(typeof(Proveedores));
         }
+
+
+
     }
 }

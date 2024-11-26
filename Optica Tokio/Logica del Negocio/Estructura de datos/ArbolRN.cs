@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
 {
-     class ArbolRN<K, V> where K : IComparable<K>
+    public class ArbolRN<K, V> where K : IComparable<K>
     {
         private const bool ROJO = true;
         private const bool NEGRO = false;
@@ -179,38 +179,149 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
 
         public IEnumerable<V> RecorridoAmplitud()
         {
-            var resultado = new List<V>();
-            var cola = new Queue<Nodo>();
-            if (raiz != null) cola.Enqueue(raiz);
+            var resultado = new Lista<V>();
+            var cola = new Cola<Nodo>();
 
-            while (cola.Count > 0)
+            if (raiz != null) cola.Encolar(raiz);
+
+            while (!cola.EstaVacio())
             {
-                var actual = cola.Dequeue();
-                resultado.Add(actual.Valor);
+                var actual = cola.Desencolar();
+                resultado.Insertar(actual.Valor);
 
-                if (actual.Izquierda != null) cola.Enqueue(actual.Izquierda);
-                if (actual.Derecha != null) cola.Enqueue(actual.Derecha);
+                if (actual.Izquierda != null) cola.Encolar(actual.Izquierda);
+                if (actual.Derecha != null) cola.Encolar(actual.Derecha);
             }
+
             return resultado;
         }
 
         public IEnumerable<V> RecorridoPorProfundidad()
         {
-            var resultado = new List<V>();
-            var pila = new Stack<Nodo>();
-            if (raiz != null) pila.Push(raiz);
+            var resultado = new Lista<V>();
+            var pila = new Pila<Nodo>();
 
-            while (pila.Count > 0)
+            if (raiz != null) pila.Empilar(raiz);
+
+            while (!pila.EstaVacio())
             {
-                var actual = pila.Pop();
-                resultado.Add(actual.Valor);
+                var actual = pila.Desempilar();
+                resultado.Insertar(actual.Valor);
 
-                if (actual.Derecha != null) pila.Push(actual.Derecha);
-                if (actual.Izquierda != null) pila.Push(actual.Izquierda);
+                if (actual.Derecha != null) pila.Empilar(actual.Derecha);
+                if (actual.Izquierda != null) pila.Empilar(actual.Izquierda);
             }
+
             return resultado;
         }
-    
 
-}
+        public void Eliminar(K llave)
+        {
+            if (!Contiene(llave))
+            {
+                throw new KeyNotFoundException("La llave no existe en el árbol.");
+            }
+
+            if (!EsRojo(raiz.Izquierda) && !EsRojo(raiz.Derecha))
+            {
+                raiz.Color = ROJO;
+            }
+
+            raiz = Eliminar(raiz, llave);
+            if (raiz != null) raiz.Color = NEGRO;
+        }
+
+        private Nodo Eliminar(Nodo nodo, K llave)
+        {
+            if (llave.CompareTo(nodo.Llave) < 0)
+            {
+                if (!EsRojo(nodo.Izquierda) && !EsRojo(nodo.Izquierda?.Izquierda))
+                {
+                    nodo = MoverIzquierda(nodo);
+                }
+                nodo.Izquierda = Eliminar(nodo.Izquierda, llave);
+            }
+            else
+            {
+                if (EsRojo(nodo.Izquierda))
+                {
+                    nodo = RotarDerecha(nodo);
+                }
+
+                if (llave.CompareTo(nodo.Llave) == 0 && nodo.Derecha == null)
+                {
+                    return null;
+                }
+
+                if (!EsRojo(nodo.Derecha) && !EsRojo(nodo.Derecha?.Izquierda))
+                {
+                    nodo = MoverDerecha(nodo);
+                }
+
+                if (llave.CompareTo(nodo.Llave) == 0)
+                {
+                    Nodo minNodo = GetMin(nodo.Derecha);
+                    nodo.Llave = minNodo.Llave;
+                    nodo.Valor = minNodo.Valor;
+                    nodo.Derecha = EliminarMin(nodo.Derecha);
+                }
+                else
+                {
+                    nodo.Derecha = Eliminar(nodo.Derecha, llave);
+                }
+            }
+
+            return Balancear(nodo);
+        }
+
+        private Nodo MoverIzquierda(Nodo nodo)
+        {
+            CambiarColor(nodo);
+            if (EsRojo(nodo.Derecha?.Izquierda))
+            {
+                nodo.Derecha = RotarDerecha(nodo.Derecha);
+                nodo = RotarIzquierda(nodo);
+                CambiarColor(nodo);
+            }
+            return nodo;
+        }
+
+        private Nodo MoverDerecha(Nodo nodo)
+        {
+            CambiarColor(nodo);
+            if (EsRojo(nodo.Izquierda?.Izquierda))
+            {
+                nodo = RotarDerecha(nodo);
+                CambiarColor(nodo);
+            }
+            return nodo;
+        }
+
+        private Nodo EliminarMin(Nodo nodo)
+        {
+            if (nodo.Izquierda == null)
+            {
+                return null;
+            }
+
+            if (!EsRojo(nodo.Izquierda) && !EsRojo(nodo.Izquierda?.Izquierda))
+            {
+                nodo = MoverIzquierda(nodo);
+            }
+
+            nodo.Izquierda = EliminarMin(nodo.Izquierda);
+            return Balancear(nodo);
+        }
+
+        private Nodo Balancear(Nodo nodo)
+        {
+            if (EsRojo(nodo.Derecha)) nodo = RotarIzquierda(nodo);
+            if (EsRojo(nodo.Izquierda) && EsRojo(nodo.Izquierda?.Izquierda)) nodo = RotarDerecha(nodo);
+            if (EsRojo(nodo.Izquierda) && EsRojo(nodo.Derecha)) CambiarColor(nodo);
+
+            nodo.Tam = GetTam(nodo.Izquierda) + GetTam(nodo.Derecha) + 1;
+            return nodo;
+        }
+
+    }
 }
