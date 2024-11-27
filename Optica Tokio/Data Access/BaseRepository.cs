@@ -13,9 +13,9 @@ namespace Optica_Tokio.Static
     public abstract class BaseRepository
     {
         static string servidor = "localhost";
-        static string bd = "db_optica";
+        static string bd = "db_optica2";
         static string usuario = "postgres";
-        static string password = "124875369";
+        static string password = "Andoresux128@";
         static int puerto = 5432;
 
         string cadena = $"server={servidor};port={puerto};user id={usuario};password={password};database={bd};";

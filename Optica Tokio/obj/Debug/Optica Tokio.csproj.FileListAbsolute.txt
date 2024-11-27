@@ -459,3 +459,8 @@ C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debu
 C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.xml
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\Config\App.config
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Config\App.config
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.xml

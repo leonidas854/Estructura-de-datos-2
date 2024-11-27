@@ -44,9 +44,7 @@ namespace Optica_Tokio.UI.Formularios
 
         private void RolesForms_Load(object sender, EventArgs e)
         {
-            DataGridViewButtonColumn btnOtorgarPermisos = new DataGridViewButtonColumn();
-            btnOtorgarPermisos.Name = "Otorgar Permisos";
-            dgvRoles.Columns.Add(btnOtorgarPermisos);
+            
 
             
 
@@ -54,20 +52,18 @@ namespace Optica_Tokio.UI.Formularios
 
         private void dgvRoles_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
         {
-            if (e.ColumnIndex >= 0 && this.dgvRoles.Columns[e.ColumnIndex].Name=="Otorgar Permisos" && e.RowIndex>=0)
-            {
-                e.Paint(e.CellBounds, DataGridViewPaintParts.All);
-                DataGridViewButtonCell celPermisos = this.dgvRoles.Rows[e.RowIndex].Cells["Otorgar Permisos"] as DataGridViewButtonCell;
-                //Icon icoPermiso=new Icon(Environment.CurrentDirectory)
-                //e.Graphics
-                e.Handled = true;
-            }
+            
             
         }
 
         private void dgvRoles_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
-            if (this.dgvRoles.Columns[e.ColumnIndex].Name == "Otorgar Permisos")
+           
+        }
+
+        private void dgvMostrarRol_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (this.dgvMostrarRol.Columns[e.ColumnIndex].Name == "Otorgar_Permisos")
             {
                 FrmPermisos formPermiso = new FrmPermisos();
 

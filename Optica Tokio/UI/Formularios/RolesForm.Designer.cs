@@ -32,10 +32,13 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnRolNuevo = new System.Windows.Forms.Button();
-            this.dgvRoles = new System.Windows.Forms.DataGridView();
+            this.dgvMostrarRol = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Otorgar_Permisos = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRoles)).BeginInit();
+            this.grbRol = new System.Windows.Forms.GroupBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMostrarRol)).BeginInit();
             this.SuspendLayout();
             // 
             // btnRolNuevo
@@ -54,70 +57,88 @@
             this.btnRolNuevo.UseVisualStyleBackColor = true;
             this.btnRolNuevo.Click += new System.EventHandler(this.btnRolNuevo_Click);
             // 
-            // dgvRoles
+            // dgvMostrarRol
             // 
-            this.dgvRoles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvRoles.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dgvRoles.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.dgvRoles.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dgvRoles.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dgvRoles.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dgvMostrarRol.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvMostrarRol.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dgvMostrarRol.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.dgvMostrarRol.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvMostrarRol.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvRoles.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvRoles.ColumnHeadersHeight = 30;
-            this.dgvRoles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvRoles.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvMostrarRol.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvMostrarRol.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvMostrarRol.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
+            this.Column2,
+            this.Otorgar_Permisos,
             this.Eliminar});
-            this.dgvRoles.EnableHeadersVisualStyles = false;
-            this.dgvRoles.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvRoles.Location = new System.Drawing.Point(45, 177);
-            this.dgvRoles.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dgvRoles.Name = "dgvRoles";
-            this.dgvRoles.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgvMostrarRol.EnableHeadersVisualStyles = false;
+            this.dgvMostrarRol.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dgvMostrarRol.Location = new System.Drawing.Point(26, 198);
+            this.dgvMostrarRol.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvMostrarRol.Name = "dgvMostrarRol";
+            this.dgvMostrarRol.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvRoles.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvRoles.RowHeadersWidth = 51;
+            this.dgvMostrarRol.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvMostrarRol.RowHeadersWidth = 51;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvRoles.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvRoles.RowTemplate.Height = 24;
-            this.dgvRoles.Size = new System.Drawing.Size(1104, 251);
-            this.dgvRoles.TabIndex = 1;
-            this.dgvRoles.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvRoles_CellClick_1);
-            this.dgvRoles.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvRoles_CellPainting);
+            this.dgvMostrarRol.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvMostrarRol.RowTemplate.Height = 24;
+            this.dgvMostrarRol.Size = new System.Drawing.Size(1153, 160);
+            this.dgvMostrarRol.TabIndex = 8;
+            this.dgvMostrarRol.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMostrarRol_CellClick);
             // 
             // Column1
             // 
-            this.Column1.HeaderText = "Nombre";
+            this.Column1.HeaderText = "Nombre ";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "ROL";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            // 
+            // Otorgar_Permisos
+            // 
+            this.Otorgar_Permisos.HeaderText = "Otorgar Permisos";
+            this.Otorgar_Permisos.MinimumWidth = 6;
+            this.Otorgar_Permisos.Name = "Otorgar_Permisos";
+            this.Otorgar_Permisos.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Otorgar_Permisos.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
             // Eliminar
             // 
             this.Eliminar.HeaderText = "Eliminar";
             this.Eliminar.MinimumWidth = 6;
             this.Eliminar.Name = "Eliminar";
-            this.Eliminar.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Eliminar.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.Eliminar.Width = 125;
+            // 
+            // grbRol
+            // 
+            this.grbRol.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbRol.Location = new System.Drawing.Point(12, 159);
+            this.grbRol.Name = "grbRol";
+            this.grbRol.Size = new System.Drawing.Size(1219, 232);
+            this.grbRol.TabIndex = 9;
+            this.grbRol.TabStop = false;
+            this.grbRol.Text = "Mostrar Roles";
             // 
             // RolesForms
             // 
@@ -125,14 +146,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1243, 752);
+            this.Controls.Add(this.dgvMostrarRol);
+            this.Controls.Add(this.grbRol);
             this.Controls.Add(this.btnRolNuevo);
-            this.Controls.Add(this.dgvRoles);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RolesForms";
             this.Text = "Roles";
             this.Load += new System.EventHandler(this.RolesForms_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvRoles)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvMostrarRol)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -140,8 +162,11 @@
         #endregion
 
         private System.Windows.Forms.Button btnRolNuevo;
-        private System.Windows.Forms.DataGridView dgvRoles;
+        private System.Windows.Forms.DataGridView dgvMostrarRol;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewButtonColumn Otorgar_Permisos;
         private System.Windows.Forms.DataGridViewButtonColumn Eliminar;
+        private System.Windows.Forms.GroupBox grbRol;
     }
 }
