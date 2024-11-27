@@ -238,6 +238,12 @@
     <Compile Include="UI\Formularios\FrmMain Menu.Designer.cs">
       <DependentUpon>FrmMain Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Formularios\FrmNuevaSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Formularios\FrmNuevaSalida.Designer.cs">
+      <DependentUpon>FrmNuevaSalida.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Formularios\FrmPermisos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -337,6 +343,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\FrmMain Menu.resx">
       <DependentUpon>FrmMain Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\FrmNuevaSalida.resx">
+      <DependentUpon>FrmNuevaSalida.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\FrmPermisos.resx">
       <DependentUpon>FrmPermisos.cs</DependentUpon>
