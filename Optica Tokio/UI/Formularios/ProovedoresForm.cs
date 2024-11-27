@@ -13,6 +13,8 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using iTextSharp.text;
 using iTextSharp.text.pdf;
+using Optica_Tokio.Logica_del_Negocio.Servicios;
+using Optica_Tokio.Logica_del_Negocio.Modelos;
 
 
 namespace Optica_Tokio.UI.Formularios
@@ -28,12 +30,17 @@ namespace Optica_Tokio.UI.Formularios
         private void CargarProveedores()
         {
             dataGridViewProveedores.Rows.Clear();
-            dataGridViewProveedores.Columns.Clear();
-            dataGridViewProveedores.Columns.Add("Nombre", "Nombre");
-            dataGridViewProveedores.Columns.Add("Contacto", "Contacto");
-            dataGridViewProveedores.Columns.Add("Teléfono", "Teléfono");
-            dataGridViewProveedores.Columns.Add("Email", "Email");
-            dataGridViewProveedores.Columns.Add("Dirección", "Dirección");
+            foreach (var proveedor in ProvedoresServices.arbolProveedores.RecorridoAmplitud())
+            {
+                dataGridViewProveedores.Rows.Add(
+                    proveedor.Nombre,
+                    proveedor.Contacto,
+                    proveedor.Telefono,
+                    proveedor.Email,
+                    proveedor.Direccion,
+                    proveedor.Condiciones_Entrega
+                );
+            }
         }
 
         private void txtExportar_Click_1(object sender, EventArgs e)//btnExportar
@@ -78,39 +85,85 @@ namespace Optica_Tokio.UI.Formularios
         }
         private void btnAgregarPROVEEDOR_Click_1(object sender, EventArgs e)
         {
-            dataGridViewProveedores.Rows.Add(txtNombreProveedor.Text, txtContacto.Text, txtTelefono.Text, txtEmail.Text, txtDireccion.Text);
-            MessageBox.Show("Proveedor agregado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            txtNombreProveedor.Clear();
-            txtContacto.Clear();
-            txtTelefono.Clear();
-            txtEmail.Clear();
-            txtDireccion.Clear();
+            try
+            {
+                var nuevoProveedor = new Proveedor(
+                    ProvedoresServices.arbolProveedores.GetTam() + 1,
+                    txtNombreProveedor.Text,
+                    txtContacto.Text,
+                    txtTelefono.Text,
+                    txtEmail.Text,
+                    txtDireccion.Text,
+                   txtCcondiciones.Text
+                );
+
+                ProvedoresServices.AgregarProveedor( nuevoProveedor );
+                CargarProveedores();
+                MessageBox.Show("Proveedor agregado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                txtNombreProveedor.Clear();
+                txtContacto.Clear();
+                txtTelefono.Clear();
+                txtEmail.Clear();
+                txtDireccion.Clear();
+               txtCcondiciones.Clear();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al agregar el proveedor: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
-        private void btnEditarPROVEEDOR_Click_1(object sender, EventArgs e)
+        private void btnEditarPROVEEDOR_Click_1(object sender, EventArgs e) // Editar Proveedor
         {
             if (dataGridViewProveedores.SelectedRows.Count > 0)
             {
-                DataGridViewRow filaSeleccionada = dataGridViewProveedores.SelectedRows[0];
-                filaSeleccionada.Cells["Nombre"].Value = txtNombreProveedor.Text;
-                filaSeleccionada.Cells["Contacto"].Value = txtContacto.Text;
-                filaSeleccionada.Cells["Teléfono"].Value = txtTelefono.Text;
-                filaSeleccionada.Cells["Email"].Value = txtEmail.Text;
-                filaSeleccionada.Cells["Dirección"].Value = txtDireccion.Text;
+                try
+                {
+                    var filaSeleccionada = dataGridViewProveedores.SelectedRows[0];
+                    int idProveedor = filaSeleccionada.Index + 1;
 
-                MessageBox.Show("Proveedor editado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ProvedoresServices.EditarProveedor(new Proveedor(
+                        idProveedor,
+                        txtNombreProveedor.Text,
+                        txtContacto.Text,
+                        txtTelefono.Text,
+                        txtEmail.Text,
+                        txtDireccion.Text,
+                        txtCcondiciones.Text
+                    ));
+
+                    CargarProveedores();
+                    MessageBox.Show("Proveedor editado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al editar el proveedor: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
                 MessageBox.Show("Por favor, selecciona un proveedor para editar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        private void btnElimarPROVEEDOR_Click_1(object sender, EventArgs e)
+
+        private void btnElimarPROVEEDOR_Click_1(object sender, EventArgs e) // Eliminar Proveedor
         {
             if (dataGridViewProveedores.SelectedRows.Count > 0)
             {
-                dataGridViewProveedores.Rows.Remove(dataGridViewProveedores.SelectedRows[0]);
-                MessageBox.Show("Proveedor eliminado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                try
+                {
+                    var filaSeleccionada = dataGridViewProveedores.SelectedRows[0];
+                    int idProveedor = filaSeleccionada.Index + 1;
+
+                    //ProvedoresServices.EliminarProveedor(idProveedor);
+                    CargarProveedores();
+                    MessageBox.Show("Proveedor eliminado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error al eliminar el proveedor: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
@@ -149,12 +202,13 @@ namespace Optica_Tokio.UI.Formularios
         {
             if (dataGridViewProveedores.SelectedRows.Count > 0)
             {
-                DataGridViewRow filaSeleccionada = dataGridViewProveedores.SelectedRows[0];
+                var filaSeleccionada = dataGridViewProveedores.SelectedRows[0];
                 txtNombreProveedor.Text = filaSeleccionada.Cells["Nombre"].Value?.ToString() ?? "";
                 txtContacto.Text = filaSeleccionada.Cells["Contacto"].Value?.ToString() ?? "";
                 txtTelefono.Text = filaSeleccionada.Cells["Teléfono"].Value?.ToString() ?? "";
                 txtEmail.Text = filaSeleccionada.Cells["Email"].Value?.ToString() ?? "";
                 txtDireccion.Text = filaSeleccionada.Cells["Dirección"].Value?.ToString() ?? "";
+                txtCcondiciones.Text = filaSeleccionada.Cells["Condiciones"].Value?.ToString() ?? "";
             }
         }
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -219,6 +273,11 @@ namespace Optica_Tokio.UI.Formularios
         }
 
         private void ProovedoresForm_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ProovedoresForm_Load(object sender, EventArgs e)
         {
 
         }

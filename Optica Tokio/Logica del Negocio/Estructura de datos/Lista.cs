@@ -25,6 +25,38 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
             cabeza = null;
             tam = 0;
         }
+        public T this[int index]
+        {
+            get
+            {
+                if (index < 0 || index >= tam)
+                {
+                    throw new IndexOutOfRangeException("Índice fuera de rango.");
+                }
+
+                Nodo actual = cabeza;
+                for (int i = 0; i < index; i++)
+                {
+                    actual = actual.Enlace;
+                }
+                return actual.Item;
+            }
+        }
+        public T ObtenerPorIndice(int index)
+        {
+            if (index < 0 || index >= tam)
+            {
+                throw new IndexOutOfRangeException("Índice fuera de rango.");
+            }
+
+            Nodo actual = cabeza;
+            for (int i = 0; i < index; i++)
+            {
+                actual = actual.Enlace;
+            }
+            return actual.Item;
+        }
+
 
         public int GetTam()
         {
@@ -40,6 +72,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Estructura_de_datos
         {
             cabeza = Insertar(cabeza, item);
         }
+
 
         private Nodo Insertar(Nodo x, T item)
         {

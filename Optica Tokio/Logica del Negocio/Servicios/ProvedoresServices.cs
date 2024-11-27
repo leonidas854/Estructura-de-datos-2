@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Optica_Tokio.Logica_del_Negocio.Servicios
 {
-    class ProvedoresServices
+   public class ProvedoresServices
     {
       public static  ArbolRN<int, Proveedor> arbolProveedores = new ArbolRN<int, Proveedor>();
 
    
-        public void AgregarProveedor(Proveedor proveedor)
+        public static  void AgregarProveedor(Proveedor proveedor)
         {
             if (arbolProveedores.Contiene(proveedor.ID_Proveedor))
             {
@@ -24,13 +24,13 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
         }
 
    
-        public Proveedor ObtenerProveedorPorId(int idProveedor)
+        public static Proveedor ObtenerProveedorPorId(int idProveedor)
         {
             return arbolProveedores.GetValorPorLlave(idProveedor) ?? throw new KeyNotFoundException("El proveedor no existe.");
         }
 
 
-        public void EliminarProveedorPorId(int idProveedor)
+        public static void EliminarProveedorPorId(int idProveedor)
         {
             if (!arbolProveedores.Contiene(idProveedor))
             {
@@ -40,20 +40,20 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
         }
 
    
-        public void EditarProveedor(int idProveedor, string nuevoNombre, string nuevoContacto, string nuevoTelefono, string nuevoEmail, string nuevaDireccion, string nuevasCondiciones)
+        public static void EditarProveedor(Proveedor proveedorr)
         {
-            var proveedor = ObtenerProveedorPorId(idProveedor);
+            var proveedor = ObtenerProveedorPorId(proveedorr.ID_Proveedor);
             if (proveedor != null)
             {
-                proveedor.Nombre = nuevoNombre;
-                proveedor.Contacto = nuevoContacto;
-                proveedor.Telefono = nuevoTelefono;
-                proveedor.Email = nuevoEmail;
-                proveedor.Direccion = nuevaDireccion;
-                proveedor.Condiciones_Entrega = nuevasCondiciones;
+                proveedor.Nombre = proveedorr.Nombre;
+                proveedor.Contacto = proveedorr.Contacto;
+                proveedor.Telefono = proveedorr.Telefono;
+                proveedor.Email = proveedorr.Email;
+                proveedor.Direccion = proveedorr.Direccion;
+                proveedor.Condiciones_Entrega = proveedorr.Condiciones_Entrega;
 
 
-                arbolProveedores.Insertar(idProveedor, proveedor);
+                arbolProveedores.Insertar(proveedorr.ID_Proveedor, proveedorr);
             }
             else
             {

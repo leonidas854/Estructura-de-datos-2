@@ -26,7 +26,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
         }
 
        
-        public Lista<Local> ObtenerLocales()
+        public static Lista<Local> ObtenerLocales()
         {
             return locales;
         }

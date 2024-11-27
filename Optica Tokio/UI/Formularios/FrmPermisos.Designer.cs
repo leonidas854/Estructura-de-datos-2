@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.chkCategorias = new System.Windows.Forms.CheckBox();
             this.chkProveedores = new System.Windows.Forms.CheckBox();
@@ -43,13 +42,10 @@
             this.chkReportes = new System.Windows.Forms.CheckBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.chkInfo = new System.Windows.Forms.CheckBox();
-            this.chkContrasenias = new System.Windows.Forms.CheckBox();
             this.btnActualizarPermisos = new System.Windows.Forms.Button();
             this.btnCancelarPermisos = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.chkClientes = new System.Windows.Forms.CheckBox();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -58,24 +54,16 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.chkClientes);
-            this.groupBox1.Location = new System.Drawing.Point(50, 80);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(573, 113);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Clientes";
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.chkCategorias);
             this.groupBox2.Controls.Add(this.chkProveedores);
             this.groupBox2.Controls.Add(this.chkProductos);
-            this.groupBox2.Location = new System.Drawing.Point(50, 219);
+            this.groupBox2.Location = new System.Drawing.Point(35, 90);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(573, 100);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(430, 81);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Gestion de productos";
@@ -91,9 +79,10 @@
             this.chkCategorias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkCategorias.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkCategorias.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkCategorias.Location = new System.Drawing.Point(23, 30);
+            this.chkCategorias.Location = new System.Drawing.Point(17, 24);
+            this.chkCategorias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkCategorias.Name = "chkCategorias";
-            this.chkCategorias.Size = new System.Drawing.Size(133, 54);
+            this.chkCategorias.Size = new System.Drawing.Size(123, 54);
             this.chkCategorias.TabIndex = 3;
             this.chkCategorias.Text = "Categorias";
             this.chkCategorias.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -112,9 +101,10 @@
             this.chkProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkProveedores.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkProveedores.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkProveedores.Location = new System.Drawing.Point(390, 30);
+            this.chkProveedores.Location = new System.Drawing.Point(292, 24);
+            this.chkProveedores.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkProveedores.Name = "chkProveedores";
-            this.chkProveedores.Size = new System.Drawing.Size(147, 54);
+            this.chkProveedores.Size = new System.Drawing.Size(134, 54);
             this.chkProveedores.TabIndex = 2;
             this.chkProveedores.Text = "Proveedores";
             this.chkProveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -132,9 +122,10 @@
             this.chkProductos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkProductos.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkProductos.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkProductos.Location = new System.Drawing.Point(212, 30);
+            this.chkProductos.Location = new System.Drawing.Point(159, 24);
+            this.chkProductos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkProductos.Name = "chkProductos";
-            this.chkProductos.Size = new System.Drawing.Size(132, 54);
+            this.chkProductos.Size = new System.Drawing.Size(121, 54);
             this.chkProductos.TabIndex = 1;
             this.chkProductos.Text = "Productos";
             this.chkProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -145,9 +136,11 @@
             // 
             this.groupBox3.Controls.Add(this.chkEntradas);
             this.groupBox3.Controls.Add(this.chkSalidas);
-            this.groupBox3.Location = new System.Drawing.Point(50, 346);
+            this.groupBox3.Location = new System.Drawing.Point(35, 193);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(573, 100);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(430, 81);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "gestion de existencias";
@@ -163,9 +156,10 @@
             this.chkEntradas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkEntradas.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkEntradas.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkEntradas.Location = new System.Drawing.Point(23, 22);
+            this.chkEntradas.Location = new System.Drawing.Point(17, 18);
+            this.chkEntradas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkEntradas.Name = "chkEntradas";
-            this.chkEntradas.Size = new System.Drawing.Size(125, 54);
+            this.chkEntradas.Size = new System.Drawing.Size(116, 54);
             this.chkEntradas.TabIndex = 3;
             this.chkEntradas.Text = "Entradas";
             this.chkEntradas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -183,9 +177,10 @@
             this.chkSalidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkSalidas.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkSalidas.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkSalidas.Location = new System.Drawing.Point(233, 22);
+            this.chkSalidas.Location = new System.Drawing.Point(175, 18);
+            this.chkSalidas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkSalidas.Name = "chkSalidas";
-            this.chkSalidas.Size = new System.Drawing.Size(111, 54);
+            this.chkSalidas.Size = new System.Drawing.Size(105, 54);
             this.chkSalidas.TabIndex = 2;
             this.chkSalidas.Text = "Salidas";
             this.chkSalidas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -196,9 +191,11 @@
             // 
             this.groupBox4.Controls.Add(this.chkGestionDeRoles);
             this.groupBox4.Controls.Add(this.chkUsuarios);
-            this.groupBox4.Location = new System.Drawing.Point(50, 472);
+            this.groupBox4.Location = new System.Drawing.Point(35, 296);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(573, 100);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Size = new System.Drawing.Size(430, 81);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Gestion de usuarios";
@@ -214,9 +211,10 @@
             this.chkGestionDeRoles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkGestionDeRoles.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkGestionDeRoles.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkGestionDeRoles.Location = new System.Drawing.Point(25, 21);
+            this.chkGestionDeRoles.Location = new System.Drawing.Point(19, 17);
+            this.chkGestionDeRoles.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkGestionDeRoles.Name = "chkGestionDeRoles";
-            this.chkGestionDeRoles.Size = new System.Drawing.Size(167, 54);
+            this.chkGestionDeRoles.Size = new System.Drawing.Size(153, 54);
             this.chkGestionDeRoles.TabIndex = 3;
             this.chkGestionDeRoles.Text = "Gestion de roles";
             this.chkGestionDeRoles.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -234,9 +232,10 @@
             this.chkUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkUsuarios.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkUsuarios.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkUsuarios.Location = new System.Drawing.Point(230, 21);
+            this.chkUsuarios.Location = new System.Drawing.Point(172, 17);
+            this.chkUsuarios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkUsuarios.Name = "chkUsuarios";
-            this.chkUsuarios.Size = new System.Drawing.Size(114, 54);
+            this.chkUsuarios.Size = new System.Drawing.Size(106, 54);
             this.chkUsuarios.TabIndex = 2;
             this.chkUsuarios.Text = "Usarios";
             this.chkUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -246,9 +245,11 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.chkReportes);
-            this.groupBox5.Location = new System.Drawing.Point(50, 606);
+            this.groupBox5.Location = new System.Drawing.Point(35, 404);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(573, 100);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Size = new System.Drawing.Size(430, 81);
             this.groupBox5.TabIndex = 5;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Reportes";
@@ -264,9 +265,10 @@
             this.chkReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkReportes.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkReportes.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkReportes.Location = new System.Drawing.Point(31, 21);
+            this.chkReportes.Location = new System.Drawing.Point(23, 17);
+            this.chkReportes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkReportes.Name = "chkReportes";
-            this.chkReportes.Size = new System.Drawing.Size(125, 54);
+            this.chkReportes.Size = new System.Drawing.Size(115, 54);
             this.chkReportes.TabIndex = 2;
             this.chkReportes.Text = "Reportes";
             this.chkReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -276,10 +278,11 @@
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.chkInfo);
-            this.groupBox6.Controls.Add(this.chkContrasenias);
-            this.groupBox6.Location = new System.Drawing.Point(50, 745);
+            this.groupBox6.Location = new System.Drawing.Point(35, 517);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(573, 100);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox6.Size = new System.Drawing.Size(430, 81);
             this.groupBox6.TabIndex = 6;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Configuracion";
@@ -295,34 +298,15 @@
             this.chkInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkInfo.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkInfo.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkInfo.Location = new System.Drawing.Point(31, 21);
+            this.chkInfo.Location = new System.Drawing.Point(23, 17);
+            this.chkInfo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chkInfo.Name = "chkInfo";
-            this.chkInfo.Size = new System.Drawing.Size(186, 54);
+            this.chkInfo.Size = new System.Drawing.Size(169, 54);
             this.chkInfo.TabIndex = 3;
             this.chkInfo.Text = "Info. de la empresa";
             this.chkInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.chkInfo.UseVisualStyleBackColor = true;
             this.chkInfo.CheckedChanged += new System.EventHandler(this.chkChangedCh);
-            // 
-            // chkContrasenias
-            // 
-            this.chkContrasenias.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkContrasenias.AutoSize = true;
-            this.chkContrasenias.FlatAppearance.BorderSize = 0;
-            this.chkContrasenias.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.chkContrasenias.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.chkContrasenias.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.chkContrasenias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chkContrasenias.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkContrasenias.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkContrasenias.Location = new System.Drawing.Point(242, 21);
-            this.chkContrasenias.Name = "chkContrasenias";
-            this.chkContrasenias.Size = new System.Drawing.Size(144, 54);
-            this.chkContrasenias.TabIndex = 2;
-            this.chkContrasenias.Text = "Contraseñas";
-            this.chkContrasenias.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.chkContrasenias.UseVisualStyleBackColor = true;
-            this.chkContrasenias.CheckedChanged += new System.EventHandler(this.chkChangedCh);
             // 
             // btnActualizarPermisos
             // 
@@ -332,9 +316,10 @@
             this.btnActualizarPermisos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
             this.btnActualizarPermisos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnActualizarPermisos.Font = new System.Drawing.Font("Elephant", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizarPermisos.Location = new System.Drawing.Point(358, 919);
+            this.btnActualizarPermisos.Location = new System.Drawing.Point(268, 747);
+            this.btnActualizarPermisos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnActualizarPermisos.Name = "btnActualizarPermisos";
-            this.btnActualizarPermisos.Size = new System.Drawing.Size(151, 67);
+            this.btnActualizarPermisos.Size = new System.Drawing.Size(113, 54);
             this.btnActualizarPermisos.TabIndex = 7;
             this.btnActualizarPermisos.Text = "Actualizar";
             this.btnActualizarPermisos.UseVisualStyleBackColor = true;
@@ -349,9 +334,10 @@
             this.btnCancelarPermisos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelarPermisos.Font = new System.Drawing.Font("Elephant", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarPermisos.ForeColor = System.Drawing.Color.Black;
-            this.btnCancelarPermisos.Location = new System.Drawing.Point(525, 919);
+            this.btnCancelarPermisos.Location = new System.Drawing.Point(394, 747);
+            this.btnCancelarPermisos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancelarPermisos.Name = "btnCancelarPermisos";
-            this.btnCancelarPermisos.Size = new System.Drawing.Size(135, 67);
+            this.btnCancelarPermisos.Size = new System.Drawing.Size(101, 54);
             this.btnCancelarPermisos.TabIndex = 8;
             this.btnCancelarPermisos.Text = "Cancelar";
             this.btnCancelarPermisos.UseVisualStyleBackColor = true;
@@ -363,49 +349,31 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(704, 66);
+            this.panel1.Size = new System.Drawing.Size(528, 54);
             this.panel1.TabIndex = 9;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label1
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Elephant", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(171, 18);
+            this.label1.Location = new System.Drawing.Point(128, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(362, 35);
+            this.label1.Size = new System.Drawing.Size(298, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "OTORGAR PERMISOS";
             // 
-            // chkClientes
-            // 
-            this.chkClientes.Appearance = System.Windows.Forms.Appearance.Button;
-            this.chkClientes.AutoSize = true;
-            this.chkClientes.FlatAppearance.BorderSize = 0;
-            this.chkClientes.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.chkClientes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.chkClientes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.chkClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chkClientes.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkClientes.Image = global::Optica_Tokio.Properties.Resources.Unchecked;
-            this.chkClientes.Location = new System.Drawing.Point(39, 34);
-            this.chkClientes.Name = "chkClientes";
-            this.chkClientes.Size = new System.Drawing.Size(117, 54);
-            this.chkClientes.TabIndex = 0;
-            this.chkClientes.Text = "Clientes";
-            this.chkClientes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.chkClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.chkClientes.UseVisualStyleBackColor = true;
-            this.chkClientes.CheckedChanged += new System.EventHandler(this.chkChangedCh);
-            // 
             // FrmPermisos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(704, 1073);
+            this.ClientSize = new System.Drawing.Size(528, 872);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCancelarPermisos);
             this.Controls.Add(this.btnActualizarPermisos);
@@ -414,13 +382,12 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmPermisos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmPermisos";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Load += new System.EventHandler(this.FrmPermisos_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
@@ -438,9 +405,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox chkClientes;
         private System.Windows.Forms.CheckBox chkCategorias;
         private System.Windows.Forms.CheckBox chkProveedores;
         private System.Windows.Forms.CheckBox chkProductos;
@@ -454,7 +419,6 @@
         private System.Windows.Forms.CheckBox chkReportes;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.CheckBox chkInfo;
-        private System.Windows.Forms.CheckBox chkContrasenias;
         private System.Windows.Forms.Button btnActualizarPermisos;
         private System.Windows.Forms.Button btnCancelarPermisos;
         private System.Windows.Forms.Panel panel1;

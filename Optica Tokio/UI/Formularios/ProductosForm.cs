@@ -25,9 +25,6 @@ namespace Optica_Tokio.UI.Formularios
             dgvCategoria.Columns.Add("Categoria", "Categoria");
             dgvCategoria.Columns.Add("Nombre", "Nombre");
 
-            dgvCategoria.Rows.Add("Lentes", "Juan");
-            dgvCategoria.Rows.Add("Gafas", "Ana");
-            dgvCategoria.Rows.Add("Lentes", "Pedro");
         }
         private void ActualizarContador()
         {

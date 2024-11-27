@@ -10,64 +10,70 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
 {
    class ProductosServices
     {
-        private static ArbolRN<int, Proveedor> arbolProveedores = new ArbolRN<int, Proveedor>();
+     
+    public static ArbolRN<int, Producto> arbolProductos = new ArbolRN<int, Producto>();
 
-        public void AgregarProveedor(Proveedor proveedor)
+        
+        public static void AgregarProducto(Producto producto)
         {
-            if (arbolProveedores.Contiene(proveedor.ID_Proveedor))
+            if (producto == null)
             {
-                throw new InvalidOperationException("El proveedor con este ID ya existe.");
+                throw new ArgumentNullException(nameof(producto), "El producto no puede ser nulo.");
             }
-            arbolProveedores.Insertar(proveedor.ID_Proveedor, proveedor);
-        }
 
-
-        public Proveedor ObtenerProveedorPorId(int idProveedor)
-        {
-            return arbolProveedores.GetValorPorLlave(idProveedor) ?? throw new KeyNotFoundException("El proveedor no existe.");
-        }
-
-        public void EliminarProveedorPorId(int idProveedor)
-        {
-            if (!arbolProveedores.Contiene(idProveedor))
+            if (!arbolProductos.Contiene(producto.ID_Producto))
             {
-                throw new InvalidOperationException("El proveedor no existe.");
-            }
-            arbolProveedores.Eliminar(idProveedor);
-        }
-
-
-        public void EditarProveedor(int idProveedor, string nuevoNombre, string nuevoContacto, string nuevoTelefono, string nuevoEmail, string nuevaDireccion, string nuevasCondiciones)
-        {
-            var proveedor = ObtenerProveedorPorId(idProveedor);
-            if (proveedor != null)
-            {
-                proveedor.Nombre = nuevoNombre;
-                proveedor.Contacto = nuevoContacto;
-                proveedor.Telefono = nuevoTelefono;
-                proveedor.Email = nuevoEmail;
-                proveedor.Direccion = nuevaDireccion;
-                proveedor.Condiciones_Entrega = nuevasCondiciones;
-
-           
-                arbolProveedores.Insertar(idProveedor, proveedor);
+                arbolProductos.Insertar(producto.ID_Producto, producto);
             }
             else
             {
-                throw new InvalidOperationException("El proveedor no existe.");
+                throw new InvalidOperationException($"El producto con ID {producto.ID_Producto} ya existe.");
             }
         }
 
-   
-        public IEnumerable<Proveedor> ListarProveedoresAmplitud()
+       
+        public static IEnumerable<Producto> ObtenerProductos()
         {
-            return arbolProveedores.RecorridoAmplitud();
+            return arbolProductos.RecorridoAmplitud();
         }
 
-   
-        public IEnumerable<Proveedor> ListarProveedoresProfundidad()
+      
+        public static Producto BuscarProductoPorId(int id)
         {
-            return arbolProveedores.RecorridoPorProfundidad();
+            var producto = arbolProductos.GetValorPorLlave(id);
+            if (producto == null)
+            {
+                throw new KeyNotFoundException($"No se encontró ningún producto con ID {id}.");
+            }
+            return producto;
+        }
+
+      
+        public static bool EliminarProductoPorId(int id)
+        {
+            if (arbolProductos.Contiene(id))
+            {
+                arbolProductos.Eliminar(id);
+                return true;
+            }
+            return false;
+        }
+
+       
+        public static void EditarProducto(int id, string nuevoNombre, string nuevaDescripcion, int nuevaCantidadTotal, decimal nuevoPrecioCosto)
+        {
+            var producto = BuscarProductoPorId(id);
+            if (producto != null)
+            {
+                producto.Nombre = nuevoNombre ?? throw new ArgumentNullException(nameof(nuevoNombre));
+                producto.Descripcion = nuevaDescripcion ?? throw new ArgumentNullException(nameof(nuevaDescripcion));
+                producto.Cantidad_Total = nuevaCantidadTotal;
+                producto.Precio_Costo = nuevoPrecioCosto;
+            }
+            else
+            {
+                throw new InvalidOperationException($"No se encontró ningún producto con ID {id} para editar.");
+            }
         }
     }
 }

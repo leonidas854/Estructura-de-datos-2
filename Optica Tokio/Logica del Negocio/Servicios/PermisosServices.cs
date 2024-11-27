@@ -13,7 +13,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
        public static Lista<PermisoRol> permisos = new Lista<PermisoRol>();
 
   
-        public void AgregarPermiso(PermisoRol permiso)
+        public static void AgregarPermiso(PermisoRol permiso)
         {
             if (permiso != null && !permisos.Pertenece(permiso))
             {
@@ -60,7 +60,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
         }
 
       
-        public bool EliminarPermiso(int idRol, int idControlador)
+        public static bool EliminarPermiso(int idRol, int idControlador)
         {
             foreach (var permiso in permisos)
             {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Optica_Tokio.Logica_del_Negocio.Servicios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,9 +17,9 @@ namespace Optica_Tokio.UI.Formularios
         public ReportesForm()
         {
             InitializeComponent();
-            cmbTipoReport.Items.Insert(0, "Tipo de reporte");  // Insertamos el valor predeterminado
-            cmbTipoReport.SelectedIndex = 0;  // Seleccionamos el valor predeterminado
-            cmbTipoReport.ForeColor = Color.Silver;
+            cmblocal.Items.Insert(0, "Tipo de reporte");  // Insertamos el valor predeterminado
+            cmblocal.SelectedIndex = 0;  // Seleccionamos el valor predeterminado
+            cmblocal.ForeColor = Color.Silver;
 
             cmbCategoriaReport.Items.Insert(0, "eleguir categoria");  
             cmbCategoriaReport.SelectedIndex = 0;  
@@ -52,7 +53,8 @@ namespace Optica_Tokio.UI.Formularios
             dateTimePicker2.CustomFormat = "final";
             dateTimePicker2.ShowCheckBox = false;
             dateTimePicker2.ValueChanged += dateTimePicker2_ValueChanged;
-            
+            CargarLocales();
+
         }
 
         private void ReportesForm_Load(object sender, EventArgs e)
@@ -83,19 +85,19 @@ namespace Optica_Tokio.UI.Formularios
 
         private void cmbTipoReport_Enter(object sender, EventArgs e)
         {
-            if (cmbTipoReport.Text == "Seleccione una opción")  // Si el texto es el predeterminado
+            if (cmblocal.Text == "Seleccione una opción")  // Si el texto es el predeterminado
             {
-                cmbTipoReport.Text = "";  // Borramos el texto
-                cmbTipoReport.ForeColor = Color.Black;  // Cambiamos el color del texto a negro
+                cmblocal.Text = "";  // Borramos el texto
+                cmblocal.ForeColor = Color.Black;  // Cambiamos el color del texto a negro
             }
         }
 
         private void cmbTipoReport_Leave(object sender, EventArgs e)
         {
-            if (cmbTipoReport.Text == "")  
+            if (cmblocal.Text == "")  
             {
-                cmbTipoReport.Text = "Seleccione una opción";  
-                cmbTipoReport.ForeColor = Color.Silver;  
+                cmblocal.Text = "Seleccione una opción";  
+                cmblocal.ForeColor = Color.Silver;  
             }
         }
 
@@ -204,6 +206,36 @@ namespace Optica_Tokio.UI.Formularios
             {
                 cmbStockReport.Text = "";
                 cmbStockReport.ForeColor = Color.Black;
+            }
+        }
+
+        private void cmblocal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string localSeleccionado = cmblocal.SelectedItem?.ToString();
+            if (!string.IsNullOrEmpty(localSeleccionado))
+            {
+               // MessageBox.Show($"Has seleccionado: {localSeleccionado}", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        private void CargarLocales()
+        {
+            try
+            {
+               
+                var listaLocales = LocalesServices.ObtenerLocales();
+
+            
+                cmblocal.Items.Clear();
+
+            
+                foreach (var local in listaLocales)
+                {
+                    cmblocal.Items.Add(local.Nombre_Local);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al cargar los locales: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

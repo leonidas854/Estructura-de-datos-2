@@ -459,7 +459,6 @@ C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debu
 C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\ASUS ZEPHYRUS M16\Documents\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.xml
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\Config\App.config
-<<<<<<< HEAD
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\bin\Debug\Config\App.config
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe.config
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\bin\Debug\Optica Tokio.exe
@@ -533,10 +532,14 @@ C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Opt
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica T.5080F0D0.Up2Date
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.exe
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica Tokio.pdb
-=======
 C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Config\App.config
 C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.dll
 C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.dll
 C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\itextsharp.xml
 >>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
+D:\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmProductoNuevo.resources
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\JsonSubTypes.dll
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\Newtonsoft.Json.dll
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\Notion.Client.dll
+D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\Newtonsoft.Json.xml
