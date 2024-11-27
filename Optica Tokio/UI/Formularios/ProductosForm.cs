@@ -15,8 +15,27 @@ namespace Optica_Tokio.UI.Formularios
         public ProductosForm()
         {
             InitializeComponent();
+            InicializarDataGridView();
         }
+        private void InicializarDataGridView()
+        {
+            dgvCategoria.Columns.Add("Nro", "Nro");
+            dgvCategoria.Columns["Nro"].ReadOnly = true;
 
+            dgvCategoria.Columns.Add("Categoria", "Categoria");
+            dgvCategoria.Columns.Add("Nombre", "Nombre");
+
+            dgvCategoria.Rows.Add("Lentes", "Juan");
+            dgvCategoria.Rows.Add("Gafas", "Ana");
+            dgvCategoria.Rows.Add("Lentes", "Pedro");
+        }
+        private void ActualizarContador()
+        {
+            for (int i = 0; i < dgvCategoria.Rows.Count; i++)
+            {
+                dgvCategoria.Rows[i].Cells["Nro"].Value = (i + 1).ToString();
+            }
+        }
         private void ProductosForm_Load(object sender, EventArgs e)
         {
 
@@ -50,6 +69,83 @@ namespace Optica_Tokio.UI.Formularios
                     DisableControlsRecursively(control.Controls);
                 }
             }
+        }
+        private void dgvCategoria_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dgvCategoria.SelectedRows.Count > 0)
+            {
+                foreach (DataGridViewRow fila in dgvCategoria.SelectedRows)
+                {
+                    if (!fila.IsNewRow)
+                    {
+                        dgvCategoria.Rows.Remove(fila);
+                    }
+                }
+
+                // Actualiza el contador después de eliminar filas
+                ActualizarContador();
+            }
+            else
+            {
+                MessageBox.Show("Por favor, selecciona una fila para eliminar.", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            string textoBusqueda = txtBuscar.Text;
+            bool encontrado = false;
+
+            foreach (DataGridViewRow fila in dgvCategoria.Rows)
+            {
+                if (fila.Cells["Nombre"].Value != null && fila.Cells["Nombre"].Value.ToString().Contains(textoBusqueda))
+                {
+                    fila.Selected = true; // Selecciona la fila que coincide
+                    dgvCategoria.FirstDisplayedScrollingRowIndex = fila.Index; // Desplaza a la fila encontrada
+                    encontrado = true;
+                    break; // Finaliza la búsqueda al encontrar la primera coincidencia
+                }
+                else
+                {
+                    fila.Selected = false; // Deselecciona otras filas
+                }
+            }
+
+            if (!encontrado)
+            {
+                MessageBox.Show("No se encontró ningún producto con ese nombre.", "Búsqueda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void btnNuevoProducto_Click(object sender, EventArgs e)
+        {
+            using (var formulario = new FrmProductoNuevo())
+            {
+                if (formulario.ShowDialog() == DialogResult.OK)
+                {
+                    string nombre = formulario.Nombre;
+                    string categoria = formulario.Categoria;
+
+                    dgvCategoria.Rows.Add("", categoria, nombre);
+
+                    // Actualiza el contador después de añadir filas
+                    ActualizarContador();
+                }
+            }
+        }
+        private int ObtenerCantidadFilas()
+        {
+            return dgvCategoria.Rows.Count; // Devuelve el número de filas actuales
+        }
+
+        private void btnAbrirDashboard_Click(object sender, EventArgs e)
+        {
+            int contadorFilas = ObtenerCantidadFilas();
+
+            // Abre el formulario DashboardForm y pasa el contador
+            var dashboard = new DashboardForm();
+            dashboard.ActualizarContador(contadorFilas);
+            dashboard.Show();
         }
     }
 }

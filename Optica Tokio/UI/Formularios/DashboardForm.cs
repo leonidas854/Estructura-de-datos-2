@@ -16,11 +16,16 @@ namespace Optica_Tokio.UI.Formularios
         {
             InitializeComponent();
         }
-
+        public void ActualizarContador(int contador)
+        {
+            lbProductosTotales.Text = $"Total de filas: {contador}";
+        }
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            //ObtenerEstadisticasInventario();
-            //ObtenerResumenMovimientos(DateTime fechaInicio, DateTime fechaFin);
+            
         }
+
     }
 }
+//ObtenerEstadisticasInventario();
+//ObtenerResumenMovimientos(DateTime fechaInicio, DateTime fechaFin);

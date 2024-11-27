@@ -234,6 +234,12 @@
     <Compile Include="UI\Formularios\FrmPermisos.Designer.cs">
       <DependentUpon>FrmPermisos.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Formularios\FrmProductoNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Formularios\FrmProductoNuevo.Designer.cs">
+      <DependentUpon>FrmProductoNuevo.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Formularios\GestionInventarioForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -325,6 +331,9 @@
     <EmbeddedResource Include="UI\Formularios\FrmPermisos.resx">
       <DependentUpon>FrmPermisos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\FrmProductoNuevo.resx">
+      <DependentUpon>FrmProductoNuevo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\GestionInventarioForm.resx">
       <DependentUpon>GestionInventarioForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -369,6 +378,9 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Reportes.png" />
+    <None Include="Resources\Roles.png" />
+    <None Include="Resources\Proveedores.png" />
     <None Include="Resources\print-icon-logo-illustration-suitable-for-web-design-logo-application-free-vector.jpg" />
     <None Include="Resources\Venta.png" />
     <None Include="Resources\png-clipart-bundle-icon-search-blue-search-button-thumbnail.png" />
@@ -427,6 +439,7 @@
     <None Include="Resources\Captura de pantalla 2024-11-17 031820.png" />
     <None Include="Resources\6303950.png" />
     <None Include="Resources\Caja.png" />
+    <None Include="Resources\Categorias.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>

@@ -54,7 +54,7 @@
             this.label1.Location = new System.Drawing.Point(357, 20);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 29);
+            this.label1.Size = new System.Drawing.Size(247, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nueva Categoria";
             // 
@@ -98,7 +98,7 @@
             this.txtNuevoRol.Location = new System.Drawing.Point(145, 200);
             this.txtNuevoRol.Margin = new System.Windows.Forms.Padding(5);
             this.txtNuevoRol.Name = "txtNuevoRol";
-            this.txtNuevoRol.Size = new System.Drawing.Size(521, 29);
+            this.txtNuevoRol.Size = new System.Drawing.Size(521, 34);
             this.txtNuevoRol.TabIndex = 4;
             this.txtNuevoRol.Text = "NOMBRE";
             this.txtNuevoRol.Enter += new System.EventHandler(this.txtNuevoRol_Enter);
@@ -106,7 +106,7 @@
             // 
             // FrmCategoriasNuevas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.NavajoWhite;
             this.ClientSize = new System.Drawing.Size(939, 478);

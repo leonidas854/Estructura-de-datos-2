@@ -32,14 +32,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.txtCategoria = new System.Windows.Forms.TextBox();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnNuevoProducto = new System.Windows.Forms.Button();
             this.dgvCategoria = new System.Windows.Forms.DataGridView();
-            this.Categoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnEditar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.btnEliminar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategoria)).BeginInit();
             this.SuspendLayout();
@@ -47,8 +43,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Maroon;
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.txtCategoria);
+            this.groupBox1.Controls.Add(this.btnBuscar);
+            this.groupBox1.Controls.Add(this.txtBuscar);
             this.groupBox1.Controls.Add(this.btnNuevoProducto);
             this.groupBox1.Controls.Add(this.dgvCategoria);
             this.groupBox1.Location = new System.Drawing.Point(21, 12);
@@ -58,29 +54,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Lista Productos";
             // 
-            // comboBox1
+            // txtBuscar
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(356, 90);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(227, 30);
-            this.comboBox1.TabIndex = 3;
-            // 
-            // txtCategoria
-            // 
-            this.txtCategoria.Location = new System.Drawing.Point(251, 55);
-            this.txtCategoria.Name = "txtCategoria";
-            this.txtCategoria.Size = new System.Drawing.Size(622, 29);
-            this.txtCategoria.TabIndex = 2;
+            this.txtBuscar.Location = new System.Drawing.Point(251, 55);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(622, 34);
+            this.txtBuscar.TabIndex = 2;
             // 
             // btnNuevoProducto
             // 
             this.btnNuevoProducto.Location = new System.Drawing.Point(16, 51);
             this.btnNuevoProducto.Name = "btnNuevoProducto";
-            this.btnNuevoProducto.Size = new System.Drawing.Size(217, 33);
+            this.btnNuevoProducto.Size = new System.Drawing.Size(120, 77);
             this.btnNuevoProducto.TabIndex = 1;
             this.btnNuevoProducto.Text = "Nuevo Producto";
             this.btnNuevoProducto.UseVisualStyleBackColor = true;
+            this.btnNuevoProducto.Click += new System.EventHandler(this.btnNuevoProducto_Click);
             // 
             // dgvCategoria
             // 
@@ -99,11 +88,6 @@
             this.dgvCategoria.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvCategoria.ColumnHeadersHeight = 38;
             this.dgvCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvCategoria.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Categoria,
-            this.Column1,
-            this.btnEditar,
-            this.btnEliminar});
             this.dgvCategoria.EnableHeadersVisualStyles = false;
             this.dgvCategoria.GridColor = System.Drawing.Color.Sienna;
             this.dgvCategoria.Location = new System.Drawing.Point(16, 144);
@@ -129,37 +113,19 @@
             this.dgvCategoria.Size = new System.Drawing.Size(810, 383);
             this.dgvCategoria.TabIndex = 0;
             // 
-            // Categoria
+            // btnBuscar
             // 
-            this.Categoria.FillWeight = 70F;
-            this.Categoria.HeaderText = "Categoria";
-            this.Categoria.MinimumWidth = 6;
-            this.Categoria.Name = "Categoria";
-            // 
-            // Column1
-            // 
-            this.Column1.FillWeight = 70F;
-            this.Column1.HeaderText = "Nombre";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            // 
-            // btnEditar
-            // 
-            this.btnEditar.FillWeight = 21.49733F;
-            this.btnEditar.HeaderText = "  Editar  ";
-            this.btnEditar.MinimumWidth = 6;
-            this.btnEditar.Name = "btnEditar";
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.FillWeight = 21.49733F;
-            this.btnEliminar.HeaderText = "Eliminar";
-            this.btnEliminar.MinimumWidth = 6;
-            this.btnEliminar.Name = "btnEliminar";
+            this.btnBuscar.Location = new System.Drawing.Point(251, 95);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(217, 33);
+            this.btnBuscar.TabIndex = 3;
+            this.btnBuscar.Text = "Buscar por nombre";
+            this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // ProductosForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(932, 611);
@@ -179,13 +145,9 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txtCategoria;
+        private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnNuevoProducto;
         private System.Windows.Forms.DataGridView dgvCategoria;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Categoria;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewButtonColumn btnEditar;
-        private System.Windows.Forms.DataGridViewButtonColumn btnEliminar;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }
