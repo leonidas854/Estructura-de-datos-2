@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\",
   "Documents": [
     {
@@ -165,6 +166,157 @@
     {
       "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\rolesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\rolesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|c:\\users\\andrew\\desktop\\estructura de datos 2\\estructura-de-datos-2\\optica tokio\\data access\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:data access\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\data access\\repositorios\\categoriasreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:data access\\repositorios\\categoriasreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\data access\\appdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:data access\\appdatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\rolesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\rolesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\rolesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\rolesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\config\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:config\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\logica del negocio\\servicios\\provedoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\servicios\\provedoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\logica del negocio\\servicios\\categoriasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:logica del negocio\\servicios\\categoriasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\config\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:config\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\data access\\repositorios\\proovedoresreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:data access\\repositorios\\proovedoresreposi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmcategoriasnuevas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmcategoriasnuevas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmmain menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\informedelreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\informedelreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\abaoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\proovedoresform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\entradasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frm loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frm loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\categoriasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\reportesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\productosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmpermisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\gestioninventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\gestioninventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\frmasignarroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\ui\\formularios\\salidasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56551B92-BF61-421D-B6BB-1122F9ADCA24}|Optica Tokio.csproj|solutionrelative:ui\\formularios\\salidasforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
     }
   ],
   "DocumentGroupContainers": [
@@ -174,6 +326,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -246,10 +399,29 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAB4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-11-26T06:03:35.297Z"
+=======
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RolesForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\RolesForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\RolesForm.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\RolesForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "UI\\Formularios\\RolesForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T01:54:16.572Z"
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "ProvedoresServices.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\ProvedoresServices.cs",
               "RelativeDocumentMoniker": "Logica del Negocio\\Servicios\\ProvedoresServices.cs",
@@ -278,6 +450,12 @@
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\CategoriasReposi.cs",
               "RelativeDocumentMoniker": "Data Access\\Repositorios\\CategoriasReposi.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\CategoriasReposi.cs",
+=======
+              "Title": "CategoriasReposi.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\CategoriasReposi.cs",
+              "RelativeDocumentMoniker": "Data Access\\Repositorios\\CategoriasReposi.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\CategoriasReposi.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "Data Access\\Repositorios\\CategoriasReposi.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -285,6 +463,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 15,
               "Title": "AppDataManager.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\AppDataManager.cs",
@@ -292,16 +471,82 @@
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\AppDataManager.cs",
               "RelativeToolTip": "Data Access\\AppDataManager.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAYwCQAAAALAAAA",
+=======
+              "DocumentIndex": 3,
+              "Title": "AppDataManager.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\AppDataManager.cs",
+              "RelativeDocumentMoniker": "Data Access\\AppDataManager.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\AppDataManager.cs",
+              "RelativeToolTip": "Data Access\\AppDataManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAALAAAA",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T05:36:41.22Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 14,
               "Title": "ProovedoresReposi.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
               "RelativeDocumentMoniker": "Data Access\\Repositorios\\ProovedoresReposi.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
+=======
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Config\\Program.cs",
+              "RelativeDocumentMoniker": "Config\\Program.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Config\\Program.cs",
+              "RelativeToolTip": "Config\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:36:34.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs",
+              "RelativeToolTip": "UI\\Formularios\\FrmLogin.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAAAKEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:31:05.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RolesForm.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\RolesForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\RolesForm.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\RolesForm.cs",
+              "RelativeToolTip": "UI\\Formularios\\RolesForm.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAnwDwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:31:04.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Data Access\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\BaseRepository.cs",
+              "RelativeToolTip": "Data Access\\BaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T04:58:17.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProovedoresReposi.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
+              "RelativeDocumentMoniker": "Data Access\\Repositorios\\ProovedoresReposi.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Data Access\\Repositorios\\ProovedoresReposi.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "Data Access\\Repositorios\\ProovedoresReposi.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAAYwBAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -309,6 +554,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\Config\\Program.cs",
@@ -316,11 +562,21 @@
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\Config\\Program.cs",
               "RelativeToolTip": "Config\\Program.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAQwBgAAAAQAAAA",
+=======
+              "DocumentIndex": 8,
+              "Title": "CategoriasServices.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\CategoriasServices.cs",
+              "RelativeDocumentMoniker": "Logica del Negocio\\Servicios\\CategoriasServices.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\CategoriasServices.cs",
+              "RelativeToolTip": "Logica del Negocio\\Servicios\\CategoriasServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T05:36:34.923Z"
+              "WhenOpened": "2024-11-26T05:44:14.298Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 12,
               "Title": "FrmLogin.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs",
@@ -350,6 +606,37 @@
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\CategoriasForms.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
+=======
+              "DocumentIndex": 7,
+              "Title": "ProvedoresServices.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\ProvedoresServices.cs",
+              "RelativeDocumentMoniker": "Logica del Negocio\\Servicios\\ProvedoresServices.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Logica del Negocio\\Servicios\\ProvedoresServices.cs",
+              "RelativeToolTip": "Logica del Negocio\\Servicios\\ProvedoresServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:44:16.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Config\\App.config",
+              "RelativeDocumentMoniker": "Config\\App.config",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\Config\\App.config",
+              "RelativeToolTip": "Config\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-26T06:03:35.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriasForms.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\CategoriasForms.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\CategoriasForms.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAYwBYAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -357,11 +644,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 9,
               "Title": "FrmCategoriasNuevas.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmCategoriasNuevas.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmCategoriasNuevas.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmCategoriasNuevas.cs",
+=======
+              "DocumentIndex": 12,
+              "Title": "FrmCategoriasNuevas.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmCategoriasNuevas.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmCategoriasNuevas.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmCategoriasNuevas.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\FrmCategoriasNuevas.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAwwDYAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -369,11 +664,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
               "Title": "EntradasForms.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
+=======
+              "DocumentIndex": 23,
+              "Title": "EntradasForms.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\EntradasForms.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -381,22 +684,39 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
               "Title": "EntradasForms.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Formularios\\EntradasForms.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 22,
+              "Title": "EntradasForms.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\EntradasForms.cs",
+              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\EntradasForms.cs [Design]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.578Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 6,
               "Title": "ProovedoresForm.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
+=======
+              "DocumentIndex": 13,
+              "Title": "ProovedoresForm.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\ProovedoresForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -404,22 +724,38 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 5,
               "Title": "ProovedoresForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Formularios\\ProovedoresForm.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 21,
+              "Title": "ProovedoresForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\ProovedoresForm.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProovedoresForm.cs [Dise\u00F1o]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.579Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 27,
               "Title": "AbaoutForm.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
+=======
+              "DocumentIndex": 20,
+              "Title": "AbaoutForm.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\AbaoutForm.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwBMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -427,22 +763,39 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 26,
               "Title": "AbaoutForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
               "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs [Design]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs [Design]",
+=======
+              "DocumentIndex": 19,
+              "Title": "AbaoutForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\AbaoutForm.cs",
+              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AbaoutForm.cs [Design]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.581Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 23,
               "Title": "FrmMain Menu.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+=======
+              "DocumentIndex": 15,
+              "Title": "FrmMain Menu.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\FrmMain Menu.cs",
               "ViewState": "AgIAAAkBAAAAAAAAAAAQwCAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -450,22 +803,39 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 22,
               "Title": "FrmMain Menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
               "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs [Design]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs [Design]",
+=======
+              "DocumentIndex": 14,
+              "Title": "FrmMain Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmMain Menu.cs",
+              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmMain Menu.cs [Design]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.583Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 33,
               "Title": "ReportesForm.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ReportesForm.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
+=======
+              "DocumentIndex": 29,
+              "Title": "ReportesForm.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\ReportesForm.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\ReportesForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -473,44 +843,78 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 32,
               "Title": "ReportesForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\ReportesForm.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 28,
+              "Title": "ReportesForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\ReportesForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ReportesForm.cs [Dise\u00F1o]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2024-11-25T06:31:04.584Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 31,
               "Title": "AgregarUsuario.cs [Design]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\AgregarUsuario.cs",
               "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs [Design]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs [Design]",
+=======
+              "DocumentIndex": 27,
+              "Title": "AgregarUsuario.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\AgregarUsuario.cs",
+              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs [Design]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.585Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 37,
               "Title": "FrmLogin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmLogin.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 34,
+              "Title": "FrmLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmLogin.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmLogin.cs [Dise\u00F1o]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\FrmLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.585Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 25,
               "Title": "AgregarUsuario.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\AgregarUsuario.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
+=======
+              "DocumentIndex": 17,
+              "Title": "AgregarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\AgregarUsuario.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\AgregarUsuario.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\AgregarUsuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -518,83 +922,146 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 24,
               "Title": "InformedelReport.cs [Design]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\InformedelReport.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\InformedelReport.cs",
               "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\InformedelReport.cs [Design]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\InformedelReport.cs [Design]",
+=======
+              "DocumentIndex": 16,
+              "Title": "InformedelReport.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\InformedelReport.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\InformedelReport.cs",
+              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\InformedelReport.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\InformedelReport.cs [Design]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.586Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 28,
               "Title": "Frm LoadingScreen.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\Frm LoadingScreen.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 24,
+              "Title": "Frm LoadingScreen.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\Frm LoadingScreen.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\Frm LoadingScreen.cs [Dise\u00F1o]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.587Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 29,
               "Title": "CategoriasForms.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\CategoriasForms.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Formularios\\CategoriasForms.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 25,
+              "Title": "CategoriasForms.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\CategoriasForms.cs",
+              "ToolTip": "D:\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\CategoriasForms.cs [Dise\u00F1o]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.588Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 30,
               "Title": "FrmPermisos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmPermisos.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 26,
+              "Title": "FrmPermisos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmPermisos.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs [Dise\u00F1o]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.588Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 36,
               "Title": "FrmAsignarRoles.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmAsignarRoles.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 33,
+              "Title": "FrmAsignarRoles.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmAsignarRoles.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs [Dise\u00F1o]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2024-11-25T06:31:04.589Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "DashboardForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\DashboardForm.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Formularios\\DashboardForm.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 18,
+              "Title": "DashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\DashboardForm.cs",
+              "ToolTip": "C:\\Users\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ASUS ZEPHYRUS M16\\Documents\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\DashboardForm.cs [Design]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T06:31:04.589Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 35,
               "Title": "GestionInventarioForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\GestionInventarioForm.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs [Dise\u00F1o]",
+=======
+              "DocumentIndex": 32,
+              "Title": "GestionInventarioForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\GestionInventarioForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\GestionInventarioForm.cs [Dise\u00F1o]",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
               "WhenOpened": "2024-11-25T06:31:04.59Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 21,
               "Title": "ProductosForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProductosForm.cs",
@@ -602,15 +1069,32 @@
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProductosForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "UI\\Formularios\\ProductosForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+=======
+              "DocumentIndex": 30,
+              "Title": "ProductosForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProductosForm.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\ProductosForm.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProductosForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\ACER\\OneDrive\\Documentos\\GitHub\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\ProductosForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "WhenOpened": "2024-11-25T06:31:04.591Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 34,
               "Title": "FrmPermisos.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmPermisos.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
+=======
+              "DocumentIndex": 31,
+              "Title": "FrmPermisos.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmPermisos.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmPermisos.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\FrmPermisos.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAApwCgAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -618,6 +1102,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 40,
               "Title": "RolesForm.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\RolesForm.cs",
@@ -635,6 +1120,13 @@
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\FrmAsignarRoles.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
+=======
+              "DocumentIndex": 35,
+              "Title": "FrmAsignarRoles.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\FrmAsignarRoles.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\FrmAsignarRoles.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\FrmAsignarRoles.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAhwB0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
@@ -642,11 +1134,19 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 39,
               "Title": "SalidasForms.cs",
               "DocumentMoniker": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs",
               "RelativeDocumentMoniker": "UI\\Formularios\\SalidasForms.cs",
               "ToolTip": "C:\\Users\\juanp\\OneDrive\\Escritorio\\Practicas\\Proyectos\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs",
+=======
+              "DocumentIndex": 36,
+              "Title": "SalidasForms.cs",
+              "DocumentMoniker": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs",
+              "RelativeDocumentMoniker": "UI\\Formularios\\SalidasForms.cs",
+              "ToolTip": "C:\\Users\\ANDREW\\Desktop\\Estructura de datos 2\\Estructura-de-datos-2\\Optica Tokio\\UI\\Formularios\\SalidasForms.cs",
+>>>>>>> d370427df9b6ec876ced12c004cd92ce977c8463
               "RelativeToolTip": "UI\\Formularios\\SalidasForms.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
