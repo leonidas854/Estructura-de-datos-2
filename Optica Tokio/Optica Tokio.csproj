@@ -388,6 +388,7 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Salida.png" />
     <None Include="Resources\Reportes.png" />
     <None Include="Resources\Roles.png" />
     <None Include="Resources\Proveedores.png" />
@@ -450,6 +451,8 @@
     <None Include="Resources\6303950.png" />
     <None Include="Resources\Caja.png" />
     <None Include="Resources\Categorias.png" />
+    <None Include="Resources\Costos.png" />
+    <None Include="Resources\Entrada.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>

@@ -263,6 +263,16 @@ namespace Optica_Tokio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Costos {
+            get {
+                object obj = ResourceManager.GetObject("Costos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap descarga {
             get {
                 object obj = ResourceManager.GetObject("descarga", resourceCulture);
@@ -276,6 +286,16 @@ namespace Optica_Tokio.Properties {
         internal static System.Drawing.Bitmap descarga__1_ {
             get {
                 object obj = ResourceManager.GetObject("descarga (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Entrada {
+            get {
+                object obj = ResourceManager.GetObject("Entrada", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -640,6 +660,16 @@ namespace Optica_Tokio.Properties {
         internal static System.Drawing.Bitmap Roles {
             get {
                 object obj = ResourceManager.GetObject("Roles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Salida {
+            get {
+                object obj = ResourceManager.GetObject("Salida", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
