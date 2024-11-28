@@ -1,4 +1,4 @@
-﻿using Notion.Client;
+﻿//using Notion.Client;
 using Optica_Tokio.Logica_del_Negocio.Servicios;
 using System;
 using System.Collections.Generic;
@@ -17,8 +17,8 @@ namespace Optica_Tokio.UI.Formularios
 {
     public partial class SalidasForms : Form
     {
-        private INotionClient notionClient;
-        private const string databaseId = "tu_database_id";
+     //   private INotionClient notionClient;
+       // private const string databaseId = "tu_database_id";
         public SalidasForms()
         {
             InitializeComponent();
@@ -28,10 +28,7 @@ namespace Optica_Tokio.UI.Formularios
         }
         private void InicializarNotion()
         {
-            var notionClient = Notion.Client.NotionClientFactory.Create(new ClientOptions
-            {
-                AuthToken = "tu-token-de-integración"
-            });
+           
 
         }
 
@@ -105,7 +102,7 @@ namespace Optica_Tokio.UI.Formularios
 
         }
 
-        private async void btnNuevaSalida_ClickAsync(object sender, EventArgs e)
+        private void btnNuevaSalida_ClickAsync(object sender, EventArgs e)
         {
          /*   if (cmbproductos.SelectedIndex < 0 || cmblocal.SelectedIndex < 0 || string.IsNullOrWhiteSpace(txtCantSalida.Text))
             {
@@ -131,76 +128,6 @@ namespace Optica_Tokio.UI.Formularios
 
 
 
-        private async Task EnviarReporteNotion(string producto, string local, int cantidad)
-        {
-            var pageProperties = new Dictionary<string, PropertyValue>
-    {
-        {
-            "Producto", new TitlePropertyValue
-            {
-                Title = new List<RichTextBase>
-                {
-                    new RichTextText
-                    {
-                        Text = new Text
-                        {
-                            Content = producto
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "Local", new RichTextPropertyValue
-            {
-                RichText = new List<RichTextBase>
-                {
-                    new RichTextText
-                    {
-                        Text = new Text
-                        {
-                            Content = local
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "Cantidad", new NumberPropertyValue
-            {
-                Number = cantidad
-            }
-        },
-        {
-            "Fecha", new DatePropertyValue
-            {
-                Date = new Date
-                {
-                    //Start = dateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ") // Formato ISO 8601
-                }
-            }
-        }
-    };
-
-            try
-            {
-                await notionClient.Pages.CreateAsync(new PagesCreateParameters
-                {
-                    Parent = new ParentPageInput
-                    {
-                       // Type = ParentType.DatabaseId,
-                       // DatabaseId = databaseId
-                    },
-                    Properties = pageProperties
-                });
-
-                MessageBox.Show("Reporte enviado exitosamente a Notion.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al enviar reporte a Notion: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
 
 
         private void dtpFechaSalida_ValueChanged(object sender, EventArgs e)

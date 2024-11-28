@@ -555,3 +555,4 @@ C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio
 C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmNuevaSalida.resources
 >>>>>>> b1fd928ae8b540ba1c08e3619da0d48ce7c5a879
 C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmNuevaSalida.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmProductosAñadidos.resources
