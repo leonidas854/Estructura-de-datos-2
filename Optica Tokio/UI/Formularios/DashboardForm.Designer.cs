@@ -29,18 +29,17 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnActualizar = new System.Windows.Forms.Button();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lbSalidas = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.lbCantidadReportes = new System.Windows.Forms.Label();
+            this.lbEntradas = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.label15 = new System.Windows.Forms.Label();
+            this.lbUsuarios = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.lbRolestotales = new System.Windows.Forms.Label();
@@ -50,7 +49,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.lbCategoriastotales = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lbClasificacion = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.lbUltMovEntrada3 = new System.Windows.Forms.Label();
             this.lbUltMovEntrada2 = new System.Windows.Forms.Label();
@@ -67,7 +66,7 @@
             this.lbProducBajos1 = new System.Windows.Forms.Label();
             this.labelPB = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.lbCantidadVendida = new System.Windows.Forms.Label();
+            this.lbCostostotales = new System.Windows.Forms.Label();
             this.labelV = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lbProductosTotales = new System.Windows.Forms.Label();
@@ -116,7 +115,6 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.groupBox1.Controls.Add(this.btnActualizar);
             this.groupBox1.Controls.Add(this.groupBox11);
             this.groupBox1.Controls.Add(this.groupBox12);
             this.groupBox1.Controls.Add(this.groupBox5);
@@ -137,22 +135,11 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DASHBOARD";
             // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnActualizar.Location = new System.Drawing.Point(492, 394);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(218, 55);
-            this.btnActualizar.TabIndex = 11;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
-            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
-            // 
             // groupBox11
             // 
             this.groupBox11.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.groupBox11.BackColor = System.Drawing.Color.Lime;
-            this.groupBox11.Controls.Add(this.label11);
+            this.groupBox11.BackColor = System.Drawing.Color.Yellow;
+            this.groupBox11.Controls.Add(this.lbSalidas);
             this.groupBox11.Controls.Add(this.label12);
             this.groupBox11.Controls.Add(this.pictureBox10);
             this.groupBox11.Location = new System.Drawing.Point(832, 276);
@@ -161,23 +148,23 @@
             this.groupBox11.TabIndex = 10;
             this.groupBox11.TabStop = false;
             // 
-            // label11
+            // lbSalidas
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(167, 45);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(57, 27);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "-----";
+            this.lbSalidas.AutoSize = true;
+            this.lbSalidas.Location = new System.Drawing.Point(167, 45);
+            this.lbSalidas.Name = "lbSalidas";
+            this.lbSalidas.Size = new System.Drawing.Size(57, 27);
+            this.lbSalidas.TabIndex = 2;
+            this.lbSalidas.Text = "-----";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(113, 18);
+            this.label12.Location = new System.Drawing.Point(156, 18);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(189, 27);
+            this.label12.Size = new System.Drawing.Size(83, 27);
             this.label12.TabIndex = 1;
-            this.label12.Text = "Cantidad vendida";
+            this.label12.Text = "Salidas";
             // 
             // groupBox12
             // 
@@ -206,15 +193,15 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(113, 18);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(189, 27);
+            this.label14.Size = new System.Drawing.Size(84, 27);
             this.label14.TabIndex = 1;
-            this.label14.Text = "Cantidad vendida";
+            this.label14.Text = "////////";
             // 
             // groupBox5
             // 
             this.groupBox5.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.groupBox5.BackColor = System.Drawing.Color.Silver;
-            this.groupBox5.Controls.Add(this.lbCantidadReportes);
+            this.groupBox5.BackColor = System.Drawing.Color.SpringGreen;
+            this.groupBox5.Controls.Add(this.lbEntradas);
             this.groupBox5.Controls.Add(this.pictureBox4);
             this.groupBox5.Controls.Add(this.label5);
             this.groupBox5.Location = new System.Drawing.Point(835, 153);
@@ -223,29 +210,29 @@
             this.groupBox5.TabIndex = 7;
             this.groupBox5.TabStop = false;
             // 
-            // lbCantidadReportes
+            // lbEntradas
             // 
-            this.lbCantidadReportes.AutoSize = true;
-            this.lbCantidadReportes.Location = new System.Drawing.Point(167, 45);
-            this.lbCantidadReportes.Name = "lbCantidadReportes";
-            this.lbCantidadReportes.Size = new System.Drawing.Size(57, 27);
-            this.lbCantidadReportes.TabIndex = 2;
-            this.lbCantidadReportes.Text = "-----";
+            this.lbEntradas.AutoSize = true;
+            this.lbEntradas.Location = new System.Drawing.Point(167, 45);
+            this.lbEntradas.Name = "lbEntradas";
+            this.lbEntradas.Size = new System.Drawing.Size(57, 27);
+            this.lbEntradas.TabIndex = 2;
+            this.lbEntradas.Text = "-----";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(96, 18);
+            this.label5.Location = new System.Drawing.Point(153, 18);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(223, 27);
+            this.label5.Size = new System.Drawing.Size(99, 27);
             this.label5.TabIndex = 1;
-            this.label5.Text = "Cantidad de reportes";
+            this.label5.Text = "Entradas";
             // 
             // groupBox13
             // 
             this.groupBox13.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.groupBox13.BackColor = System.Drawing.Color.Lime;
-            this.groupBox13.Controls.Add(this.label15);
+            this.groupBox13.BackColor = System.Drawing.Color.Turquoise;
+            this.groupBox13.Controls.Add(this.lbUsuarios);
             this.groupBox13.Controls.Add(this.label16);
             this.groupBox13.Controls.Add(this.pictureBox12);
             this.groupBox13.Location = new System.Drawing.Point(18, 276);
@@ -254,23 +241,23 @@
             this.groupBox13.TabIndex = 8;
             this.groupBox13.TabStop = false;
             // 
-            // label15
+            // lbUsuarios
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(167, 48);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(57, 27);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "-----";
+            this.lbUsuarios.AutoSize = true;
+            this.lbUsuarios.Location = new System.Drawing.Point(167, 48);
+            this.lbUsuarios.Name = "lbUsuarios";
+            this.lbUsuarios.Size = new System.Drawing.Size(57, 27);
+            this.lbUsuarios.TabIndex = 2;
+            this.lbUsuarios.Text = "-----";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(107, 18);
+            this.label16.Location = new System.Drawing.Point(150, 18);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(176, 27);
+            this.label16.Size = new System.Drawing.Size(100, 27);
             this.label16.TabIndex = 1;
-            this.label16.Text = "Productos totals";
+            this.label16.Text = "Usuarios";
             // 
             // groupBox9
             // 
@@ -339,7 +326,7 @@
             this.groupBox10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupBox10.BackColor = System.Drawing.Color.Crimson;
             this.groupBox10.Controls.Add(this.lbCategoriastotales);
-            this.groupBox10.Controls.Add(this.label9);
+            this.groupBox10.Controls.Add(this.lbClasificacion);
             this.groupBox10.Controls.Add(this.pictureBox9);
             this.groupBox10.Location = new System.Drawing.Point(21, 153);
             this.groupBox10.Name = "groupBox10";
@@ -356,14 +343,14 @@
             this.lbCategoriastotales.TabIndex = 2;
             this.lbCategoriastotales.Text = "-----";
             // 
-            // label9
+            // lbClasificacion
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(107, 18);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(194, 27);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Categorias totales";
+            this.lbClasificacion.AutoSize = true;
+            this.lbClasificacion.Location = new System.Drawing.Point(130, 18);
+            this.lbClasificacion.Name = "lbClasificacion";
+            this.lbClasificacion.Size = new System.Drawing.Size(137, 27);
+            this.lbClasificacion.TabIndex = 1;
+            this.lbClasificacion.Text = "Clasificacion";
             // 
             // groupBox8
             // 
@@ -518,8 +505,8 @@
             // groupBox3
             // 
             this.groupBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.groupBox3.BackColor = System.Drawing.Color.SpringGreen;
-            this.groupBox3.Controls.Add(this.lbCantidadVendida);
+            this.groupBox3.BackColor = System.Drawing.Color.LawnGreen;
+            this.groupBox3.Controls.Add(this.lbCostostotales);
             this.groupBox3.Controls.Add(this.labelV);
             this.groupBox3.Controls.Add(this.pictureBox2);
             this.groupBox3.Location = new System.Drawing.Point(429, 36);
@@ -528,23 +515,23 @@
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             // 
-            // lbCantidadVendida
+            // lbCostostotales
             // 
-            this.lbCantidadVendida.AutoSize = true;
-            this.lbCantidadVendida.Location = new System.Drawing.Point(167, 45);
-            this.lbCantidadVendida.Name = "lbCantidadVendida";
-            this.lbCantidadVendida.Size = new System.Drawing.Size(57, 27);
-            this.lbCantidadVendida.TabIndex = 2;
-            this.lbCantidadVendida.Text = "-----";
+            this.lbCostostotales.AutoSize = true;
+            this.lbCostostotales.Location = new System.Drawing.Point(167, 45);
+            this.lbCostostotales.Name = "lbCostostotales";
+            this.lbCostostotales.Size = new System.Drawing.Size(57, 27);
+            this.lbCostostotales.TabIndex = 2;
+            this.lbCostostotales.Text = "-----";
             // 
             // labelV
             // 
             this.labelV.AutoSize = true;
-            this.labelV.Location = new System.Drawing.Point(107, 18);
+            this.labelV.Location = new System.Drawing.Point(122, 18);
             this.labelV.Name = "labelV";
-            this.labelV.Size = new System.Drawing.Size(189, 27);
+            this.labelV.Size = new System.Drawing.Size(159, 27);
             this.labelV.TabIndex = 1;
-            this.labelV.Text = "Cantidad vendida";
+            this.labelV.Text = "Costos Totales";
             // 
             // groupBox2
             // 
@@ -571,17 +558,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(107, 18);
+            this.label1.Location = new System.Drawing.Point(127, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 27);
+            this.label1.Size = new System.Drawing.Size(188, 27);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Productos totals";
+            this.label1.Text = "Productos totales";
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Image = global::Optica_Tokio.Properties.Resources.Salida;
             this.pictureBox10.Location = new System.Drawing.Point(0, 0);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(101, 93);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
             // 
@@ -595,19 +584,21 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Optica_Tokio.Properties.Resources.Reportes;
+            this.pictureBox4.Image = global::Optica_Tokio.Properties.Resources.Entrada;
             this.pictureBox4.Location = new System.Drawing.Point(0, 0);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(101, 93);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox12
             // 
+            this.pictureBox12.Image = global::Optica_Tokio.Properties.Resources.user;
             this.pictureBox12.Location = new System.Drawing.Point(0, 0);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(101, 93);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 0;
             this.pictureBox12.TabStop = false;
             // 
@@ -667,7 +658,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Optica_Tokio.Properties.Resources.Venta;
+            this.pictureBox2.Image = global::Optica_Tokio.Properties.Resources.Costos;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(101, 93);
@@ -695,6 +686,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DashboardForm";
             this.Text = "Dashboard";
+            this.Load += new System.EventHandler(this.DashboardForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
@@ -744,7 +736,7 @@
         private System.Windows.Forms.Label lbProductosTotales;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label lbCantidadVendida;
+        private System.Windows.Forms.Label lbCostostotales;
         private System.Windows.Forms.Label labelV;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.GroupBox groupBox7;
@@ -770,7 +762,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lbSalidas;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.GroupBox groupBox12;
@@ -778,11 +770,11 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Label lbCantidadReportes;
+        private System.Windows.Forms.Label lbEntradas;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.GroupBox groupBox13;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label lbUsuarios;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.GroupBox groupBox9;
@@ -791,8 +783,7 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.Label lbCategoriastotales;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lbClasificacion;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Button btnActualizar;
     }
 }

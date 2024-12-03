@@ -15,7 +15,11 @@ namespace Optica_Tokio.Static
         static string servidor = "localhost";
         static string bd = "db_optica";
         static string usuario = "postgres";
-        static string password = "124875369";
+
+        static string password = "115223";
+
+        //static string password = "Andoresux128@";
+
         static int puerto = 5432;
 
         string cadena = $"server={servidor};port={puerto};user id={usuario};password={password};database={bd};";

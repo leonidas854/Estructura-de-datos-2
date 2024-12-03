@@ -22,8 +22,8 @@ namespace Optica_Tokio.UI.Formularios
             dgvCategoria.Columns.Add("Nro", "Nro");
             dgvCategoria.Columns["Nro"].ReadOnly = true;
 
-            dgvCategoria.Columns.Add("Categoria", "Categoria");
             dgvCategoria.Columns.Add("Nombre", "Nombre");
+            dgvCategoria.Columns.Add("Categoria", "Categoria");
 
         }
         private void ActualizarContador()
@@ -122,8 +122,15 @@ namespace Optica_Tokio.UI.Formularios
                 {
                     string nombre = formulario.Nombre;
                     string categoria = formulario.Categoria;
+                    string descripcion = formulario.Descripcion;
+                    string alto = formulario.Alto;
+                    string ancho = formulario.Ancho;
+                    string grosor = formulario.Grosor;
+                    string precio = formulario.Precio;
+                    string peso = formulario.Peso;
+                    string cantidad = formulario.Cantidad;
 
-                    dgvCategoria.Rows.Add("", categoria, nombre);
+                    dgvCategoria.Rows.Add("", categoria, nombre, descripcion, alto, ancho, grosor, precio, peso, cantidad);
 
                     // Actualiza el contador después de añadir filas
                     ActualizarContador();

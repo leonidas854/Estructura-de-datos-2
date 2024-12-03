@@ -543,3 +543,16 @@ D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\JsonSubTypes.dll
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\Newtonsoft.Json.dll
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\Notion.Client.dll
 D:\Estructura-de-datos-2\Optica Tokio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\bin\Debug\JsonSubTypes.dll
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\bin\Debug\Notion.Client.dll
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\JsonSubTypes.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Notion.Client.dll
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmProductoNuevo.resources
+C:\Users\ANDREW\Desktop\Estructura de datos 2\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmNuevaSalida.resources
+>>>>>>> b1fd928ae8b540ba1c08e3619da0d48ce7c5a879
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmNuevaSalida.resources
+C:\Users\juanp\OneDrive\Escritorio\Practicas\Proyectos\Estructura-de-datos-2\Optica Tokio\obj\Debug\Optica_Tokio.UI.Formularios.FrmProductosAñadidos.resources

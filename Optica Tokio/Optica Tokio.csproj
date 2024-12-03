@@ -60,9 +60,6 @@
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Notion.Client, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Notion.Net.4.2.0\lib\netstandard2.0\Notion.Client.dll</HintPath>
-    </Reference>
     <Reference Include="Npgsql, Version=8.0.5.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
       <HintPath>packages\Npgsql.8.0.5\lib\netstandard2.0\Npgsql.dll</HintPath>
     </Reference>
@@ -238,6 +235,12 @@
     <Compile Include="UI\Formularios\FrmMain Menu.Designer.cs">
       <DependentUpon>FrmMain Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Formularios\FrmNuevaSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Formularios\FrmNuevaSalida.Designer.cs">
+      <DependentUpon>FrmNuevaSalida.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Formularios\FrmPermisos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -249,6 +252,12 @@
     </Compile>
     <Compile Include="UI\Formularios\FrmProductoNuevo.Designer.cs">
       <DependentUpon>FrmProductoNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Formularios\FrmProductosAñadidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Formularios\FrmProductosAñadidos.Designer.cs">
+      <DependentUpon>FrmProductosAñadidos.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Formularios\GestionInventarioForm.cs">
       <SubType>Form</SubType>
@@ -338,11 +347,17 @@
     <EmbeddedResource Include="UI\Formularios\FrmMain Menu.resx">
       <DependentUpon>FrmMain Menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\FrmNuevaSalida.resx">
+      <DependentUpon>FrmNuevaSalida.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\FrmPermisos.resx">
       <DependentUpon>FrmPermisos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\FrmProductoNuevo.resx">
       <DependentUpon>FrmProductoNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Formularios\FrmProductosAñadidos.resx">
+      <DependentUpon>FrmProductosAñadidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Formularios\GestionInventarioForm.resx">
       <DependentUpon>GestionInventarioForm.cs</DependentUpon>
@@ -388,6 +403,7 @@
     <Folder Include="UI\Helpers\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Salida.png" />
     <None Include="Resources\Reportes.png" />
     <None Include="Resources\Roles.png" />
     <None Include="Resources\Proveedores.png" />
@@ -450,6 +466,8 @@
     <None Include="Resources\6303950.png" />
     <None Include="Resources\Caja.png" />
     <None Include="Resources\Categorias.png" />
+    <None Include="Resources\Costos.png" />
+    <None Include="Resources\Entrada.png" />
     <Content Include="Resources\images.png" />
     <None Include="Resources\user.png" />
   </ItemGroup>
