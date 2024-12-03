@@ -1,9 +1,0 @@
-3 / 11 / 2024
-- Realizar formulario del login
-- formulario de pantalla de carga
-- formulario del main
-- Realizar los modelos(nodos)
-- Realizar el código sql
-- Realizar documentación 
-- Crear todas las clases y formularios necesarios
-  hasta el momento
