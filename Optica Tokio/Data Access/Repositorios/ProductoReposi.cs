@@ -19,6 +19,17 @@ namespace Optica_Tokio.Data_Access.Repositorios
 
             try
             {
+                var PredeterminadoID_Proveedor = ObtenerPredeterminado(); // Valor predeterminado para ID_Proveedor
+                var PredeterminadoID_Clasificacion = ObtenerPredeterminado(); // Valor predeterminado para ID_Clasificación
+                var PredeterminadoDescripcion = "Sin descripción"; // Valor predeterminado para Descripción
+                var PredeterminadoFoto = Array.Empty<byte>(); // Valor predeterminado para Foto
+                var PredeterminadoCantidadTotal = 0; // Valor predeterminado para Cantidad_Total
+                var PredeterminadoPeso = 0.0m; // Valor predeterminado para Peso
+                var PredeterminadoAncho = 0.0m; // Valor predeterminado para Ancho
+                var PredeterminadoAlto = 0.0m; // Valor predeterminado para Alto
+                var PredeterminadoGrosor = 0.0m; // Valor predeterminado para Grosor
+                var PredeterminadoFechaRegistro = DateTime.MinValue; // Valor predeterminado para Fecha_Registro
+
                 AbrirConexion();
                 using (var command = new NpgsqlCommand(query, connection))
                 using (var reader = command.ExecuteReader())
@@ -28,18 +39,19 @@ namespace Optica_Tokio.Data_Access.Repositorios
                         var producto = new Producto(
                             reader.GetInt32(0), // ID_Producto
                             reader.GetString(1), // Nombre
-                            reader.GetString(2), // Descripción
-                            reader.GetInt32(3), // Cantidad_Total
-                            reader.GetDecimal(4), // Precio_Costo
-                            reader.GetInt32(5), // ID_Proveedor
-                            reader.GetDateTime(6), // Fecha_Registro
-                            reader["foto"] as byte[], // Foto
-                            reader.GetDecimal(8), // Peso
-                            reader.GetDecimal(9), // Ancho
-                            reader.GetDecimal(10), // Alto
-                            reader.GetDecimal(11), // Grosor
-                            reader.GetInt32(12) // ID_Clasificación
+                            reader.IsDBNull(2) ? PredeterminadoDescripcion : reader.GetString(2), // Descripción
+                            reader.IsDBNull(3) ? PredeterminadoCantidadTotal : reader.GetInt32(3), // Cantidad_Total
+                            reader.IsDBNull(4) ? 0 : reader.GetDecimal(4), // Precio_Costo
+                            reader.IsDBNull(5) ? PredeterminadoID_Proveedor : reader.GetInt32(5), // ID_Proveedor
+                            reader.IsDBNull(6) ? PredeterminadoFechaRegistro : reader.GetDateTime(6), // Fecha_Registro
+                            reader.IsDBNull(7) ? PredeterminadoFoto : reader["foto"] as byte[], // Foto
+                            reader.IsDBNull(8) ? PredeterminadoPeso : reader.GetDecimal(8), // Peso
+                            reader.IsDBNull(9) ? PredeterminadoAncho : reader.GetDecimal(9), // Ancho
+                            reader.IsDBNull(10) ? PredeterminadoAlto : reader.GetDecimal(10), // Alto
+                            reader.IsDBNull(11) ? PredeterminadoGrosor : reader.GetDecimal(11), // Grosor
+                            reader.IsDBNull(12) ? PredeterminadoID_Clasificacion : reader.GetInt32(12) // ID_Clasificación
                         );
+
                         arbolProductos.Insertar(producto.ID_Producto, producto);
                     }
                 }
@@ -54,6 +66,11 @@ namespace Optica_Tokio.Data_Access.Repositorios
             }
 
             return arbolProductos;
+        }
+        private int ObtenerPredeterminado()
+        {
+
+            return 1;
         }
 
         public void GuardarProductos(ArbolRN<int, Producto> arbolProductos)

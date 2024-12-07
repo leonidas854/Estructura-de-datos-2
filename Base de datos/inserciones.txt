@@ -148,4 +148,13 @@ VALUES
 (5, 8, 'Completo');
 
 COMMIT;
+-- Inserciones para productos
+INSERT INTO public.productos (id_producto, nombre, descripcion, cantidad_total, precio_costo, id_proveedor, fecha_registro, peso, ancho, alto, grosor, id_clasificacion)
+VALUES 
+(1, 'Lente de Sol', 'Lentes polarizados con marco metálico', 50, 25.99, 1, '2024-12-01', 0.15, 14.5, 4.5, 0.3, 1),
+(2, 'Gafas de Lectura', 'Gafas con aumento +1.5', 100, 15.75, 2, '2024-12-01', 0.12, 13.5, 4.0, 0.25, 2),
+(3, 'Montura de Acetato', 'Montura moderna de acetato', 30, 40.00, 3, '2024-12-02', 0.2, 13.0, 4.2, 0.28, 3),
+(4, 'Lentes de Seguridad', 'Lentes para protección en el trabajo', 75, 10.50, 4, '2024-12-03', 0.18, 14.0, 4.0, 0.26, 4),
+(5, 'Lente de Contacto', 'Lentes de contacto de uso diario', 200, 5.00, 5, '2024-12-04', NULL, NULL, NULL, NULL, 3);
+
 

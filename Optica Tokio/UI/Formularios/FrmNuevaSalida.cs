@@ -26,5 +26,15 @@ namespace Optica_Tokio.UI.Formularios
         {
             this.Close();
         }
+
+        private void FrmNuevaSalida_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbproductos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
