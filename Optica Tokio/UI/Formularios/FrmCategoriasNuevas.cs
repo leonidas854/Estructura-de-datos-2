@@ -22,7 +22,7 @@ namespace Optica_Tokio.UI.Formularios
 
         private void btnCancelarNuevoRol_Click(object sender, EventArgs e)
         {
-            this.DialogResult = DialogResult.Cancel; // Retorna Cancel si se cancela
+            this.DialogResult = DialogResult.Cancel; 
             this.Close();
         }
 
@@ -30,18 +30,18 @@ namespace Optica_Tokio.UI.Formularios
         {
             try
             {
-                // Validar si el campo de texto tiene contenido válido
+               
                 if (string.IsNullOrWhiteSpace(txtNuevoRol.Text) || txtNuevoRol.Text == "NOMBRE")
                 {
                     MessageBox.Show("Por favor, ingrese un nombre válido para la categoría.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                // Crear la nueva categoría con datos del formulario
+             
                 var nuevaCategoria = new Categorias(
-                    id: CategoriasServices.categorias.GetTam() + 1, // Asignar un nuevo ID incremental
+                    id: CategoriasServices.categorias.GetTam() + 1, 
                     nombre: txtNuevoRol.Text.Trim(),
-                    descripcion: "Descripción predeterminada" // Cambiar si tienes un campo para descripción
+                    descripcion: "Descripción predeterminada" 
                 );
 
                 // Verificar si la categoría ya existe en el árbol

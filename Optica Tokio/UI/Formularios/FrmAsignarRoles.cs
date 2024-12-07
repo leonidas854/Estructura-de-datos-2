@@ -33,16 +33,16 @@ namespace Optica_Tokio.UI.Formularios
                 }
 
                 string nuevoNombre = txtNuevoRol.Text.Trim();
-                string nuevaDescripcion = txtdescrip.Text.Trim(); // Campo adicional para descripción del rol
+                string nuevaDescripcion = txtdescrip.Text.Trim(); 
 
-                // Crea un nuevo rol con un ID incremental basado en la lista actual de roles
+                
                 int nuevoId = RolesServices.roles.GetTam() + 1;
                 var nuevoRol = new Rol(nuevoId, nuevoNombre, nuevaDescripcion);
 
-                // Agregar el nuevo rol
+               
                 rolesService.AgregarRol(nuevoRol);
 
-                MessageBox.Show("Rol agregado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //MessageBox.Show("Rol agregado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 this.DialogResult = DialogResult.OK;
                 this.Close();
@@ -55,7 +55,7 @@ namespace Optica_Tokio.UI.Formularios
 
         private void btnCancelarNuevoRol_Click(object sender, EventArgs e)
         {
-            this.DialogResult = DialogResult.Cancel; // Retorna Cancel si se cancela
+            this.DialogResult = DialogResult.Cancel; 
             this.Close();
         }
 
@@ -64,7 +64,7 @@ namespace Optica_Tokio.UI.Formularios
             if (txtNuevoRol.Text == "NOMBRE")
             {
                 txtNuevoRol.Text = "";
-                txtNuevoRol.ForeColor = Color.Black; // Cambiar el color al normal
+                txtNuevoRol.ForeColor = Color.Black; 
             }
         }
 
@@ -73,13 +73,22 @@ namespace Optica_Tokio.UI.Formularios
             if (string.IsNullOrWhiteSpace(txtNuevoRol.Text))
             {
                 txtNuevoRol.Text = "NOMBRE";
-                txtNuevoRol.ForeColor = Color.Gray; // Volver al color gris
+                txtNuevoRol.ForeColor = Color.Gray; 
             }
         }
 
         private void FrmAsignarRoles_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtdescrip_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtdescrip.Text))
+            {
+                txtdescrip.Text = "DESCRIPCION";
+                txtdescrip.ForeColor = Color.Gray;
+            }
         }
     }
 }

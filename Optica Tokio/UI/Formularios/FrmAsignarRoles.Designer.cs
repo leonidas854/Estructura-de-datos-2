@@ -41,7 +41,7 @@
             // 
             this.txtNuevoRol.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.txtNuevoRol.Location = new System.Drawing.Point(62, 59);
-            this.txtNuevoRol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNuevoRol.Margin = new System.Windows.Forms.Padding(2);
             this.txtNuevoRol.Name = "txtNuevoRol";
             this.txtNuevoRol.Size = new System.Drawing.Size(242, 20);
             this.txtNuevoRol.TabIndex = 0;
@@ -58,7 +58,7 @@
             this.btnGuardarNuevoRol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarNuevoRol.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarNuevoRol.Location = new System.Drawing.Point(149, 145);
-            this.btnGuardarNuevoRol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGuardarNuevoRol.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardarNuevoRol.Name = "btnGuardarNuevoRol";
             this.btnGuardarNuevoRol.Size = new System.Drawing.Size(94, 31);
             this.btnGuardarNuevoRol.TabIndex = 1;
@@ -75,7 +75,7 @@
             this.btnCancelarNuevoRol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelarNuevoRol.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarNuevoRol.Location = new System.Drawing.Point(262, 145);
-            this.btnCancelarNuevoRol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancelarNuevoRol.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancelarNuevoRol.Name = "btnCancelarNuevoRol";
             this.btnCancelarNuevoRol.Size = new System.Drawing.Size(93, 31);
             this.btnCancelarNuevoRol.TabIndex = 2;
@@ -89,7 +89,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(369, 37);
             this.panel1.TabIndex = 3;
@@ -113,7 +113,8 @@
             this.txtdescrip.Name = "txtdescrip";
             this.txtdescrip.Size = new System.Drawing.Size(242, 20);
             this.txtdescrip.TabIndex = 4;
-            this.txtdescrip.Text = "Descripcion";
+            this.txtdescrip.Text = "DESCRIPCION";
+            this.txtdescrip.Leave += new System.EventHandler(this.txtdescrip_Leave);
             // 
             // FrmAsignarRoles
             // 
@@ -127,7 +128,7 @@
             this.Controls.Add(this.btnGuardarNuevoRol);
             this.Controls.Add(this.txtNuevoRol);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmAsignarRoles";

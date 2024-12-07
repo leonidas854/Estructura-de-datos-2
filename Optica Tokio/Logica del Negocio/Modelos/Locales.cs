@@ -22,6 +22,8 @@ namespace Optica_Tokio.Logica_del_Negocio.Modelos
             Telefono = telefono;
             Responsable = responsable;
         }
+        public Local() { }
+
     }
 
 }

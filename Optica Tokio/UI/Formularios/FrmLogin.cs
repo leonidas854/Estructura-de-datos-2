@@ -131,12 +131,12 @@ namespace Optica_Tokio
             {
              
                 Usuario usuario = UsuarioService.ValidarCredenciales(txtuser.Text, txtpassword.Text);
-                /*if (usuario == null)
+                if (usuario == null)
                 {
                     
                     MessageBox.Show("Usuario o contraseña incorrectos.", "Error de Autenticación");
                     return;
-                }*/
+                }
                 FrmLoading_Screen loadingScreen = new FrmLoading_Screen();
                 loadingScreen.Show();
                 this.Hide(); 
@@ -148,18 +148,7 @@ namespace Optica_Tokio
         }
         
         private void FrmLogin_Load(object sender, EventArgs e)
-        {/*
-            try
-            {
-                //BaseRepository conexion = new BaseRepository();
-                //conexion.AbrirConexion();
-                //MessageBox.Show("Conexión a PostgreSQL exitosa", "Conexión", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                //conexion.CerrarConexion();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al conectar con la base de datos: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }*/
+        {
         }
     }
 }

@@ -12,9 +12,14 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
     {
        public static Lista<Usuario> listaUsuarios = new Lista<Usuario>();
 
-     
+
         public static List<Usuario> ListarUsuarios()
         {
+            if (listaUsuarios == null || listaUsuarios.GetTam() == 0)
+            {
+                throw new InvalidOperationException("No hay usuarios disponibles.");
+            }
+
             List<Usuario> usuarios = new List<Usuario>();
             for (int i = 0; i < listaUsuarios.GetTam(); i++)
             {
@@ -23,7 +28,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Servicios
             return usuarios;
         }
 
-   
+
         public static void CrearUsuario(Usuario usuario)
         {
             if (ValidarCredenciales(usuario.Nombre_Usuario, usuario.Contrasena) != null)

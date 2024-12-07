@@ -29,7 +29,15 @@
         private void InitializeComponent()
         {
             this.dataGridViewProveedores = new System.Windows.Forms.DataGridView();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Contacto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.condiciones = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtCcondiciones = new System.Windows.Forms.TextBox();
+            this.lblcondi = new System.Windows.Forms.Label();
             this.txtTelefono = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtDireccion = new System.Windows.Forms.TextBox();
@@ -48,14 +56,6 @@
             this.btnAgregarPROVEEDOR = new System.Windows.Forms.Button();
             this.btnElimarPROVEEDOR = new System.Windows.Forms.Button();
             this.btnEditarPROVEEDOR = new System.Windows.Forms.Button();
-            this.txtCcondiciones = new System.Windows.Forms.TextBox();
-            this.lblcondi = new System.Windows.Forms.Label();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Contacto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.condiciones = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProveedores)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -75,13 +75,48 @@
             this.dataGridViewProveedores.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dataGridViewProveedores.GridColor = System.Drawing.Color.Black;
             this.dataGridViewProveedores.Location = new System.Drawing.Point(186, 415);
-            this.dataGridViewProveedores.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewProveedores.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewProveedores.Name = "dataGridViewProveedores";
             this.dataGridViewProveedores.RowHeadersWidth = 51;
             this.dataGridViewProveedores.RowTemplate.Height = 24;
             this.dataGridViewProveedores.Size = new System.Drawing.Size(746, 196);
             this.dataGridViewProveedores.TabIndex = 8;
             this.dataGridViewProveedores.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewProveedores_CellContentClick);
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.MinimumWidth = 6;
+            this.Nombre.Name = "Nombre";
+            // 
+            // Contacto
+            // 
+            this.Contacto.HeaderText = "Contacto";
+            this.Contacto.MinimumWidth = 6;
+            this.Contacto.Name = "Contacto";
+            // 
+            // Telefono
+            // 
+            this.Telefono.HeaderText = "Telefono";
+            this.Telefono.MinimumWidth = 6;
+            this.Telefono.Name = "Telefono";
+            // 
+            // Email
+            // 
+            this.Email.HeaderText = "Email";
+            this.Email.MinimumWidth = 6;
+            this.Email.Name = "Email";
+            // 
+            // Direccion
+            // 
+            this.Direccion.HeaderText = "Direccion";
+            this.Direccion.MinimumWidth = 6;
+            this.Direccion.Name = "Direccion";
+            // 
+            // condiciones
+            // 
+            this.condiciones.HeaderText = "Condiciones";
+            this.condiciones.Name = "condiciones";
             // 
             // groupBox1
             // 
@@ -101,19 +136,38 @@
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.groupBox1.Location = new System.Drawing.Point(280, 19);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(545, 333);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detalles Del Proveedor";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // txtCcondiciones
+            // 
+            this.txtCcondiciones.Location = new System.Drawing.Point(170, 256);
+            this.txtCcondiciones.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCcondiciones.Name = "txtCcondiciones";
+            this.txtCcondiciones.Size = new System.Drawing.Size(319, 36);
+            this.txtCcondiciones.TabIndex = 11;
+            // 
+            // lblcondi
+            // 
+            this.lblcondi.AutoSize = true;
+            this.lblcondi.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcondi.Location = new System.Drawing.Point(48, 265);
+            this.lblcondi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblcondi.Name = "lblcondi";
+            this.lblcondi.Size = new System.Drawing.Size(120, 25);
+            this.lblcondi.TabIndex = 10;
+            this.lblcondi.Text = "Condiciones:";
+            // 
             // txtTelefono
             // 
             this.txtTelefono.Location = new System.Drawing.Point(170, 123);
-            this.txtTelefono.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTelefono.Margin = new System.Windows.Forms.Padding(2);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(319, 36);
             this.txtTelefono.TabIndex = 9;
@@ -122,7 +176,7 @@
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(170, 170);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(2);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(319, 36);
             this.txtEmail.TabIndex = 8;
@@ -131,7 +185,7 @@
             // txtDireccion
             // 
             this.txtDireccion.Location = new System.Drawing.Point(170, 216);
-            this.txtDireccion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDireccion.Margin = new System.Windows.Forms.Padding(2);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(319, 36);
             this.txtDireccion.TabIndex = 3;
@@ -151,7 +205,7 @@
             // txtContacto
             // 
             this.txtContacto.Location = new System.Drawing.Point(170, 83);
-            this.txtContacto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtContacto.Margin = new System.Windows.Forms.Padding(2);
             this.txtContacto.Name = "txtContacto";
             this.txtContacto.Size = new System.Drawing.Size(319, 36);
             this.txtContacto.TabIndex = 7;
@@ -193,7 +247,7 @@
             // txtNombreProveedor
             // 
             this.txtNombreProveedor.Location = new System.Drawing.Point(170, 43);
-            this.txtNombreProveedor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombreProveedor.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombreProveedor.Name = "txtNombreProveedor";
             this.txtNombreProveedor.Size = new System.Drawing.Size(319, 36);
             this.txtNombreProveedor.TabIndex = 1;
@@ -247,10 +301,11 @@
             this.panel1.Controls.Add(this.btnEditarPROVEEDOR);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(186, 611);
             this.panel1.TabIndex = 7;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnBuscarPROVEEDOR
             // 
@@ -261,7 +316,7 @@
             this.btnBuscarPROVEEDOR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarPROVEEDOR.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnBuscarPROVEEDOR.Location = new System.Drawing.Point(32, 404);
-            this.btnBuscarPROVEEDOR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBuscarPROVEEDOR.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscarPROVEEDOR.Name = "btnBuscarPROVEEDOR";
             this.btnBuscarPROVEEDOR.Size = new System.Drawing.Size(103, 82);
             this.btnBuscarPROVEEDOR.TabIndex = 5;
@@ -277,7 +332,7 @@
             this.txtExportar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtExportar.ForeColor = System.Drawing.Color.CadetBlue;
             this.txtExportar.Location = new System.Drawing.Point(32, 512);
-            this.txtExportar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtExportar.Margin = new System.Windows.Forms.Padding(2);
             this.txtExportar.Name = "txtExportar";
             this.txtExportar.Size = new System.Drawing.Size(103, 68);
             this.txtExportar.TabIndex = 9;
@@ -293,7 +348,7 @@
             this.btnAgregarPROVEEDOR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarPROVEEDOR.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnAgregarPROVEEDOR.Location = new System.Drawing.Point(32, 74);
-            this.btnAgregarPROVEEDOR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregarPROVEEDOR.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregarPROVEEDOR.Name = "btnAgregarPROVEEDOR";
             this.btnAgregarPROVEEDOR.Size = new System.Drawing.Size(103, 82);
             this.btnAgregarPROVEEDOR.TabIndex = 2;
@@ -309,7 +364,7 @@
             this.btnElimarPROVEEDOR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnElimarPROVEEDOR.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnElimarPROVEEDOR.Location = new System.Drawing.Point(32, 296);
-            this.btnElimarPROVEEDOR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnElimarPROVEEDOR.Margin = new System.Windows.Forms.Padding(2);
             this.btnElimarPROVEEDOR.Name = "btnElimarPROVEEDOR";
             this.btnElimarPROVEEDOR.Size = new System.Drawing.Size(103, 82);
             this.btnElimarPROVEEDOR.TabIndex = 4;
@@ -325,66 +380,12 @@
             this.btnEditarPROVEEDOR.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarPROVEEDOR.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEditarPROVEEDOR.Location = new System.Drawing.Point(32, 189);
-            this.btnEditarPROVEEDOR.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEditarPROVEEDOR.Margin = new System.Windows.Forms.Padding(2);
             this.btnEditarPROVEEDOR.Name = "btnEditarPROVEEDOR";
             this.btnEditarPROVEEDOR.Size = new System.Drawing.Size(103, 82);
             this.btnEditarPROVEEDOR.TabIndex = 3;
             this.btnEditarPROVEEDOR.UseVisualStyleBackColor = false;
             this.btnEditarPROVEEDOR.Click += new System.EventHandler(this.btnEditarPROVEEDOR_Click_1);
-            // 
-            // txtCcondiciones
-            // 
-            this.txtCcondiciones.Location = new System.Drawing.Point(170, 256);
-            this.txtCcondiciones.Margin = new System.Windows.Forms.Padding(2);
-            this.txtCcondiciones.Name = "txtCcondiciones";
-            this.txtCcondiciones.Size = new System.Drawing.Size(319, 36);
-            this.txtCcondiciones.TabIndex = 11;
-            // 
-            // lblcondi
-            // 
-            this.lblcondi.AutoSize = true;
-            this.lblcondi.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcondi.Location = new System.Drawing.Point(48, 265);
-            this.lblcondi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblcondi.Name = "lblcondi";
-            this.lblcondi.Size = new System.Drawing.Size(120, 25);
-            this.lblcondi.TabIndex = 10;
-            this.lblcondi.Text = "Condiciones:";
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.MinimumWidth = 6;
-            this.Nombre.Name = "Nombre";
-            // 
-            // Contacto
-            // 
-            this.Contacto.HeaderText = "Contacto";
-            this.Contacto.MinimumWidth = 6;
-            this.Contacto.Name = "Contacto";
-            // 
-            // Telefono
-            // 
-            this.Telefono.HeaderText = "Telefono";
-            this.Telefono.MinimumWidth = 6;
-            this.Telefono.Name = "Telefono";
-            // 
-            // Email
-            // 
-            this.Email.HeaderText = "Email";
-            this.Email.MinimumWidth = 6;
-            this.Email.Name = "Email";
-            // 
-            // Direccion
-            // 
-            this.Direccion.HeaderText = "Direccion";
-            this.Direccion.MinimumWidth = 6;
-            this.Direccion.Name = "Direccion";
-            // 
-            // condiciones
-            // 
-            this.condiciones.HeaderText = "Condiciones";
-            this.condiciones.Name = "condiciones";
             // 
             // ProovedoresForm
             // 

@@ -26,10 +26,10 @@ namespace Optica_Tokio.UI.Formularios
         {
             FrmAsignarRoles formRolNuevo = new FrmAsignarRoles();
 
-            // Mostrar el formulario como modal
+         
             if (formRolNuevo.ShowDialog() == DialogResult.OK)
             {
-                // Actualizar los roles en el DataGridView
+              
                 CargarRoles();
                 MessageBox.Show("Rol guardado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -57,7 +57,7 @@ namespace Optica_Tokio.UI.Formularios
             dgvMostrarRol.Rows.Clear();
             dgvMostrarRol.Columns.Clear();
 
-            //dgvMostrarRol.Columns.Add("ID", "ID");
+            
             dgvMostrarRol.Columns.Add("Nombre", "Nombre del Rol");
             dgvMostrarRol.Columns.Add("Descripcion", "Descripción");
 
@@ -103,15 +103,15 @@ namespace Optica_Tokio.UI.Formularios
 
         private void dgvMostrarRol_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex < 0) return; // Verificar si el clic no es válido
+            if (e.RowIndex < 0) return; 
 
-            // Obtener el rol correspondiente desde la lista según el índice de la fila
+           
             var rolSeleccionado = RolesServices.roles[e.RowIndex];
 
             if (dgvMostrarRol.Columns[e.ColumnIndex].Name == "Otorgar_Permisos")
             {
-                // Pasar el nombre del rol o su objeto completo al formulario FrmPermisos
-                FrmPermisos formPermiso = new FrmPermisos(rolSeleccionado.ID_Rol); // Usa el ID del rol del objeto seleccionado
+            
+                FrmPermisos formPermiso = new FrmPermisos(rolSeleccionado.ID_Rol); 
 
                 if (formPermiso.ShowDialog() == DialogResult.OK)
                 {

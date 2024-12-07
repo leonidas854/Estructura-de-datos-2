@@ -40,68 +40,40 @@ namespace Optica_Tokio.UI.Formularios
         }
         private void chkChangedCh(object sender, EventArgs e)
         {
-            CheckBox chk = sender as CheckBox;
-            if (chk != null)
-            {
-                if (chk.Checked)
-                {
-                    permisosSeleccionados.Insertar(chk.Text);
-                }
-                else
-                {
-                    permisosSeleccionados.Eliminar(chk.Text);
-                }
-            }
         }
         
 
         private void FrmPermisos_Load(object sender, EventArgs e)
         {
-           // CargarPermisos();
-            // Cargar los permisos existentes para el rol seleccionado
-            var permisosActuales = PermisosServices.permisos
-                .Where(p => p.ID_Rol == IdRolSeleccionado)
-                .ToList();
-
-            // Lógica para marcar los permisos existentes en los CheckBoxes
-            foreach (var permiso in permisosActuales)
-            {
-                // Marca los CheckBoxes según los permisos existentes
-                switch (permiso.ID_Controlador)
-                {
-                    case 1: chkProductos.Checked = true; break;
-                    case 2: chkCategorias.Checked = true; break;
-                    case 3: chkProveedores.Checked = true; break;
-                        // Agregar los demás casos según el controlador
-                }
-            }
+           
+            CargarPermisos();
         }
+
+
         private void CargarPermisos()
         {
-            // Obtenemos los permisos asignados a este rol
-            PermisosServices permisosServices = new PermisosServices();
-            var permisosActuales = permisosServices.BuscarPermisosPorRol(idRol);
+            // Obtener permisos asignados al rol
+            var permisosActuales = PermisosServices.permisos
+                .Where(p => p.ID_Rol == idRol)
+                .Select(p => p.ID_Controlador)
+                .ToList();
 
-            // Cargar permisos asignados
-            foreach (var permiso in permisosActuales)
-            {
-                permisosSeleccionados.Insertar(permiso.ID_Controlador.ToString());
-            }
-
-            // Marcar checkboxes basados en permisos
-            MarcarCheckbox(chkCategorias, "Categorías");
-            MarcarCheckbox(chkProductos, "Productos");
-            MarcarCheckbox(chkProveedores, "Proveedores");
-            MarcarCheckbox(chkEntradas, "Entradas");
-            MarcarCheckbox(chkSalidas, "Salidas");
-            MarcarCheckbox(chkGestionDeRoles, "Roles");
-            MarcarCheckbox(chkUsuarios, "Usuarios");
-            MarcarCheckbox(chkReportes, "Reportes");
-            MarcarCheckbox(chkInfo, "ABOUT");
+            // Marcar CheckBoxes según los permisos actuales
+            chkCategorias.Checked = permisosActuales.Contains(2);
+            chkProductos.Checked = permisosActuales.Contains(1);
+            chkProveedores.Checked = permisosActuales.Contains(3);
+            chkEntradas.Checked = permisosActuales.Contains(4);
+            chkSalidas.Checked = permisosActuales.Contains(5);
+            chkGestionDeRoles.Checked = permisosActuales.Contains(6);
+            chkUsuarios.Checked = permisosActuales.Contains(7);
+            chkReportes.Checked = permisosActuales.Contains(8);
+            chkInfo.Checked = permisosActuales.Contains(10);
         }
-        private void MarcarCheckbox(CheckBox chk, string permiso)
+
+
+        private void MarcarCheckbox(CheckBox chk, string permiso, List<string> permisosActuales)
         {
-            if (permisosSeleccionados.Contains(permiso))
+            if (permisosActuales.Contains(permiso))
             {
                 chk.Checked = true;
             }
@@ -112,6 +84,7 @@ namespace Optica_Tokio.UI.Formularios
         }
         private void GuardarPermisos()
         {
+            // Eliminar permisos existentes para este rol
             var permisosAEliminar = PermisosServices.permisos
                 .Where(p => p.ID_Rol == idRol)
                 .ToList();
@@ -121,16 +94,54 @@ namespace Optica_Tokio.UI.Formularios
                 PermisosServices.EliminarPermiso(permiso.ID_Rol, permiso.ID_Controlador);
             }
 
-            // Agregar los nuevos permisos
+            // Crear los nuevos permisos seleccionados
+            var permisosSeleccionados = new List<PermisoRol>();
+            if (chkCategorias.Checked)
+                permisosSeleccionados.Add(new PermisoRol(idRol, 2, "Completo"));
+            if (chkProductos.Checked)
+                permisosSeleccionados.Add(new PermisoRol(idRol, 1, "Completo"));
+            if (chkProveedores.Checked)
+                permisosSeleccionados.Add(new PermisoRol(idRol, 3, "Completo"));
+            if (chkEntradas.Checked)
+                permisosSeleccionados.Add(new PermisoRol(idRol, 4, "Completo"));
+            if (chkSalidas.Checked)
+                permisosSeleccionados.Add(new PermisoRol(idRol, 5, "Completo"));
+            if (chkGestionDeRoles.Checked)
+                permisosSeleccionados.Add(new PermisoRol(idRol, 6, "Completo"));
+            if (chkUsuarios.Checked)
+                permisosSeleccionados.Add(new PermisoRol(idRol, 7, "Completo"));
+            if (chkReportes.Checked)
+                permisosSeleccionados.Add(new PermisoRol(idRol, 8, "Completo"));
+            if (chkInfo.Checked)
+                permisosSeleccionados.Add(new PermisoRol(idRol, 10, "Completo"));
+
+            // Agregar los permisos seleccionados
             foreach (var permiso in permisosSeleccionados)
             {
-                var controladorId = ObtenerControladorIdPorNombre(permiso);
-                if (controladorId > 0)
-                {
-                    PermisosServices.AgregarPermiso(new PermisoRol(idRol, controladorId, "ACTIVO"));
-                }
+                PermisosServices.AgregarPermiso(permiso);
+            }
+
+            MessageBox.Show("Permisos guardados correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private string ObtenerNombrePermisoPorControlador(int controladorId)
+        {
+            switch (controladorId)
+            {
+                case 1: return "Productos";
+                case 2: return "Categorías";
+                case 3: return "Proveedores";
+                case 4: return "Entradas";
+                case 5: return "Salidas";
+                case 6: return "Roles";
+                case 7: return "Usuarios";
+                case 8: return "Reportes";
+                case 9: return "Clientes";
+                case 10: return "ABOUT";
+                default: return "Desconocido";
             }
         }
+
         private int ObtenerControladorIdPorNombre(string nombre)
         {
             switch (nombre)
@@ -151,6 +162,11 @@ namespace Optica_Tokio.UI.Formularios
 
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
         }

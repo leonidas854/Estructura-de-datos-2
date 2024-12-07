@@ -44,6 +44,10 @@ namespace Optica_Tokio.Data_Access.Repositorios
                     }
                 }
             }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException($"Error al cargar productos desde la base de datos: {ex.Message}", ex);
+            }
             finally
             {
                 CerrarConexion();

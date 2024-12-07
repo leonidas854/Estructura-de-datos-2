@@ -281,5 +281,10 @@ namespace Optica_Tokio.UI.Formularios
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -93,6 +93,16 @@ namespace Optica_Tokio.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5131602 {
+            get {
+                object obj = ResourceManager.GetObject("5131602", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _6301508 {
             get {
                 object obj = ResourceManager.GetObject("6301508", resourceCulture);
@@ -456,6 +466,16 @@ namespace Optica_Tokio.Properties {
         internal static System.Drawing.Bitmap icon_settings {
             get {
                 object obj = ResourceManager.GetObject("icon settings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icono_diferentes_oportunidades_el_mejor_local {
+            get {
+                object obj = ResourceManager.GetObject("icono-diferentes-oportunidades-el-mejor-local", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

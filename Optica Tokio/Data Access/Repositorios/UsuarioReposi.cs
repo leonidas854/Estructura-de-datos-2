@@ -19,6 +19,7 @@ namespace Optica_Tokio.Data_Access.Repositorios
 
             try
             {
+                var rolPredeterminado = ObtenerRolPredeterminado();
                 AbrirConexion();
                 using (var command = new NpgsqlCommand(query, connection))
                 using (var reader = command.ExecuteReader())
@@ -30,7 +31,7 @@ namespace Optica_Tokio.Data_Access.Repositorios
                             reader.GetString(1), // Nombre_Usuario
                             reader.GetString(2), // Contraseña
                             reader.GetString(3), // Correo
-                            reader.GetInt32(4), // ID_Rol
+                            reader.IsDBNull(4) ? rolPredeterminado : reader.GetInt32(4), // ID_Rol
                             reader.GetDateTime(5), // Fecha_Creacion
                             reader["foto"] as byte[] // Foto
                         );
@@ -45,6 +46,12 @@ namespace Optica_Tokio.Data_Access.Repositorios
 
             return listaUsuarios;
         }
+        private int ObtenerRolPredeterminado()
+        {
+       
+            return 1; 
+        }
+
 
         public void GuardarUsuarios(Lista<Usuario> listaUsuarios)
         {

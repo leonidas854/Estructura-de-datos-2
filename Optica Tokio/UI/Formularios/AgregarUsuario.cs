@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Optica_Tokio.Logica_del_Negocio.Modelos;
+using Optica_Tokio.Logica_del_Negocio.Servicios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -107,5 +109,63 @@ namespace Optica_Tokio.UI.Formularios
         {
 
         }
+
+        private void btnConfirmarRol_Click(object sender, EventArgs e)
+        {
+       
+            if (string.IsNullOrWhiteSpace(txtNombre.Text) || txtNombre.Text == "Nombre")
+            {
+                MessageBox.Show("Por favor, ingrese un nombre válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtCorreoUsuario.Text) || txtCorreoUsuario.Text == "Usuario@gmail.com")
+            {
+                MessageBox.Show("Por favor, ingrese un correo electrónico válido.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtContraseña.Text) || txtContraseña.Text == "Ingresar Contraseña")
+            {
+                MessageBox.Show("Por favor, ingrese una contraseña.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (txtContraseña.Text != txtReingresarContraseña.Text)
+            {
+                MessageBox.Show("Las contraseñas no coinciden. Por favor, inténtelo nuevamente.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            try
+            {
+           
+                Usuario nuevoUsuario = new Usuario
+                {
+                    ID_Usuario = new Random().Next(1, 1000), 
+                    Nombre_Usuario = txtNombre.Text.Trim(),
+                    Correo = txtCorreoUsuario.Text.Trim(),
+                    Contrasena = txtContraseña.Text,
+                    ID_Rol = 1, 
+                    Fecha_Creacion = DateTime.Now,
+                    Foto = null
+                };
+
+            
+                UsuarioService.CrearUsuario(nuevoUsuario);
+
+                MessageBox.Show("Usuario agregado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            catch (InvalidOperationException ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error al guardar el usuario: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
-}
+    }
+

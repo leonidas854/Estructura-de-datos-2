@@ -26,6 +26,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Modelos
             Fecha_Creacion = fecha_Creacion;
             Foto = foto;
         }
+        public Usuario() { }
     }
 
 }

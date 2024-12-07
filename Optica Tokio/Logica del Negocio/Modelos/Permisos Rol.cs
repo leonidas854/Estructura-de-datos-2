@@ -18,6 +18,7 @@ namespace Optica_Tokio.Logica_del_Negocio.Modelos
             ID_Controlador = iD_Controlador;
             Permiso = permiso;
         }
+        public PermisoRol() { }
     }
 
 }

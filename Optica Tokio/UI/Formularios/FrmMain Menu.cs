@@ -443,7 +443,7 @@ namespace Optica_Tokio.UI.Formularios
 
         private void btnsettings_Click(object sender, EventArgs e)
         {
-            ActivateColor(sender);
+            OpenchildFrom(new Locales(),sender);
         }
 
         private void btnabout_Click(object sender, EventArgs e)
@@ -573,6 +573,11 @@ namespace Optica_Tokio.UI.Formularios
         }
 
         private void panTop_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Graficodebarras_Click(object sender, EventArgs e)
         {
 
         }
